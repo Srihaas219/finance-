@@ -1,0 +1,1001 @@
+loan_id,borrower_id,loan_type,origination_date,maturity_date,original_principal,current_balance,interest_rate,term_months,borrower_state,loan_purpose,credit_grade,employment_length,income_band,payment_status,days_past_due,servicer_name,last_payment_date,last_updated_at,document_status,source_system
+L00001,B00270,Student,2024-05-04,2034-03-13,312403.78,161546.62,10.613,120,ND,Debt Consolidation,B,15,30-60k,Current,0,Acme Servicing,2026-07-07,2026-07-30,complete,origination_core
+L00002,B00030,SMB,2019-08-09,2021-07-29,233330.31,215310.11,16.840,24,TN,Working Capital,D,2,60-100k,Current,0,DeltaPay,2026-07-04,2026-06-06,partial,origination_core
+L00003,B00085,Personal,2025-12-05,2055-07-01,169210.45,91405.94,15.797,360,WI,Debt Consolidation,A,38,100-150k,Current,0,DeltaPay,2026-06-25,2026-06-04,complete,origination_core
+L00004,B00384,Personal,2020-06-02,2022-05-23,245482.60,86294.65,10.208,24,WA,Refinance,A,22,30-60k,Current,0,Cornerstone Servicing,2026-07-03,2026-07-06,partial,origination_core
+L00005,B00340,Student,2022-07-26,2032-06-03,488087.36,337810.23,13.429,120,ND,Working Capital,D,34,100-150k,Current,0,BlueRiver Loan Co,2026-06-30,2026-07-26,partial,origination_core
+L00006,B00337,Auto,2024-10-12,2029-09-16,255918.86,105236.12,10.577,60,AZ,Debt Consolidation,B,9,30-60k,Current,0,DeltaPay,2026-07-29,2026-06-10,complete,origination_core
+L00007,B00077,Student,2023-01-11,2037-10-24,255265.68,97448.02,16.038,180,OR,Working Capital,C,6,>150k,Current,0,Acme Servicing,2026-06-25,2026-06-17,partial,origination_core
+L00008,B00050,Auto,2025-07-14,2030-06-18,348079.88,283796.82,6.503,60,TX,Home Improvement,A,29,>150k,Current,0,Acme Servicing,2026-06-22,2026-06-14,partial,origination_core
+L00009,B00188,Personal,2023-03-08,2026-02-20,463272.03,430484.96,9.285,36,KY,Refinance,C,7,100-150k,Current,0,BlueRiver Loan Co,2026-06-24,2026-06-18,complete,origination_core
+L00010,B00310,Student,2022-06-27,2052-01-21,333567.75,223611.46,11.368,360,IL,Purchase,C,38,>150k,Current,0,DeltaPay,2026-07-30,2026-06-07,partial,origination_core
+,B00393,Auto,2025-03-12,2054-10-06,383755.40,232536.47,15.082,360,MN,Refinance,A,2,>150k,Current,0,Cornerstone Servicing,2026-07-19,2026-06-17,complete,origination_core
+,B00260,Mortgage,2020-11-26,2035-09-09,492077.52,208611.38,5.458,180,ID,Refinance,D,15,60-100k,Current,0,BlueRiver Loan Co,2026-06-26,2026-07-14,complete,origination_core
+,B00353,Student,2020-01-11,2024-12-15,280175.50,76191.48,12.059,60,NH,Purchase,A,39,100-150k,Current,0,Acme Servicing,2026-06-22,2026-06-08,partial,origination_core
+,B00421,SMB,2025-09-19,2040-07-02,101630.83,73542.46,3.311,180,WY,Refinance,B,6,30-60k,Current,0,Cornerstone Servicing,2026-07-14,2026-06-07,partial,origination_core
+,B00244,Student,2024-04-06,2034-02-13,342766.85,151554.70,4.440,120,MN,Purchase,B,14,>150k,Current,0,BlueRiver Loan Co,2026-07-06,2026-07-31,complete,origination_core
+L00016,B00405,Personal,2025-03-24,2040-01-05,434992.61,366530.04,16.709,180,AL,Debt Consolidation,A,15,30-60k,Current,0,DeltaPay,2026-07-15,2026-07-20,complete,origination_core
+L00017,B00347,SMB,2023-07-19,2053-02-11,432493.40,187521.38,10.556,360,KY,Debt Consolidation,A,19,<30k,Current,0,DeltaPay,2026-07-12,2026-07-05,complete,origination_core
+L00018,B00287,Mortgage,2021-11-16,2026-10-21,83687.60,26039.28,10.756,60,AL,Debt Consolidation,C,13,60-100k,Current,0,BlueRiver Loan Co,2026-07-29,2026-06-06,complete,origination_core
+L00019,B00026,Auto,2023-07-21,2026-07-05,183174.79,127616.20,8.123,36,AL,Working Capital,A,35,>150k,Current,0,DeltaPay,2026-06-27,2026-06-17,partial,origination_core
+L00020,B00204,Student,2023-12-09,2038-09-21,413206.17,346131.85,15.147,180,NE,Refinance,A,16,<30k,Current,0,DeltaPay,2026-07-24,2026-07-18,complete,origination_core
+L00001,B00298,Personal,2024-05-10,2034-03-19,407691.17,215192.75,3.511,120,WI,Home Improvement,B,17,100-150k,Current,0,DeltaPay,2026-06-29,2026-06-15,complete,origination_core
+L00001,B00097,Student,2022-06-09,2037-03-22,113450.16,68269.97,16.797,180,NM,Home Improvement,C,13,100-150k,Current,0,Acme Servicing,2026-07-28,2026-06-12,partial,origination_core
+L00001,B00187,Mortgage,2021-04-17,2023-04-07,79213.80,62638.44,14.238,24,CO,Home Improvement,C,6,>150k,Current,0,Cornerstone Servicing,2026-06-26,2026-06-10,partial,origination_core
+L00001,B00487,Mortgage,2019-05-27,2021-05-16,209554.70,121797.63,3.646,24,WY,Working Capital,A,35,60-100k,Current,0,DeltaPay,2026-07-10,2026-06-26,partial,origination_core
+L00001,B00143,Personal,2019-03-26,2048-10-19,126716.57,92797.52,9.642,360,DC,Debt Consolidation,B,7,>150k,Current,0,BlueRiver Loan Co,2026-06-29,2026-06-27,complete,origination_core
+L00026,B00055,Mortgage,2024-12-04,2039-09-17,361474.45,162744.05,8.807,180,MT,Purchase,B,27,60-100k,Current,0,Cornerstone Servicing,2026-07-10,2026-06-03,partial,origination_core
+L00027,B00471,SMB,2022-07-24,2024-07-13,412722.86,206111.34,16.370,24,MS,Debt Consolidation,A,8,30-60k,Current,0,Acme Servicing,2026-07-06,2026-07-01,partial,origination_core
+L00028,B00272,Student,2019-02-01,2024-01-06,170337.22,60395.38,4.968,60,MS,Debt Consolidation,A,25,60-100k,Current,0,DeltaPay,2026-07-03,2026-07-04,complete,origination_core
+L00029,B00034,Personal,2020-02-19,2025-01-23,145689.06,73678.90,13.750,60,WI,Purchase,A,8,30-60k,Current,0,DeltaPay,2026-06-22,2026-06-21,complete,origination_core
+L00030,B00383,Auto,2018-07-24,2022-07-03,255947.85,62426.36,11.661,48,UT,Refinance,C,10,<30k,Current,0,Acme Servicing,2026-06-25,2026-06-23,partial,origination_core
+L00031,B00303,Personal,2021-09-23,2037-05-10,468709.88,50993.25,13.276,180,SD,Refinance,C,40,60-100k,Current,0,Acme Servicing,2026-06-28,2026-06-13,partial,origination_core
+L00032,B00303,SMB,2021-09-23,2050-09-18,468709.88,232842.52,9.000,360,NM,Purchase,B,15,<30k,Current,0,BlueRiver Loan Co,2026-06-23,2026-08-01,complete,origination_core
+L00033,B00303,Mortgage,2021-09-23,2025-05-01,468709.88,396406.97,5.461,60,MA,Refinance,B,21,100-150k,Current,0,Cornerstone Servicing,2026-07-31,2026-07-29,partial,origination_core
+L00034,B00303,Personal,2021-09-23,2036-12-26,468709.88,61348.37,7.022,180,IN,Refinance,A,27,60-100k,Current,0,BlueRiver Loan Co,2026-07-13,2026-07-21,complete,origination_core
+L00035,B00165,SMB,2018-09-25,2020-09-14,224238.89,70572.65,9.851,24,KY,Home Improvement,B,3,<30k,Current,0,BlueRiver Loan Co,2026-07-19,2026-07-24,partial,origination_core
+L00036,B00082,Mortgage,2022-12-07,2026-11-16,45161.81,34681.64,16.817,48,SD,Purchase,B,4,30-60k,Current,0,DeltaPay,2026-07-11,2026-06-29,complete,origination_core
+L00037,B00468,Mortgage,2023-03-21,2025-03-10,401509.18,172919.23,13.511,24,SC,Purchase,B,33,60-100k,Current,0,Cornerstone Servicing,2026-06-28,2026-07-02,partial,origination_core
+L00038,B00030,Personal,2024-10-29,2054-05-25,347440.63,278945.49,16.506,360,SD,Purchase,D,27,100-150k,Current,0,Acme Servicing,2026-07-26,2026-07-28,partial,origination_core
+L00039,B00323,Personal,2018-10-26,2028-09-03,253252.25,158996.78,6.859,120,IA,Working Capital,A,20,100-150k,Current,0,DeltaPay,2026-07-20,2026-06-05,complete,origination_core
+L00040,B00426,Student,2022-03-14,2036-12-25,369077.60,152202.65,12.636,180,CA,Home Improvement,C,17,100-150k,Current,0,Acme Servicing,2026-07-09,2026-08-01,complete,origination_core
+L00041,B00153,SMB,13/45/2021,2028-11-16,152806.47,71659.40,3.371,120,NJ,Debt Consolidation,A,30,60-100k,Current,0,Acme Servicing,2026-06-24,2026-06-06,complete,origination_core
+L00042,B00252,SMB,2019-02-07,not-a-date,88212.45,29380.17,7.396,360,RI,Purchase,A,19,60-100k,Current,0,DeltaPay,2026-06-24,2026-07-17,complete,origination_core
+L00043,B00138,Auto,2021-13-01,2024-03-04,496608.01,246960.36,3.948,48,UT,Refinance,A,2,<30k,Current,0,DeltaPay,2026-07-25,2026-06-23,complete,origination_core
+L00044,B00279,SMB,2024-01-29,31/02/2020,136141.06,123948.53,10.569,180,AL,Working Capital,C,6,60-100k,Current,0,Acme Servicing,2026-06-22,2026-06-26,complete,origination_core
+L00045,B00300,SMB,2020/00/10,2027-09-25,481814.69,205754.08,12.653,60,FL,Home Improvement,C,24,30-60k,Current,0,BlueRiver Loan Co,2026-07-08,2026-06-29,partial,origination_core
+L00046,B00100,Mortgage,2021-02-23,Jan-2021,342973.74,128476.44,17.698,120,NV,Refinance,B,33,<30k,Current,0,Acme Servicing,2026-07-23,2026-06-03,partial,origination_core
+L00047,B00169,SMB,,2054-10-25,390736.70,373007.11,15.311,360,MS,Purchase,B,12,100-150k,Current,0,Acme Servicing,2026-06-29,2026-07-06,partial,origination_core
+L00048,B00408,Student,2024-05-16,20211301,296693.99,90611.72,3.156,60,NM,Purchase,C,12,30-60k,Current,0,Cornerstone Servicing,2026-07-17,2026-06-18,complete,origination_core
+L00049,B00109,Student,2018-11-02,2020-10-22,254694.96,237241.75,16.873,24,NY,Purchase,B,23,<30k,Current,0,Acme Servicing,2026-07-27,2026-07-30,partial,origination_core
+L00050,B00307,SMB,2021-12-25,2025-12-04,140369.80,67793.92,13.813,48,VT,Working Capital,A,40,>150k,Current,0,Cornerstone Servicing,2026-07-20,2026-06-23,partial,origination_core
+L00051,B00024,Personal,2019-04-02,2018-02-26,323976.69,297019.24,13.369,60,IN,Purchase,B,1,60-100k,Current,0,BlueRiver Loan Co,2026-07-11,2026-06-04,partial,origination_core
+L00052,B00276,Mortgage,2021-09-13,2020-08-09,402896.82,309870.64,9.591,48,IN,Refinance,B,32,<30k,Current,0,DeltaPay,2026-07-21,2026-06-16,partial,origination_core
+L00053,B00301,Mortgage,2025-10-28,2024-09-23,214168.22,110216.02,15.650,36,AZ,Home Improvement,A,27,>150k,Current,0,Cornerstone Servicing,2026-07-08,2026-07-29,partial,origination_core
+L00054,B00471,Mortgage,2023-03-20,2022-02-13,214213.86,101003.62,3.628,60,CT,Purchase,D,27,30-60k,Current,0,DeltaPay,2026-06-22,2026-06-11,partial,origination_core
+L00055,B00442,Personal,2019-06-09,2018-05-05,236258.42,107952.92,7.626,360,NE,Purchase,A,29,100-150k,Current,0,BlueRiver Loan Co,2026-07-19,2026-06-22,complete,origination_core
+L00056,B00161,Personal,2024-09-13,2023-08-10,152515.92,115419.01,16.977,36,HI,Home Improvement,B,32,30-60k,Current,0,BlueRiver Loan Co,2026-07-03,2026-07-27,partial,origination_core
+L00057,B00349,Student,2020-03-16,2025-02-18,342289.78,194996.66,12.110,60,MA,Refinance,A,13,100-150k,Current,0,DeltaPay,2026-06-22,2026-06-04,partial,origination_core
+L00058,B00431,Student,2019-07-25,2029-06-02,477205.69,348441.09,17.789,120,NJ,Refinance,D,37,>150k,Current,0,Cornerstone Servicing,2026-06-24,2026-07-21,partial,origination_core
+L00059,B00400,Student,2022-06-13,2024-06-02,83159.57,24718.10,10.467,24,SD,Refinance,A,4,<30k,Current,0,DeltaPay,2026-07-23,2026-07-06,complete,origination_core
+L00060,B00272,Personal,2022-09-15,2024-09-04,225664.24,119347.46,3.843,24,RI,Refinance,A,40,>150k,Current,0,DeltaPay,2026-07-14,2026-06-27,partial,origination_core
+L00061,B00064,SMB,2024-06-17,2028-05-27,-360529.28,79214.24,4.079,48,ID,Purchase,C,7,100-150k,Current,0,Cornerstone Servicing,2026-07-14,2026-06-29,partial,origination_core
+L00062,B00469,Mortgage,2019-08-25,2023-08-04,-150098.17,134450.42,4.769,48,MD,Debt Consolidation,B,14,30-60k,Current,0,DeltaPay,2026-06-23,2026-06-04,partial,origination_core
+L00063,B00129,SMB,2022-02-23,2051-09-19,-412446.27,398562.70,4.371,360,IL,Debt Consolidation,C,31,30-60k,Current,0,Cornerstone Servicing,2026-06-30,2026-07-27,complete,origination_core
+L00064,B00250,Auto,2022-09-22,2025-09-06,-154953.51,101376.30,10.715,36,MN,Purchase,A,36,30-60k,Current,0,BlueRiver Loan Co,2026-07-11,2026-07-01,complete,origination_core
+L00065,B00227,Personal,2025-11-26,2040-09-08,-184974.69,173959.75,4.542,180,VA,Debt Consolidation,D,26,<30k,Current,0,DeltaPay,2026-07-19,2026-07-08,complete,origination_core
+L00066,B00462,Mortgage,2020-01-18,2023-12-28,152226.26,99390.25,13.499,48,MA,Refinance,B,23,<30k,Current,0,Acme Servicing,2026-06-22,2026-06-22,partial,origination_core
+L00067,B00216,Personal,2025-06-22,2030-05-27,144630.37,106309.92,8.254,60,MO,Working Capital,C,31,30-60k,Current,0,Cornerstone Servicing,2026-07-17,2026-06-07,complete,origination_core
+L00068,B00333,Student,2024-12-06,2054-07-02,289169.29,280075.84,8.952,360,CO,Refinance,D,13,60-100k,Current,0,BlueRiver Loan Co,2026-07-08,2026-07-27,complete,origination_core
+L00069,B00318,SMB,2023-05-23,2038-03-05,133137.71,105910.12,17.603,180,UT,Home Improvement,C,0,>150k,Current,0,BlueRiver Loan Co,2026-07-11,2026-06-07,complete,origination_core
+L00070,B00003,Auto,2019-08-29,2022-08-13,50879.71,33328.30,17.265,36,ID,Working Capital,B,37,>150k,Current,0,BlueRiver Loan Co,2026-06-26,2026-07-02,complete,origination_core
+L00071,B00259,Mortgage,2023-12-21,2038-10-03,408508.96,510636.20,10.063,180,NY,Refinance,D,3,>150k,Current,0,BlueRiver Loan Co,2026-07-22,2026-06-04,partial,origination_core
+L00072,B00461,Auto,2019-02-27,2024-02-01,124052.86,155066.08,3.421,60,ND,Debt Consolidation,A,36,>150k,Current,0,Cornerstone Servicing,2026-06-30,2026-07-14,complete,origination_core
+L00073,B00394,Personal,2019-02-20,2021-02-09,186503.53,233129.41,3.567,24,AK,Home Improvement,D,31,<30k,Current,0,Cornerstone Servicing,2026-07-21,2026-07-18,complete,origination_core
+L00074,B00272,SMB,2020-10-24,2025-09-28,116362.78,145453.48,14.065,60,SC,Working Capital,B,40,100-150k,Current,0,BlueRiver Loan Co,2026-07-21,2026-07-28,partial,origination_core
+L00075,B00059,Mortgage,2018-12-22,2020-12-11,413614.57,517018.21,9.367,24,WY,Home Improvement,A,29,30-60k,Current,0,BlueRiver Loan Co,2026-07-20,2026-07-11,complete,origination_core
+L00076,B00364,SMB,2020-08-05,2030-06-14,224959.70,281199.62,6.878,120,ID,Refinance,D,36,<30k,Current,0,DeltaPay,2026-07-03,2026-07-13,partial,origination_core
+L00077,B00478,SMB,2021-04-26,2036-02-07,413390.87,252291.86,15.852,180,RI,Refinance,B,40,>150k,Current,0,Acme Servicing,2026-07-31,2026-06-20,partial,origination_core
+L00078,B00309,SMB,2018-12-19,2023-11-23,100505.91,73743.10,17.026,60,OH,Refinance,C,40,<30k,Current,0,Acme Servicing,2026-06-22,2026-07-03,partial,origination_core
+L00079,B00066,Auto,2018-12-18,2021-12-02,278694.36,89064.83,13.403,36,GA,Debt Consolidation,C,9,>150k,Current,0,Acme Servicing,2026-07-17,2026-06-27,complete,origination_core
+L00080,B00285,Mortgage,2022-06-05,2037-03-18,326819.06,204307.20,12.967,180,ND,Refinance,D,2,100-150k,Current,0,DeltaPay,2026-07-02,2026-06-23,complete,origination_core
+L00081,B00263,Student,2018-08-26,2028-07-04,307836.07,110738.82,45.000,120,AL,Refinance,D,20,<30k,Current,0,Cornerstone Servicing,2026-06-23,2026-07-02,partial,origination_core
+L00082,B00053,Mortgage,2020-08-17,2030-06-26,61570.36,44775.01,-2.000,120,CT,Purchase,C,28,100-150k,Current,0,BlueRiver Loan Co,2026-07-08,2026-06-02,complete,origination_core
+L00083,B00245,Auto,2024-07-30,2039-05-13,414307.23,108307.46,0.000,180,RI,Refinance,A,35,<30k,Current,0,BlueRiver Loan Co,2026-06-30,2026-06-18,complete,origination_core
+L00084,B00242,Student,2025-09-25,2040-07-08,488267.75,437718.52,99.900,180,SC,Purchase,C,19,30-60k,Current,0,BlueRiver Loan Co,2026-07-29,2026-06-10,complete,origination_core
+L00085,B00267,Student,2021-05-27,2026-05-01,114064.04,50840.99,38.000,60,DC,Refinance,A,12,60-100k,Current,0,BlueRiver Loan Co,2026-07-16,2026-06-11,complete,origination_core
+L00086,B00441,Mortgage,2021-09-10,2026-08-15,459063.91,308462.44,0.100,60,OR,Purchase,B,37,30-60k,Current,0,DeltaPay,2026-07-19,2026-06-15,partial,origination_core
+L00087,B00066,SMB,2020-03-02,2023-02-15,84619.98,75230.66,17.682,36,KY,Working Capital,D,6,100-150k,Current,0,Acme Servicing,2026-06-26,2026-07-21,complete,origination_core
+L00088,B00235,Mortgage,2020-04-05,2030-02-12,367145.40,152113.96,7.857,120,VA,Purchase,A,9,60-100k,Current,0,Cornerstone Servicing,2026-07-19,2026-07-23,complete,origination_core
+L00089,B00103,Student,2021-01-03,2023-12-19,353582.68,167758.35,13.594,36,UT,Working Capital,B,23,30-60k,Current,0,Acme Servicing,2026-07-24,2026-06-25,partial,origination_core
+L00090,B00149,Personal,2020-04-25,2035-02-06,272431.24,112532.43,3.903,180,TX,Working Capital,A,11,100-150k,Current,0,DeltaPay,2026-07-23,2026-07-22,partial,origination_core
+L00091,B00041,Mortgage,2025-06-02,2035-04-11,394600.13,187247.85,3.434,120,VA,Working Capital,C,6,100-150k,Current,90,BlueRiver Loan Co,2026-07-11,2026-07-26,complete,origination_core
+L00092,B00149,Student,2021-06-01,2025-05-11,439583.49,193589.12,3.381,48,TN,Purchase,D,20,30-60k,90+ Days Late,0,BlueRiver Loan Co,2026-07-18,2026-07-04,complete,origination_core
+L00093,B00147,Mortgage,2021-01-24,2030-12-03,293670.05,74040.42,5.897,120,CO,Purchase,A,4,<30k,Current,120,BlueRiver Loan Co,2026-07-18,2026-06-28,complete,origination_core
+L00094,B00396,SMB,2025-02-10,2029-01-20,445233.44,116755.30,12.587,48,PA,Working Capital,A,16,60-100k,90+ Days Late,0,BlueRiver Loan Co,2026-07-26,2026-07-28,complete,origination_core
+L00095,B00429,Mortgage,2024-10-03,2034-08-12,413219.12,82855.32,14.443,120,OH,Purchase,A,0,30-60k,Current,120,BlueRiver Loan Co,2026-07-10,2026-07-03,partial,origination_core
+L00096,B00302,SMB,2022-07-20,2052-02-13,211594.03,185482.55,17.725,360,TX,Working Capital,D,23,<30k,90+ Days Late,0,DeltaPay,2026-06-29,2026-06-24,complete,origination_core
+L00097,B00355,Student,2018-06-15,2021-05-30,414266.79,265457.72,13.350,36,VT,Debt Consolidation,C,0,100-150k,Current,120,Cornerstone Servicing,2026-07-29,2026-07-18,partial,origination_core
+L00098,B00428,Auto,2018-09-22,2033-07-05,437990.72,356629.62,11.768,180,NY,Purchase,A,29,>150k,Current,0,Cornerstone Servicing,2026-06-28,2026-06-16,complete,origination_core
+L00099,B00191,Mortgage,2023-06-24,2025-06-13,136061.58,125343.40,8.768,24,TX,Debt Consolidation,D,1,60-100k,Current,0,Acme Servicing,2026-07-31,2026-07-26,complete,origination_core
+L00100,B00416,Auto,2023-08-21,2038-06-03,151174.06,115300.74,3.793,180,NC,Debt Consolidation,C,16,100-150k,Current,0,BlueRiver Loan Co,2026-07-19,2026-07-08,partial,origination_core
+L00101,B00303,Auto,2021-09-23,2025-09-02,468709.88,292961.97,7.760,48,CO,Refinance,B,32,30-60k,Current,0,Acme Servicing,2026-06-22,2026-07-26,complete,origination_core
+L00102,B00325,Mortgage,2019-10-03,2049-04-28,26301.31,18909.08,17.484,360,UT,Debt Consolidation,D,4,100-150k,Current,0,Acme Servicing,2026-06-23,2026-06-26,partial,origination_core
+L00103,B00231,SMB,2024-03-15,2027-02-28,175081.49,169775.14,13.077,36,NM,Home Improvement,A,37,60-100k,Current,0,BlueRiver Loan Co,2026-06-25,2026-07-18,partial,origination_core
+L00104,B00357,SMB,2021-07-14,2023-07-04,246462.01,104030.94,10.619,24,NV,Refinance,D,29,>150k,Current,0,Acme Servicing,2026-07-05,2026-06-16,complete,origination_core
+L00105,B00050,SMB,2022-03-31,2027-03-05,243914.93,67869.82,9.283,60,WV,Home Improvement,B,15,>150k,Current,0,Cornerstone Servicing,2026-07-03,2026-06-03,complete,origination_core
+L00106,B00486,Personal,2024-04-11,2027-03-27,319193.88,119438.69,9.276,36,PA,Refinance,B,2,100-150k,Current,0,DeltaPay,2026-07-19,2026-06-16,partial,origination_core
+L00107,B00344,Mortgage,2018-09-08,2048-04-03,136255.76,118843.82,9.289,360,VA,Purchase,D,35,>150k,Current,0,Acme Servicing,2026-07-15,2026-06-25,partial,origination_core
+L00108,B00236,Student,2025-01-22,2027-01-12,404712.17,119829.16,10.113,24,CO,Debt Consolidation,C,8,>150k,Current,0,Cornerstone Servicing,2026-07-27,2026-06-19,partial,origination_core
+L00109,B00141,Mortgage,2022-01-21,2025-12-31,134535.38,29126.18,6.188,48,CT,Home Improvement,C,20,30-60k,Current,0,Cornerstone Servicing,2026-07-01,2026-07-24,complete,origination_core
+L00110,B00473,Student,2023-12-17,2027-11-26,35578.63,29135.59,3.354,48,CA,Home Improvement,C,22,>150k,Current,0,Cornerstone Servicing,2026-07-01,2026-07-23,complete,origination_core
+L00111,B00352,Personal,2021-08-08,2031-06-17,199519.73,173229.77,15.140,120,HI,Working Capital,A,39,<30k,Current,0,Acme Servicing,2026-06-22,2026-06-15,,origination_core
+L00112,B00269,Mortgage,2024-05-05,2039-02-16,248315.52,150260.48,4.047,180,KY,Debt Consolidation,D,22,>150k,Current,0,Cornerstone Servicing,2026-06-28,2026-07-01,,origination_core
+L00113,B00076,Student,2019-09-20,2049-04-15,430691.38,204487.83,16.540,360,MS,Debt Consolidation,D,22,60-100k,Current,0,DeltaPay,2026-06-25,2026-06-04,,origination_core
+L00114,B00071,SMB,2021-02-24,2024-02-09,16643.90,14339.06,9.334,36,TN,Refinance,A,24,100-150k,Current,0,DeltaPay,2026-07-25,2026-06-12,,origination_core
+L00115,B00301,Auto,2025-07-22,2055-02-15,357938.81,283624.26,14.733,360,NM,Purchase,D,4,60-100k,Current,0,Acme Servicing,2026-07-24,2026-06-17,,origination_core
+L00116,B00063,Personal,2024-02-06,2038-11-19,496191.56,221761.98,15.640,180,WI,Debt Consolidation,A,6,>150k,Current,0,Acme Servicing,2026-06-22,2026-07-06,,origination_core
+L00117,B00463,Personal,2022-02-08,2027-01-13,484588.15,255894.96,9.473,60,VT,Debt Consolidation,D,24,30-60k,Current,0,BlueRiver Loan Co,2026-07-15,2026-06-08,,origination_core
+L00118,B00430,Auto,2022-03-21,2032-01-28,359782.92,87345.28,13.617,120,NJ,Working Capital,B,8,>150k,Current,0,Acme Servicing,2026-07-31,2026-07-07,,origination_core
+L00119,B00484,Auto,2024-11-08,2026-10-29,172600.49,90662.23,9.563,24,WA,Home Improvement,A,4,100-150k,Current,0,DeltaPay,2026-07-24,2026-06-07,partial,origination_core
+L00120,B00043,Student,2019-10-27,2024-09-30,353896.02,111470.51,5.998,60,KY,Working Capital,A,37,100-150k,Current,0,BlueRiver Loan Co,2026-07-31,2026-06-16,complete,origination_core
+L00121,B00296,Auto,2018-10-09,2048-05-04,88196.17,21726.27,9.866,360,AK,Working Capital,B,25,30-60k,Current,0,Acme Servicing,2026-07-18,2026-06-17,partial,origination_core
+L00122,B00400,Student,2018-07-16,2021-06-30,376045.04,293752.37,14.769,36,SC,Home Improvement,B,33,30-60k,Current,0,DeltaPay,2026-06-26,2026-06-17,complete,origination_core
+L00123,B00209,SMB,2018-08-18,2028-06-26,122053.51,49071.00,16.318,120,MO,Purchase,D,33,60-100k,Current,0,Cornerstone Servicing,2026-07-15,2026-07-14,partial,origination_core
+L00124,B00216,Student,2022-12-07,2027-11-11,492658.30,310113.56,7.993,60,MO,Home Improvement,D,38,30-60k,Current,0,Cornerstone Servicing,2026-07-26,2026-07-03,complete,origination_core
+L00125,B00410,Auto,2022-12-04,2025-11-18,250113.48,74189.69,15.869,36,AZ,Refinance,A,31,>150k,Current,0,Acme Servicing,2026-07-14,2026-06-14,partial,origination_core
+L00126,B00318,Student,2023-09-21,2033-07-30,373420.11,289050.70,9.039,120,MN,Refinance,A,13,60-100k,Current,0,DeltaPay,2026-06-25,2026-06-10,complete,origination_core
+L00127,B00253,Personal,2024-10-25,2028-10-04,447067.52,96272.67,16.185,48,AR,Refinance,B,13,30-60k,Current,0,DeltaPay,2026-07-07,2026-06-10,complete,origination_core
+L00128,B00134,Student,2025-02-27,2035-01-06,320984.06,194012.04,6.095,120,UT,Refinance,C,32,100-150k,Current,0,Acme Servicing,2026-07-29,2026-06-07,partial,origination_core
+L00129,B00198,Mortgage,2022-01-09,2023-12-30,104029.99,48402.23,12.527,24,TX,Purchase,A,3,<30k,Current,0,BlueRiver Loan Co,2026-07-23,2026-07-19,partial,origination_core
+L00130,B00136,Auto,2019-02-03,2024-01-08,11697.40,9706.25,17.745,60,AK,Purchase,D,21,100-150k,Current,0,DeltaPay,2026-07-14,2026-06-08,partial,origination_core
+L00131,B00348,Auto,2020-08-08,2035-05-22,21621.10,20201.59,4.581,180,WY,Debt Consolidation,D,26,<30k,Current,0,BlueRiver Loan Co,2026-07-04,2025-06-20,partial,origination_core
+L00132,B00362,Mortgage,2020-02-13,2034-11-26,162106.59,124157.31,13.100,180,MO,Home Improvement,D,0,60-100k,Current,0,Acme Servicing,2026-07-12,2024-01-09,complete,origination_core
+L00133,B00143,Mortgage,2018-11-06,2028-09-14,150107.89,90765.52,8.832,120,VT,Working Capital,D,27,<30k,Current,0,DeltaPay,2026-07-16,2023-11-23,complete,origination_core
+L00134,B00203,Personal,2019-01-07,2021-12-22,212756.41,187044.32,5.746,36,DC,Refinance,D,15,30-60k,Current,0,Cornerstone Servicing,2026-07-14,2024-12-16,partial,origination_core
+L00135,B00454,Personal,2024-07-11,2028-06-20,474325.80,160792.06,17.905,48,MS,Purchase,B,33,<30k,Current,0,DeltaPay,2026-07-27,2025-02-07,partial,origination_core
+L00136,B00262,SMB,2018-06-29,2033-04-11,134823.50,84304.45,8.167,180,TX,Purchase,D,21,60-100k,Current,0,DeltaPay,2026-07-18,2023-11-05,complete,origination_core
+L00137,B00486,Student,2020-06-17,2023-06-02,230017.52,86679.78,6.620,36,MA,Working Capital,C,1,>150k,Current,0,BlueRiver Loan Co,2026-07-23,2025-03-24,complete,origination_core
+L00138,B00082,Personal,2022-12-22,2025-12-06,157680.68,124765.90,3.696,36,TX,Home Improvement,C,29,>150k,Current,0,Acme Servicing,2026-07-04,2023-07-19,partial,origination_core
+L00139,B00458,Student,2024-02-24,2038-12-07,444233.78,222192.06,6.081,180,WI,Purchase,B,2,100-150k,Current,0,DeltaPay,2026-07-30,2024-10-02,partial,origination_core
+L00140,B00180,Auto,2022-12-31,2027-12-05,161601.90,155557.14,16.140,60,SC,Working Capital,A,31,60-100k,Current,0,BlueRiver Loan Co,2026-07-20,2024-04-15,complete,origination_core
+L00141,B00096,Auto,2023-04-30,2052-11-23,453856.99,282654.21,5.728,360,NY,Purchase,C,18,30-60k,Current,0,Cornerstone Servicing,2026-06-26,2026-07-04,complete,origination_core
+L00142,B00221,Mortgage,2024-12-04,2039-09-17,126914.44,46708.00,15.171,180,KS,Home Improvement,C,37,<30k,Current,0,Cornerstone Servicing,2026-06-26,2026-06-09,complete,origination_core
+L00143,B00495,Student,2020-04-16,2049-11-10,21311.78,6849.04,3.305,360,NJ,Working Capital,C,15,30-60k,Current,0,BlueRiver Loan Co,2026-07-16,2026-06-08,complete,origination_core
+L00144,B00097,SMB,2024-08-16,2026-08-06,101619.01,31646.99,17.997,24,UT,Refinance,A,21,<30k,Current,0,BlueRiver Loan Co,2026-06-26,2026-07-28,complete,origination_core
+L00145,B00064,Student,2023-01-28,2026-01-12,75345.39,55926.23,17.520,36,OK,Working Capital,D,12,30-60k,Current,0,Acme Servicing,2026-06-29,2026-07-31,partial,origination_core
+L00146,B00228,Personal,2019-04-20,2024-03-24,52642.60,33664.78,6.882,60,DE,Home Improvement,C,8,100-150k,Current,0,BlueRiver Loan Co,2026-06-30,2026-06-20,partial,origination_core
+L00147,B00155,Mortgage,2024-07-07,2039-04-20,491548.91,292902.42,13.711,180,DC,Home Improvement,D,23,60-100k,Current,0,Cornerstone Servicing,2026-07-11,2026-07-31,complete,origination_core
+L00148,B00106,Student,2020-08-07,2023-07-23,297558.29,215745.83,6.964,36,RI,Working Capital,C,2,30-60k,Current,0,Acme Servicing,2026-07-12,2026-07-26,complete,origination_core
+L00149,B00206,Mortgage,2024-03-04,2028-02-12,479169.98,144075.78,13.015,48,NV,Refinance,A,11,100-150k,Current,0,DeltaPay,2026-07-14,2026-06-26,partial,origination_core
+L00150,B00324,SMB,2025-05-28,2030-05-02,230547.00,159310.95,7.719,60,GA,Purchase,A,34,>150k,Current,0,Acme Servicing,2026-07-16,2026-07-17,complete,origination_core
+L00151,B00184,Mortgage,2023-04-23,2038-02-03,273307.49,157121.72,12.078,180,ZZ,Debt Consolidation,A,18,100-150k,Current,0,Cornerstone Servicing,2026-07-16,2026-07-08,complete,origination_core
+L00152,B00443,SMB,2022-09-02,2024-08-22,204949.33,91830.75,8.264,24,XX,Refinance,A,19,30-60k,Current,0,Acme Servicing,2026-07-08,2026-07-20,complete,origination_core
+L00153,B00115,Mortgage,2020-06-26,2023-06-11,309064.86,146594.96,7.644,36,Cal,Debt Consolidation,C,31,30-60k,Current,0,Acme Servicing,2026-06-29,2026-07-01,complete,origination_core
+L00154,B00294,Student,2019-09-03,2029-07-12,152134.48,121714.31,10.526,120,N/A,Home Improvement,D,31,60-100k,Current,0,Acme Servicing,2026-07-25,2026-06-15,complete,origination_core
+L00155,B00163,Personal,2024-02-15,2029-01-19,36411.57,7901.00,6.743,60,99,Home Improvement,A,19,100-150k,Current,0,Acme Servicing,2026-07-21,2026-07-30,partial,origination_core
+L00156,B00275,Personal,2019-11-17,2029-09-25,65371.81,35058.95,8.885,120,us,Purchase,C,17,100-150k,Current,0,DeltaPay,2026-06-30,2026-06-22,partial,origination_core
+L00157,B00384,Student,2024-12-05,2034-10-14,386049.01,362164.11,8.566,120,DE,Debt Consolidation,D,4,30-60k,Current,0,BlueRiver Loan Co,2026-07-19,2026-07-17,complete,origination_core
+L00158,B00283,Mortgage,2020-04-22,2049-11-16,482251.09,386468.85,6.831,360,KS,Home Improvement,A,19,30-60k,Current,0,BlueRiver Loan Co,2026-06-28,2026-06-23,complete,origination_core
+L00159,B00248,Auto,2023-05-14,2028-04-17,304814.53,210704.95,14.369,60,AR,Debt Consolidation,D,13,100-150k,Current,0,DeltaPay,2026-07-07,2026-07-15,complete,origination_core
+L00160,B00074,Personal,2019-02-03,2024-01-08,93459.73,24319.14,5.874,60,PA,Refinance,C,16,100-150k,Current,0,BlueRiver Loan Co,2026-07-12,2026-06-23,complete,origination_core
+L00161,B00007,Mortgage,2021-11-29,2025-11-08,201576.83,193867.45,8.065,48,WY,Purchase,A,33,<30k,Current,0,Acme Servicing,2026-07-18,2026-07-28,partial,origination_core
+L00162,B00007,Student,2019-07-07,2022-06-21,480011.98,402233.69,17.024,36,CA,Home Improvement,A,16,100-150k,Current,0,BlueRiver Loan Co,2026-07-02,2026-07-30,partial,origination_core
+L00163,B00007,Personal,2022-05-14,2026-04-23,158723.08,60859.45,8.409,48,SD,Home Improvement,C,29,30-60k,Current,0,BlueRiver Loan Co,2026-07-21,2026-06-21,complete,origination_core
+L00164,B00007,Auto,2022-03-13,2026-02-20,464732.45,417427.88,17.979,48,TN,Debt Consolidation,B,15,>150k,Current,0,BlueRiver Loan Co,2026-07-08,2026-07-25,partial,origination_core
+L00165,B00007,Personal,2024-10-24,2054-05-20,435054.22,265637.76,9.027,360,CO,Home Improvement,B,0,100-150k,Current,0,Acme Servicing,2026-07-17,2026-07-28,complete,origination_core
+L00166,B00076,SMB,2024-05-01,2028-04-10,392455.60,272493.01,6.166,48,OK,Refinance,C,16,100-150k,Current,0,Cornerstone Servicing,2026-07-14,2026-07-18,partial,origination_core
+L00167,B00347,Personal,2024-04-05,2053-10-30,34280.91,27579.01,13.853,360,ID,Home Improvement,D,14,<30k,Current,0,Cornerstone Servicing,2026-07-07,2026-07-06,complete,origination_core
+L00168,B00123,Mortgage,2021-05-04,2026-04-08,420480.25,204911.77,10.636,60,MI,Home Improvement,C,8,100-150k,Current,0,Cornerstone Servicing,2026-06-23,2026-07-06,complete,origination_core
+L00169,B00160,Student,2021-12-20,2025-11-29,412154.08,263959.04,16.142,48,CO,Debt Consolidation,D,33,30-60k,Current,0,Cornerstone Servicing,2026-06-27,2026-08-01,partial,origination_core
+L00170,B00339,SMB,2022-10-14,2025-09-28,408816.82,373102.38,12.550,36,NM,Working Capital,A,21,<30k,Current,0,Cornerstone Servicing,2026-07-02,2026-07-24,partial,origination_core
+L00171,B00491,Student,2022-12-26,2026-12-05,136862.73,12346.02,4.457,48,SD,Purchase,A,38,30-60k,Closed,0,Acme Servicing,2026-07-24,2026-06-22,complete,origination_core
+L00172,B00500,Personal,2024-07-19,2027-07-04,480652.25,7230.01,16.752,36,TX,Refinance,B,3,60-100k,Closed,0,Cornerstone Servicing,2026-07-07,2026-07-11,complete,origination_core
+L00173,B00070,Personal,2020-06-29,2023-06-14,159442.66,19931.93,8.335,36,NJ,Home Improvement,A,25,60-100k,Closed,0,DeltaPay,2026-06-25,2026-06-09,partial,origination_core
+L00174,B00457,SMB,2022-02-13,2027-01-18,86578.37,1587.33,9.715,60,NM,Refinance,D,13,>150k,Closed,0,Acme Servicing,2026-07-04,2026-06-08,complete,origination_core
+L00175,B00343,Personal,2020-07-26,2022-07-16,465509.36,18278.59,12.843,24,MS,Refinance,C,31,>150k,Closed,0,Cornerstone Servicing,2026-07-12,2026-06-21,complete,origination_core
+L00176,B00332,SMB,2025-03-29,2027-03-19,415185.13,323721.91,9.497,24,AR,Refinance,A,29,100-150k,Current,0,Acme Servicing,2026-06-28,2026-07-25,complete,origination_core
+L00177,B00220,SMB,2022-02-14,2024-02-04,261703.09,146423.14,5.580,24,WA,Refinance,B,28,30-60k,Current,0,BlueRiver Loan Co,2026-07-03,2026-06-27,complete,origination_core
+L00178,B00190,SMB,2023-01-06,2027-12-11,177510.98,114080.04,9.642,60,MN,Debt Consolidation,D,13,30-60k,Current,0,Cornerstone Servicing,2026-06-26,2026-07-30,partial,origination_core
+L00179,B00259,Auto,2024-04-11,2053-11-05,283514.43,137452.29,12.166,360,CO,Home Improvement,B,0,100-150k,Current,0,BlueRiver Loan Co,2026-07-04,2026-06-14,complete,origination_core
+L00180,B00304,SMB,2019-08-12,2049-03-07,41786.46,19650.09,10.520,360,NM,Refinance,D,6,30-60k,Current,0,Cornerstone Servicing,2026-06-24,2026-06-29,partial,origination_core
+L00181,B00291,Auto,2025-04-26,2040-02-07,451432.30,256520.62,15.957,180,OR,Purchase,C,11,>150k,Current,0,BlueRiver Loan Co,2026-07-03,2026-07-31,complete,origination_core
+L00182,B00279,Mortgage,2022-04-10,2051-11-04,289099.05,103493.69,3.856,360,NE,Working Capital,C,39,100-150k,Current,0,Acme Servicing,2026-07-09,2026-07-01,partial,origination_core
+L00183,B00110,Student,2019-05-22,2021-05-11,72321.29,63625.42,3.644,24,MT,Working Capital,D,16,<30k,Current,0,BlueRiver Loan Co,2026-06-25,2026-07-17,partial,origination_core
+L00184,B00040,Auto,2025-03-22,2040-01-03,359938.92,168744.65,6.794,180,GA,Working Capital,C,11,>150k,Current,0,DeltaPay,2026-07-24,2026-06-02,partial,origination_core
+L00185,B00400,Student,2018-09-08,2021-08-23,442326.92,107878.36,17.158,36,MD,Purchase,B,21,<30k,Current,0,Acme Servicing,2026-07-30,2026-06-18,complete,origination_core
+L00186,B00312,SMB,2025-06-12,2040-03-25,164075.73,154540.10,5.496,180,AR,Refinance,D,36,100-150k,Current,0,Cornerstone Servicing,2026-07-26,2026-07-30,partial,origination_core
+L00187,B00406,Auto,2020-11-30,2024-11-09,421566.43,385029.05,3.752,48,CT,Refinance,B,27,>150k,Current,0,BlueRiver Loan Co,2026-07-01,2026-06-15,partial,origination_core
+L00188,B00448,Mortgage,2021-08-05,2051-03-01,371903.80,97031.01,8.063,360,SD,Refinance,B,37,60-100k,Current,0,DeltaPay,2026-07-02,2026-07-25,partial,origination_core
+L00189,B00162,Mortgage,2023-04-24,2038-02-04,494816.93,321169.55,7.565,180,SC,Purchase,A,39,30-60k,Current,0,Acme Servicing,2026-07-21,2026-07-23,partial,origination_core
+L00190,B00121,Auto,2025-02-11,2034-12-21,127386.33,111752.43,12.183,120,CA,Debt Consolidation,C,13,100-150k,Current,0,Cornerstone Servicing,2026-07-03,2026-07-22,partial,origination_core
+L00191,B00025,Auto,2021-09-01,2024-08-16,301129.83,113668.65,11.075,36,OR,Home Improvement,A,14,<30k,Current,0,Acme Servicing,2026-07-23,2026-06-06,partial,origination_core
+L00192,B00180,SMB,2024-11-02,2039-08-16,241457.00,201852.26,7.463,180,OR,Purchase,A,26,<30k,Current,0,DeltaPay,2026-07-10,2026-07-10,complete,origination_core
+L00193,B00044,Mortgage,2025-11-22,2035-10-01,51010.00,11642.45,7.500,120,KY,Purchase,B,31,<30k,Current,0,Cornerstone Servicing,2026-07-17,2026-07-10,complete,origination_core
+L00194,B00437,Mortgage,2021-11-02,2023-10-23,218459.05,110861.50,7.488,24,ID,Purchase,D,7,>150k,Current,0,Acme Servicing,2026-07-30,2026-06-18,partial,origination_core
+L00195,B00187,Student,2025-08-01,2028-07-16,378125.09,353136.74,15.117,36,ID,Debt Consolidation,C,37,100-150k,Current,0,BlueRiver Loan Co,2026-07-28,2026-07-12,partial,origination_core
+L00196,B00245,SMB,2019-08-31,2029-07-09,192092.44,55921.11,7.258,120,GA,Working Capital,D,11,60-100k,Current,0,Cornerstone Servicing,2026-07-03,2026-06-05,complete,origination_core
+L00197,B00389,Personal,2019-05-14,2034-02-24,396130.30,311648.04,7.101,180,WY,Debt Consolidation,B,0,>150k,Current,0,BlueRiver Loan Co,2026-06-22,2026-07-19,complete,origination_core
+L00198,B00385,Personal,2021-09-10,2031-07-20,350704.92,196144.68,7.158,120,ME,Purchase,D,18,100-150k,Current,0,Cornerstone Servicing,2026-07-13,2026-07-04,partial,origination_core
+L00199,B00406,Mortgage,2022-06-06,2051-12-31,270511.15,84633.75,8.837,360,CA,Working Capital,B,32,<30k,Current,0,Cornerstone Servicing,2026-06-26,2026-07-22,partial,origination_core
+L00200,B00168,Student,2019-04-18,2024-03-22,467098.00,287451.49,17.471,60,IA,Debt Consolidation,C,16,>150k,Current,0,DeltaPay,2026-06-24,2026-06-04,partial,origination_core
+L00201,B00454,Auto,2020-01-24,2023-01-08,57396.53,26312.35,6.573,36,IL,Purchase,C,23,30-60k,Current,0,DeltaPay,2026-07-28,2026-07-21,partial,origination_core
+L00202,B00134,Student,2022-07-21,2032-05-29,183028.72,127185.44,14.688,120,VA,Working Capital,D,4,>150k,Current,0,DeltaPay,2026-07-18,2026-06-18,partial,origination_core
+L00203,B00330,Mortgage,2020-04-04,2024-03-14,467273.87,223880.32,11.074,48,ID,Working Capital,B,10,<30k,Current,0,BlueRiver Loan Co,2026-06-25,2026-07-08,complete,origination_core
+L00204,B00212,Auto,2023-03-04,2033-01-10,172197.54,46930.13,6.215,120,NE,Debt Consolidation,D,7,60-100k,Current,0,Acme Servicing,2026-07-14,2026-06-03,complete,origination_core
+L00205,B00143,Student,2019-04-17,2021-04-06,212272.03,113855.70,16.717,24,MS,Purchase,C,0,60-100k,Current,0,DeltaPay,2026-07-08,2026-07-20,complete,origination_core
+L00206,B00195,Student,2022-04-14,2025-03-29,343077.77,215846.69,15.034,36,NE,Home Improvement,B,25,100-150k,Current,0,BlueRiver Loan Co,2026-06-25,2026-06-07,partial,origination_core
+L00207,B00208,Mortgage,2023-11-23,2053-06-18,104962.93,34798.54,16.551,360,AL,Home Improvement,D,13,60-100k,Current,0,Acme Servicing,2026-07-17,2026-07-23,complete,origination_core
+L00208,B00264,Mortgage,2025-12-25,2055-07-21,165191.60,95528.38,17.591,360,IA,Working Capital,D,10,100-150k,Current,0,Acme Servicing,2026-07-29,2026-07-14,complete,origination_core
+L00209,B00074,Auto,2024-04-10,2039-01-22,260475.43,144110.30,3.705,180,TX,Working Capital,C,3,>150k,Current,0,Acme Servicing,2026-07-11,2026-07-05,partial,origination_core
+L00210,B00065,Student,2019-08-05,2034-05-18,496785.55,290613.35,16.947,180,NC,Purchase,B,22,100-150k,Current,0,DeltaPay,2026-06-30,2026-06-06,partial,origination_core
+L00211,B00431,Mortgage,2022-09-17,2032-07-26,123063.70,44813.01,15.568,120,NJ,Home Improvement,D,12,>150k,Current,0,Cornerstone Servicing,2026-07-26,2026-07-05,partial,origination_core
+L00212,B00030,SMB,2020-11-10,2023-10-26,477901.34,229431.80,17.357,36,ME,Working Capital,D,10,<30k,Current,0,Cornerstone Servicing,2026-07-11,2026-06-22,complete,origination_core
+L00213,B00498,Auto,2021-08-17,2026-07-22,341616.24,267843.85,11.255,60,KY,Home Improvement,A,36,30-60k,Current,0,Acme Servicing,2026-07-25,2026-07-18,partial,origination_core
+L00214,B00491,Mortgage,2020-07-05,2022-06-25,190066.04,89180.76,13.249,24,NH,Refinance,B,34,100-150k,Current,0,Acme Servicing,2026-06-26,2026-06-05,partial,origination_core
+L00215,B00149,Personal,2019-06-01,2022-05-16,375681.38,363369.98,4.859,36,HI,Home Improvement,A,38,30-60k,Current,0,BlueRiver Loan Co,2026-07-27,2026-07-28,complete,origination_core
+L00216,B00244,SMB,2023-05-13,2052-12-06,399538.66,149199.43,3.719,360,FL,Debt Consolidation,C,8,100-150k,Current,0,DeltaPay,2026-07-29,2026-06-27,partial,origination_core
+L00217,B00390,Personal,2025-11-23,2055-06-19,197021.11,104942.63,14.070,360,NJ,Purchase,A,3,>150k,Current,0,Acme Servicing,2026-07-10,2026-07-09,complete,origination_core
+L00218,B00203,SMB,2020-08-15,2050-03-11,92800.77,26454.17,3.807,360,HI,Refinance,A,4,60-100k,Current,0,Acme Servicing,2026-07-16,2026-07-11,complete,origination_core
+L00219,B00265,Auto,2018-07-09,2021-06-23,171696.50,90674.37,10.786,36,UT,Purchase,C,15,>150k,Current,0,Acme Servicing,2026-06-27,2026-07-24,partial,origination_core
+L00220,B00212,Mortgage,2018-09-24,2020-09-13,282955.09,269374.49,10.110,24,CA,Home Improvement,B,6,<30k,Current,0,DeltaPay,2026-07-09,2026-06-15,complete,origination_core
+L00221,B00112,Auto,2025-07-18,2029-06-27,81015.94,60795.77,4.509,48,MI,Working Capital,D,1,<30k,Current,0,Cornerstone Servicing,2026-07-13,2026-07-26,partial,origination_core
+L00222,B00118,SMB,2019-05-16,2022-04-30,242551.47,216598.51,4.306,36,SC,Home Improvement,A,26,100-150k,Current,0,Cornerstone Servicing,2026-07-24,2026-07-19,complete,origination_core
+L00223,B00131,Student,2021-03-06,2035-12-18,260361.33,220068.58,5.755,180,TX,Home Improvement,B,24,>150k,Current,0,BlueRiver Loan Co,2026-06-29,2026-06-20,complete,origination_core
+L00224,B00278,SMB,2018-07-10,2020-06-29,113521.03,57241.96,17.840,24,ME,Refinance,C,40,>150k,Current,0,DeltaPay,2026-06-23,2026-06-25,partial,origination_core
+L00225,B00293,Student,2020-06-12,2024-05-22,94831.60,72147.22,6.572,48,NH,Debt Consolidation,B,5,>150k,Current,0,Cornerstone Servicing,2026-07-01,2026-07-19,complete,origination_core
+L00226,B00135,Mortgage,2019-10-07,2049-05-02,202891.06,152044.37,10.499,360,MS,Home Improvement,D,40,100-150k,Current,0,DeltaPay,2026-07-24,2026-06-20,complete,origination_core
+L00227,B00048,Auto,2022-05-28,2025-05-12,155208.67,68274.57,13.292,36,PA,Home Improvement,D,11,>150k,Current,0,DeltaPay,2026-06-25,2026-06-03,partial,origination_core
+L00228,B00397,Personal,2023-01-07,2052-08-02,487704.06,302966.02,15.528,360,WV,Refinance,A,35,<30k,Current,0,Cornerstone Servicing,2026-07-18,2026-06-30,complete,origination_core
+L00229,B00133,SMB,2024-11-28,2034-10-07,21061.79,18024.36,3.196,120,ID,Working Capital,A,4,60-100k,Current,0,Acme Servicing,2026-07-28,2026-07-08,complete,origination_core
+L00230,B00125,Personal,2018-10-24,2021-10-08,43027.08,34699.33,17.855,36,ME,Home Improvement,B,17,<30k,Current,0,Cornerstone Servicing,2026-07-12,2026-06-29,complete,origination_core
+L00231,B00324,Auto,2023-03-04,2027-02-11,442135.24,117865.30,12.855,48,RI,Refinance,C,40,>150k,Current,0,BlueRiver Loan Co,2026-06-24,2026-07-17,partial,origination_core
+L00232,B00255,Auto,2018-05-29,2028-04-06,223687.32,175956.19,8.990,120,MA,Home Improvement,B,19,30-60k,Current,0,BlueRiver Loan Co,2026-06-30,2026-06-13,complete,origination_core
+L00233,B00317,Student,2021-09-26,2036-07-09,203529.63,131303.03,17.645,180,AK,Working Capital,A,18,100-150k,Current,0,DeltaPay,2026-07-15,2026-07-07,partial,origination_core
+L00234,B00435,Student,2025-11-23,2028-11-07,194210.55,72642.30,8.462,36,AZ,Refinance,D,35,>150k,Current,0,DeltaPay,2026-07-31,2026-07-15,partial,origination_core
+L00235,B00300,Student,2022-04-25,2026-04-04,337407.99,78705.08,16.525,48,MI,Debt Consolidation,D,28,>150k,Current,0,DeltaPay,2026-07-07,2026-07-14,complete,origination_core
+L00236,B00451,SMB,2019-09-24,2024-08-28,181237.01,154661.97,17.122,60,KS,Working Capital,D,2,<30k,Current,0,Acme Servicing,2026-07-18,2026-07-11,complete,origination_core
+L00237,B00420,Auto,2025-05-18,2027-05-08,173485.62,108143.04,6.467,24,IA,Home Improvement,B,40,100-150k,Current,0,BlueRiver Loan Co,2026-07-04,2026-07-15,complete,origination_core
+L00238,B00369,Personal,2023-04-09,2028-03-13,180235.44,109794.52,13.528,60,NE,Working Capital,D,3,100-150k,Current,0,BlueRiver Loan Co,2026-07-28,2026-06-28,partial,origination_core
+L00239,B00068,Personal,2018-09-15,2022-08-25,180164.92,102191.41,10.334,48,SC,Home Improvement,D,5,<30k,Current,0,DeltaPay,2026-07-14,2026-06-05,partial,origination_core
+L00240,B00227,Personal,2024-03-18,2027-03-03,93494.69,78719.60,8.050,36,TN,Purchase,A,37,100-150k,Current,0,BlueRiver Loan Co,2026-07-04,2026-06-02,complete,origination_core
+L00241,B00259,Student,2019-08-08,2049-03-03,277229.46,215838.82,11.221,360,WY,Working Capital,D,36,30-60k,Current,0,Cornerstone Servicing,2026-07-16,2026-07-12,partial,origination_core
+L00242,B00164,Personal,2023-12-29,2038-10-11,237362.71,187528.05,16.247,180,AZ,Working Capital,A,32,>150k,Current,0,DeltaPay,2026-07-24,2026-07-12,partial,origination_core
+L00243,B00180,SMB,2019-07-17,2024-06-20,151389.19,43996.60,14.682,60,AR,Debt Consolidation,C,7,60-100k,Current,0,BlueRiver Loan Co,2026-07-31,2026-06-25,partial,origination_core
+L00244,B00366,Personal,2023-07-18,2025-07-07,261165.99,104381.41,14.667,24,AL,Working Capital,C,17,60-100k,Current,0,DeltaPay,2026-07-13,2026-06-16,complete,origination_core
+L00245,B00296,Personal,2025-05-22,2027-05-12,454730.70,121876.87,16.097,24,NY,Purchase,B,19,100-150k,Current,0,DeltaPay,2026-06-22,2026-06-26,complete,origination_core
+L00246,B00249,Student,2022-08-24,2026-08-03,328731.74,126220.79,10.033,48,AK,Purchase,C,7,100-150k,Current,0,DeltaPay,2026-06-22,2026-06-22,complete,origination_core
+L00247,B00492,Mortgage,2022-10-01,2052-04-26,409032.50,255347.59,12.743,360,MI,Debt Consolidation,A,14,60-100k,Current,0,Acme Servicing,2026-07-04,2026-06-20,partial,origination_core
+L00248,B00279,SMB,2020-08-10,2030-06-19,11183.52,8349.23,9.867,120,UT,Refinance,D,16,>150k,Current,0,DeltaPay,2026-07-10,2026-07-14,partial,origination_core
+L00249,B00263,Mortgage,2024-03-11,2038-12-23,495293.88,416713.07,10.885,180,NY,Working Capital,A,24,100-150k,Current,0,Cornerstone Servicing,2026-07-24,2026-06-30,complete,origination_core
+L00250,B00164,SMB,2022-01-12,2051-08-08,263430.05,235687.48,10.026,360,NM,Purchase,A,0,30-60k,Current,0,DeltaPay,2026-07-05,2026-06-15,complete,origination_core
+L00251,B00323,Student,2021-06-12,2023-06-02,20972.13,13359.78,14.228,24,DC,Refinance,A,12,>150k,Current,0,DeltaPay,2026-07-18,2026-07-10,complete,origination_core
+L00252,B00463,Auto,2024-06-01,2026-05-22,53738.63,12437.04,5.798,24,LA,Refinance,A,16,<30k,Current,0,Acme Servicing,2026-06-26,2026-07-17,complete,origination_core
+L00253,B00229,Auto,2019-10-20,2023-09-29,74217.38,69423.76,5.324,48,OH,Purchase,C,22,<30k,Current,0,Acme Servicing,2026-06-26,2026-06-09,partial,origination_core
+L00254,B00147,Personal,2025-07-28,2028-07-12,321681.63,294559.56,7.174,36,CO,Home Improvement,C,11,<30k,Current,0,DeltaPay,2026-07-27,2026-07-13,complete,origination_core
+L00255,B00142,Personal,2022-12-07,2037-09-19,360093.15,230412.33,5.214,180,PA,Debt Consolidation,D,16,>150k,Current,0,Acme Servicing,2026-07-08,2026-06-11,complete,origination_core
+L00256,B00444,Auto,2024-12-10,2034-10-19,228040.31,164456.27,9.797,120,AL,Purchase,C,22,>150k,Current,0,Cornerstone Servicing,2026-07-03,2026-07-05,partial,origination_core
+L00257,B00489,SMB,2024-04-27,2053-11-21,50057.11,46622.25,14.491,360,NE,Refinance,C,20,100-150k,Current,0,BlueRiver Loan Co,2026-07-21,2026-06-17,complete,origination_core
+L00258,B00403,Student,2024-03-10,2034-01-17,400122.40,211626.70,3.975,120,DC,Refinance,C,31,<30k,Current,0,BlueRiver Loan Co,2026-06-28,2026-07-07,partial,origination_core
+L00259,B00379,Auto,2018-06-20,2048-01-14,178695.56,50434.09,11.132,360,NE,Purchase,A,11,>150k,Current,0,BlueRiver Loan Co,2026-06-23,2026-07-25,partial,origination_core
+L00260,B00062,SMB,2023-09-27,2033-08-05,225099.70,98509.63,17.409,120,ND,Purchase,B,7,30-60k,Current,0,BlueRiver Loan Co,2026-07-04,2026-07-12,complete,origination_core
+L00261,B00114,Auto,2025-04-01,2030-03-06,385851.80,126640.53,4.431,60,AZ,Home Improvement,B,18,<30k,Current,0,Cornerstone Servicing,2026-07-23,2026-07-12,complete,origination_core
+L00262,B00157,Student,2024-12-13,2034-10-22,190094.96,95000.19,17.682,120,CT,Purchase,B,14,30-60k,Current,0,Acme Servicing,2026-06-24,2026-08-01,partial,origination_core
+L00263,B00260,Auto,2018-11-30,2022-11-09,390622.14,367076.34,10.048,48,OK,Debt Consolidation,B,15,100-150k,Current,0,BlueRiver Loan Co,2026-07-27,2026-06-23,partial,origination_core
+L00264,B00147,Auto,2020-01-10,2021-12-30,209904.74,173629.91,11.734,24,FL,Purchase,C,13,100-150k,Current,0,DeltaPay,2026-07-21,2026-06-18,partial,origination_core
+L00265,B00015,Personal,2020-08-09,2025-07-14,99360.24,86969.09,15.263,60,IL,Purchase,A,34,>150k,Current,0,DeltaPay,2026-07-26,2026-06-12,complete,origination_core
+L00266,B00285,SMB,2020-11-03,2024-10-13,248062.98,132780.60,10.777,48,VA,Debt Consolidation,A,25,>150k,Current,0,Cornerstone Servicing,2026-06-28,2026-07-07,partial,origination_core
+L00267,B00047,SMB,2025-03-01,2030-02-03,380410.05,122619.11,12.743,60,OR,Home Improvement,A,0,<30k,Current,0,Acme Servicing,2026-07-16,2026-07-26,partial,origination_core
+L00268,B00107,Student,2023-09-03,2053-03-29,193830.52,119788.01,10.186,360,MS,Debt Consolidation,A,39,60-100k,Current,0,Cornerstone Servicing,2026-07-13,2026-06-27,partial,origination_core
+L00269,B00209,Mortgage,2019-08-27,2024-07-31,393169.54,287160.06,7.372,60,NV,Refinance,B,23,<30k,Current,0,Cornerstone Servicing,2026-07-14,2026-07-25,partial,origination_core
+L00270,B00437,Mortgage,2020-08-19,2024-07-29,143468.34,78578.46,7.864,48,PA,Home Improvement,D,22,60-100k,Current,0,DeltaPay,2026-06-25,2026-07-30,partial,origination_core
+L00271,B00019,Student,2024-01-18,2026-01-07,230663.47,216773.91,15.906,24,TN,Purchase,B,10,<30k,Current,0,Cornerstone Servicing,2026-07-26,2026-07-13,complete,origination_core
+L00272,B00436,SMB,2020-05-18,2049-12-12,216084.01,161916.36,10.117,360,NM,Working Capital,C,1,>150k,Current,0,BlueRiver Loan Co,2026-06-29,2026-06-10,partial,origination_core
+L00273,B00372,Student,2018-08-13,2022-07-23,288913.19,246591.19,11.080,48,AZ,Debt Consolidation,C,35,60-100k,Current,0,Cornerstone Servicing,2026-07-27,2026-07-17,complete,origination_core
+L00274,B00400,Personal,2022-07-09,2052-02-02,483925.88,140164.36,4.665,360,HI,Debt Consolidation,D,36,>150k,Current,0,Cornerstone Servicing,2026-07-10,2026-06-17,partial,origination_core
+L00275,B00141,Mortgage,2021-08-31,2026-08-05,242172.51,158699.12,3.733,60,NJ,Debt Consolidation,A,14,>150k,Current,0,Cornerstone Servicing,2026-07-21,2026-06-13,partial,origination_core
+L00276,B00146,Auto,2024-04-18,2039-01-30,450906.21,398875.33,15.881,180,MT,Debt Consolidation,D,10,100-150k,Current,0,Acme Servicing,2026-06-25,2026-07-23,partial,origination_core
+L00277,B00122,Mortgage,2022-01-01,2023-12-22,310466.77,261840.44,11.650,24,AL,Working Capital,D,39,100-150k,Current,0,DeltaPay,2026-06-25,2026-07-09,complete,origination_core
+L00278,B00048,Auto,2018-10-07,2021-09-21,212783.45,122390.22,14.050,36,KY,Refinance,D,17,>150k,Current,0,BlueRiver Loan Co,2026-07-24,2026-07-07,partial,origination_core
+L00279,B00293,SMB,2025-08-07,2040-05-20,164200.92,50720.61,4.686,180,NM,Home Improvement,A,12,60-100k,Current,0,BlueRiver Loan Co,2026-07-05,2026-06-09,partial,origination_core
+L00280,B00279,Auto,2020-01-09,2024-12-13,45292.67,16581.03,6.539,60,DE,Refinance,B,18,60-100k,Current,0,BlueRiver Loan Co,2026-07-31,2026-07-12,complete,origination_core
+L00281,B00452,Personal,2023-09-23,2038-07-06,114747.54,52270.86,8.171,180,NH,Purchase,C,35,100-150k,Current,0,Cornerstone Servicing,2026-07-28,2026-06-25,partial,origination_core
+L00282,B00397,Personal,2018-09-11,2048-04-06,186504.97,178456.37,7.904,360,NM,Home Improvement,C,5,>150k,Current,0,DeltaPay,2026-07-30,2026-07-24,complete,origination_core
+L00283,B00038,Auto,2024-08-11,2026-08-01,252422.67,105151.96,13.952,24,MA,Debt Consolidation,C,5,60-100k,Current,0,BlueRiver Loan Co,2026-07-01,2026-07-06,partial,origination_core
+L00284,B00296,Auto,2024-01-29,2053-08-24,316869.56,150313.83,6.657,360,KS,Working Capital,D,16,100-150k,Current,0,Cornerstone Servicing,2026-07-28,2026-07-31,complete,origination_core
+L00285,B00319,Student,2020-09-24,2035-07-08,146597.86,117932.70,8.619,180,GA,Purchase,C,18,<30k,Current,0,BlueRiver Loan Co,2026-07-23,2026-06-24,partial,origination_core
+L00286,B00319,Student,2024-10-25,2054-05-21,192860.63,87795.17,11.194,360,DE,Refinance,B,32,100-150k,Current,0,BlueRiver Loan Co,2026-07-06,2026-07-19,complete,origination_core
+L00287,B00259,SMB,2019-10-21,2029-08-29,453636.40,380246.71,4.095,120,OK,Purchase,D,11,>150k,Current,0,Cornerstone Servicing,2026-07-10,2026-06-03,complete,origination_core
+L00288,B00133,Student,2025-08-02,2029-07-12,308415.76,143640.07,15.478,48,NY,Home Improvement,B,23,<30k,Current,0,BlueRiver Loan Co,2026-07-30,2026-07-10,partial,origination_core
+L00289,B00026,SMB,2025-06-26,2028-06-10,26854.46,17394.90,12.055,36,WI,Refinance,D,17,30-60k,Current,0,Acme Servicing,2026-06-25,2026-06-13,partial,origination_core
+L00290,B00455,Personal,2022-08-13,2025-07-28,227807.11,95893.25,15.821,36,VT,Home Improvement,C,40,>150k,Current,0,DeltaPay,2026-07-24,2026-07-10,complete,origination_core
+L00291,B00003,SMB,2020-06-22,2035-04-05,350609.19,222726.90,11.484,180,AL,Working Capital,C,5,100-150k,Current,0,DeltaPay,2026-07-03,2026-06-28,complete,origination_core
+L00292,B00312,SMB,2023-09-19,2053-04-14,475294.28,341120.09,5.142,360,AZ,Working Capital,A,38,>150k,Current,0,Acme Servicing,2026-06-28,2026-06-27,complete,origination_core
+L00293,B00424,Student,2025-12-06,2029-11-15,119131.01,25490.47,3.242,48,IN,Home Improvement,B,19,100-150k,Current,0,DeltaPay,2026-06-22,2026-07-25,complete,origination_core
+L00294,B00204,SMB,2021-06-06,2036-03-19,295771.94,239391.73,10.441,180,HI,Working Capital,A,37,>150k,Current,0,BlueRiver Loan Co,2026-07-29,2026-07-25,partial,origination_core
+L00295,B00165,Mortgage,2022-12-27,2037-10-09,314194.47,293727.88,5.413,180,WV,Debt Consolidation,B,39,>150k,Current,0,Cornerstone Servicing,2026-07-11,2026-07-19,complete,origination_core
+L00296,B00090,Student,2023-07-12,2053-02-04,173318.56,147572.37,13.904,360,CO,Home Improvement,B,40,<30k,Current,0,BlueRiver Loan Co,2026-07-01,2026-07-30,complete,origination_core
+L00297,B00295,Auto,2019-05-25,2022-05-09,440795.30,146863.33,8.682,36,TX,Purchase,A,9,>150k,Current,0,Cornerstone Servicing,2026-07-09,2026-07-16,complete,origination_core
+L00298,B00388,Mortgage,2025-05-05,2027-04-25,215693.38,83745.64,11.458,24,KY,Home Improvement,C,0,>150k,Current,0,Acme Servicing,2026-06-22,2026-07-14,complete,origination_core
+L00299,B00463,Personal,2018-10-12,2028-08-20,410484.90,107282.97,3.764,120,AZ,Home Improvement,A,18,<30k,Current,0,BlueRiver Loan Co,2026-07-23,2026-07-25,complete,origination_core
+L00300,B00193,Personal,2020-05-03,2022-04-23,264864.31,252537.07,16.017,24,MT,Purchase,B,24,100-150k,Current,0,Acme Servicing,2026-07-10,2026-07-21,complete,origination_core
+L00301,B00325,Mortgage,2025-12-04,2027-11-24,366394.36,336384.87,8.171,24,PA,Purchase,B,8,30-60k,Current,0,Cornerstone Servicing,2026-07-21,2026-07-15,partial,origination_core
+L00302,B00225,Student,2020-02-01,2049-08-27,282064.61,234247.72,10.706,360,CT,Home Improvement,D,13,<30k,Current,0,DeltaPay,2026-07-09,2026-07-14,complete,origination_core
+L00303,B00124,Mortgage,2023-11-22,2025-11-11,181618.83,125168.58,13.995,24,KS,Refinance,C,9,100-150k,Current,0,DeltaPay,2026-07-23,2026-06-22,partial,origination_core
+L00304,B00125,SMB,2025-12-30,2027-12-20,205235.94,84452.80,5.833,24,OR,Working Capital,A,36,<30k,Current,0,DeltaPay,2026-07-22,2026-06-20,complete,origination_core
+L00305,B00042,Student,2022-09-27,2026-09-06,348820.80,157670.12,7.434,48,VA,Refinance,D,32,>150k,Current,0,BlueRiver Loan Co,2026-07-28,2026-06-05,complete,origination_core
+L00306,B00218,Mortgage,2020-03-15,2024-02-23,327174.48,222840.28,3.659,48,TN,Debt Consolidation,C,34,<30k,Current,0,Cornerstone Servicing,2026-06-23,2026-06-28,partial,origination_core
+L00307,B00016,Personal,2021-07-30,2024-07-14,470798.28,277767.90,5.364,36,NC,Purchase,A,33,60-100k,Current,0,BlueRiver Loan Co,2026-07-30,2026-06-25,complete,origination_core
+L00308,B00161,Student,2024-07-30,2029-07-04,289619.43,79857.15,11.937,60,SD,Purchase,C,34,>150k,Current,0,DeltaPay,2026-07-08,2026-07-21,complete,origination_core
+L00309,B00167,Personal,2020-05-24,2025-04-28,213185.66,97477.72,10.215,60,KS,Working Capital,A,27,<30k,Current,0,DeltaPay,2026-07-09,2026-06-14,partial,origination_core
+L00310,B00215,Student,2025-03-10,2039-12-22,418174.75,370325.04,10.446,180,PA,Purchase,A,10,60-100k,Current,0,Acme Servicing,2026-07-25,2026-07-13,partial,origination_core
+L00311,B00271,Student,2019-08-14,2034-05-27,270769.93,148614.28,10.018,180,VA,Home Improvement,C,0,<30k,Current,0,Cornerstone Servicing,2026-07-30,2026-06-13,complete,origination_core
+L00312,B00263,SMB,2018-06-21,2048-01-15,204590.55,182638.52,7.879,360,NY,Debt Consolidation,C,12,100-150k,Current,0,Acme Servicing,2026-07-31,2026-06-20,complete,origination_core
+L00313,B00315,Auto,2018-09-25,2021-09-09,56321.66,31529.86,13.837,36,WI,Debt Consolidation,B,40,<30k,Current,0,BlueRiver Loan Co,2026-07-23,2026-07-01,partial,origination_core
+L00314,B00010,SMB,2021-10-12,2036-07-25,310618.00,189678.20,10.290,180,KY,Debt Consolidation,D,24,<30k,Current,0,BlueRiver Loan Co,2026-06-30,2026-07-13,complete,origination_core
+L00315,B00023,Personal,2020-06-12,2050-01-06,451506.34,248410.19,14.695,360,ID,Refinance,B,6,100-150k,Current,0,DeltaPay,2026-07-11,2026-07-05,partial,origination_core
+L00316,B00189,Student,2021-12-24,2051-07-20,155657.89,110154.20,5.796,360,WI,Debt Consolidation,C,10,60-100k,Current,0,Cornerstone Servicing,2026-06-29,2026-06-13,partial,origination_core
+L00317,B00244,Auto,2023-09-25,2028-08-29,259791.08,78146.21,14.241,60,NE,Working Capital,D,39,>150k,Current,0,Acme Servicing,2026-06-29,2026-07-29,partial,origination_core
+L00318,B00134,Auto,2021-01-29,2024-01-14,268695.91,100758.15,13.531,36,WA,Working Capital,D,25,>150k,Current,0,Acme Servicing,2026-07-23,2026-06-15,partial,origination_core
+L00319,B00146,SMB,2020-11-22,2050-06-18,149593.59,63461.34,4.208,360,CO,Home Improvement,C,2,>150k,Current,0,DeltaPay,2026-07-26,2026-07-08,complete,origination_core
+L00320,B00334,Student,2024-05-04,2039-02-15,64181.36,34551.35,11.743,180,WV,Refinance,A,0,>150k,Current,0,BlueRiver Loan Co,2026-07-24,2026-06-12,partial,origination_core
+L00321,B00385,Student,2023-01-31,2032-12-09,261579.58,136553.55,4.716,120,LA,Refinance,A,16,60-100k,Current,0,BlueRiver Loan Co,2026-07-04,2026-07-26,complete,origination_core
+L00322,B00310,Mortgage,2021-12-18,2024-12-02,96231.34,78796.82,10.673,36,CT,Debt Consolidation,C,5,60-100k,Current,0,Acme Servicing,2026-07-19,2026-07-09,complete,origination_core
+L00323,B00482,SMB,2021-06-29,2024-06-13,264982.79,210848.27,4.663,36,VA,Home Improvement,B,30,30-60k,Current,0,Acme Servicing,2026-07-15,2026-07-13,complete,origination_core
+L00324,B00500,Student,2025-08-23,2028-08-07,333881.22,254586.78,6.698,36,IL,Working Capital,A,14,>150k,Current,0,DeltaPay,2026-07-08,2026-07-07,partial,origination_core
+L00325,B00314,Mortgage,2020-02-29,2034-12-12,279410.69,57253.49,16.020,180,NM,Working Capital,B,32,30-60k,Current,0,BlueRiver Loan Co,2026-07-01,2026-06-14,partial,origination_core
+L00326,B00450,Personal,2022-04-03,2051-10-28,492505.50,421922.44,3.220,360,OH,Home Improvement,D,22,60-100k,Current,0,BlueRiver Loan Co,2026-07-05,2026-07-14,complete,origination_core
+L00327,B00444,Auto,2024-09-08,2054-04-04,162062.99,117503.86,7.613,360,RI,Debt Consolidation,B,8,<30k,Current,0,DeltaPay,2026-07-01,2026-06-10,partial,origination_core
+L00328,B00354,Student,2022-11-29,2026-11-08,161428.86,110569.95,13.663,48,WY,Refinance,D,38,>150k,Current,0,Cornerstone Servicing,2026-06-23,2026-06-24,complete,origination_core
+L00329,B00037,Student,2024-08-17,2039-05-31,244432.47,90501.21,14.900,180,DE,Purchase,D,0,100-150k,Current,0,DeltaPay,2026-06-25,2026-07-01,partial,origination_core
+L00330,B00055,Personal,2020-05-26,2035-03-09,417386.19,408184.13,11.963,180,AK,Debt Consolidation,D,2,60-100k,Current,0,DeltaPay,2026-07-31,2026-07-02,partial,origination_core
+L00331,B00078,Mortgage,2022-02-10,2026-01-20,312612.99,293090.79,9.085,48,LA,Home Improvement,D,30,60-100k,Current,0,BlueRiver Loan Co,2026-07-07,2026-06-21,partial,origination_core
+L00332,B00385,Mortgage,2019-07-27,2024-06-30,399318.31,347652.50,15.815,60,MA,Working Capital,B,14,100-150k,Current,0,DeltaPay,2026-06-26,2026-07-09,complete,origination_core
+L00333,B00167,Student,2021-05-01,2050-11-25,364023.15,277670.59,13.130,360,HI,Debt Consolidation,B,40,60-100k,Current,0,Cornerstone Servicing,2026-06-29,2026-07-14,partial,origination_core
+L00334,B00199,Mortgage,2023-10-27,2027-10-06,83661.06,64937.52,13.209,48,NJ,Debt Consolidation,B,39,<30k,Current,0,DeltaPay,2026-07-09,2026-07-30,complete,origination_core
+L00335,B00373,Auto,2023-08-28,2026-08-12,86619.49,72070.68,3.973,36,NY,Debt Consolidation,D,20,30-60k,Current,0,DeltaPay,2026-06-25,2026-07-31,complete,origination_core
+L00336,B00038,Personal,2023-01-10,2027-12-15,161790.23,112811.30,16.611,60,DE,Refinance,D,25,<30k,Current,0,Acme Servicing,2026-06-28,2026-06-14,complete,origination_core
+L00337,B00214,Personal,2021-02-15,2025-01-25,165727.90,134229.15,15.186,48,MI,Debt Consolidation,C,4,30-60k,Current,0,Cornerstone Servicing,2026-07-23,2026-07-29,partial,origination_core
+L00338,B00100,Student,2024-12-06,2028-11-15,184871.45,70161.43,5.070,48,NJ,Debt Consolidation,A,3,>150k,Current,0,Acme Servicing,2026-07-10,2026-06-21,complete,origination_core
+L00339,B00399,Personal,2018-12-13,2048-07-08,350384.20,286537.96,7.179,360,TN,Home Improvement,D,15,<30k,Current,0,Acme Servicing,2026-07-21,2026-07-23,complete,origination_core
+L00340,B00471,Student,2023-09-17,2033-07-26,303633.91,288240.00,7.133,120,GA,Purchase,B,2,>150k,Current,0,DeltaPay,2026-06-25,2026-06-28,partial,origination_core
+L00341,B00169,Auto,2024-07-20,2027-07-05,226181.79,176327.67,11.619,36,ND,Purchase,A,11,100-150k,Current,0,DeltaPay,2026-07-17,2026-06-17,partial,origination_core
+L00342,B00497,SMB,2024-05-09,2027-04-24,455322.28,364892.35,10.055,36,MD,Purchase,C,7,>150k,Current,0,BlueRiver Loan Co,2026-07-25,2026-06-08,complete,origination_core
+L00343,B00382,SMB,2019-12-02,2021-11-21,41825.92,9356.92,5.270,24,FL,Working Capital,A,21,<30k,Current,0,Acme Servicing,2026-06-28,2026-08-01,partial,origination_core
+L00344,B00366,Personal,2023-03-01,2037-12-12,478135.66,275806.43,17.939,180,CT,Debt Consolidation,A,36,60-100k,Current,0,Acme Servicing,2026-07-31,2026-06-19,partial,origination_core
+L00345,B00108,Auto,2018-07-29,2048-02-22,428739.39,257972.67,7.040,360,MO,Refinance,D,21,100-150k,Current,0,Acme Servicing,2026-07-29,2026-06-23,complete,origination_core
+L00346,B00284,Auto,2018-12-03,2021-11-17,108889.49,50639.75,5.037,36,OK,Refinance,C,16,>150k,Current,0,BlueRiver Loan Co,2026-07-22,2026-06-19,complete,origination_core
+L00347,B00412,SMB,2020-04-01,2023-03-17,498547.96,143922.95,17.175,36,MN,Home Improvement,C,30,<30k,Current,0,DeltaPay,2026-07-30,2026-07-25,complete,origination_core
+L00348,B00274,Student,2023-11-07,2027-10-17,112845.35,70441.85,4.143,48,AZ,Debt Consolidation,A,14,30-60k,Current,0,Acme Servicing,2026-07-29,2026-06-04,complete,origination_core
+L00349,B00024,Mortgage,2019-07-30,2034-05-12,94437.67,78829.64,12.965,180,AL,Home Improvement,D,28,60-100k,Current,0,BlueRiver Loan Co,2026-07-07,2026-07-29,complete,origination_core
+L00350,B00010,SMB,2024-08-04,2039-05-18,187090.00,78130.45,14.416,180,ND,Refinance,B,35,30-60k,Current,0,BlueRiver Loan Co,2026-06-30,2026-06-30,partial,origination_core
+L00351,B00496,Student,2024-05-07,2034-03-16,90158.44,31873.61,6.119,120,GA,Home Improvement,C,38,30-60k,Current,0,Acme Servicing,2026-07-25,2026-07-05,partial,origination_core
+L00352,B00280,SMB,2023-07-20,2038-05-02,411648.05,100365.24,4.336,180,NC,Working Capital,D,30,60-100k,Current,0,Cornerstone Servicing,2026-07-03,2026-08-01,complete,origination_core
+L00353,B00139,Personal,2019-02-11,2033-11-24,494963.41,332714.80,13.249,180,WI,Refinance,C,26,100-150k,Current,0,BlueRiver Loan Co,2026-07-20,2026-07-06,complete,origination_core
+L00354,B00406,SMB,2019-01-11,2020-12-31,148915.18,66964.02,5.446,24,ID,Refinance,D,10,<30k,Current,0,BlueRiver Loan Co,2026-07-20,2026-07-10,complete,origination_core
+L00355,B00418,Student,2022-01-15,2026-12-20,431104.21,131315.17,15.361,60,MN,Working Capital,B,35,30-60k,Current,0,DeltaPay,2026-07-16,2026-07-24,partial,origination_core
+L00356,B00202,Personal,2025-07-23,2055-02-16,99811.85,89178.51,7.898,360,NJ,Purchase,A,37,<30k,Current,0,DeltaPay,2026-06-27,2026-06-30,partial,origination_core
+L00357,B00154,Personal,2025-01-09,2054-08-05,196433.16,84021.07,16.638,360,DC,Debt Consolidation,B,39,>150k,Current,0,DeltaPay,2026-07-23,2026-06-23,partial,origination_core
+L00358,B00099,Personal,2024-11-08,2054-06-04,201817.81,133956.02,9.297,360,IN,Purchase,D,25,>150k,Current,0,Cornerstone Servicing,2026-06-26,2026-06-16,complete,origination_core
+L00359,B00266,Student,2023-11-17,2027-10-27,28855.22,16458.18,13.172,48,MD,Refinance,A,5,60-100k,Current,0,BlueRiver Loan Co,2026-07-08,2026-06-15,partial,origination_core
+L00360,B00204,Auto,2019-04-18,2048-11-11,99206.99,34580.12,3.150,360,ID,Working Capital,C,39,<30k,Current,0,Acme Servicing,2026-07-26,2026-06-15,complete,origination_core
+L00361,B00359,Student,2019-06-19,2024-05-23,230108.45,67491.63,13.171,60,IA,Debt Consolidation,C,33,100-150k,Current,0,Acme Servicing,2026-07-30,2026-07-20,complete,origination_core
+L00362,B00423,Mortgage,2022-07-25,2024-07-14,415782.21,254254.28,6.704,24,RI,Purchase,B,32,<30k,Current,0,BlueRiver Loan Co,2026-07-29,2026-06-20,partial,origination_core
+L00363,B00042,Auto,2025-03-28,2028-03-12,14345.77,8001.08,15.058,36,MT,Purchase,B,6,30-60k,Current,0,Cornerstone Servicing,2026-07-15,2026-07-11,complete,origination_core
+L00364,B00207,Auto,2019-05-24,2029-04-01,240198.75,88743.80,4.557,120,AR,Working Capital,C,32,60-100k,Current,0,BlueRiver Loan Co,2026-07-23,2026-07-02,complete,origination_core
+L00365,B00499,Personal,2020-02-21,2029-12-30,175438.97,122460.35,15.655,120,PA,Working Capital,B,3,60-100k,Current,0,Cornerstone Servicing,2026-07-19,2026-06-10,complete,origination_core
+L00366,B00188,SMB,2023-05-05,2026-04-19,419172.71,202483.28,17.123,36,MD,Working Capital,A,24,30-60k,Current,0,Cornerstone Servicing,2026-07-07,2026-06-23,complete,origination_core
+L00367,B00435,Mortgage,2020-06-11,2025-05-16,69999.89,28296.23,5.940,60,CA,Debt Consolidation,B,26,>150k,Current,0,Cornerstone Servicing,2026-06-22,2026-07-05,partial,origination_core
+L00368,B00200,Student,2023-06-21,2027-05-31,181819.77,109970.39,5.666,48,NE,Working Capital,B,27,>150k,Current,0,Cornerstone Servicing,2026-07-03,2026-06-05,complete,origination_core
+L00369,B00483,Auto,2018-07-05,2022-06-14,63660.25,58635.64,16.202,48,CT,Working Capital,C,27,60-100k,Current,0,DeltaPay,2026-07-11,2026-06-30,partial,origination_core
+L00370,B00353,Student,2018-07-25,2028-06-02,185534.82,92466.21,14.810,120,KS,Refinance,A,16,100-150k,Current,0,Acme Servicing,2026-06-30,2026-06-15,partial,origination_core
+L00371,B00313,Personal,2022-12-30,2032-11-07,19391.33,14578.12,8.569,120,WI,Debt Consolidation,A,21,30-60k,Current,0,Cornerstone Servicing,2026-07-15,2026-06-09,partial,origination_core
+L00372,B00266,Personal,2020-03-21,2023-03-06,162141.74,79091.88,16.618,36,VT,Refinance,D,18,100-150k,Current,0,Acme Servicing,2026-06-24,2026-06-27,partial,origination_core
+L00373,B00359,Student,2020-05-02,2030-03-11,181272.75,106699.17,9.330,120,CA,Working Capital,A,11,>150k,Current,0,Cornerstone Servicing,2026-06-26,2026-06-25,partial,origination_core
+L00374,B00098,Mortgage,2025-10-04,2030-09-08,126968.30,88851.31,15.450,60,RI,Working Capital,D,21,60-100k,Current,0,BlueRiver Loan Co,2026-07-12,2026-07-02,partial,origination_core
+L00375,B00458,SMB,2022-07-16,2027-06-20,45407.25,32113.88,16.652,60,HI,Debt Consolidation,C,19,30-60k,Current,0,DeltaPay,2026-07-17,2026-07-30,complete,origination_core
+L00376,B00416,Personal,2024-06-20,2026-06-10,355708.27,282840.86,6.519,24,CT,Home Improvement,A,7,>150k,Current,0,BlueRiver Loan Co,2026-07-04,2026-06-05,complete,origination_core
+L00377,B00295,Personal,2018-10-03,2048-04-28,357268.54,239058.34,14.583,360,WI,Purchase,D,15,>150k,Current,0,Cornerstone Servicing,2026-07-30,2026-06-08,complete,origination_core
+L00378,B00346,Personal,2020-02-02,2024-01-12,54851.75,20332.63,4.118,48,AZ,Working Capital,B,16,30-60k,Current,0,Acme Servicing,2026-07-15,2026-07-21,complete,origination_core
+L00379,B00247,Student,2023-12-08,2053-07-03,58520.84,17472.39,6.741,360,AZ,Refinance,C,15,<30k,Current,0,Cornerstone Servicing,2026-06-28,2026-06-27,complete,origination_core
+L00380,B00442,Mortgage,2021-10-05,2024-09-19,227544.44,105206.22,17.298,36,WI,Home Improvement,D,22,>150k,Current,0,BlueRiver Loan Co,2026-06-26,2026-07-19,partial,origination_core
+L00381,B00107,Personal,2020-08-04,2022-07-25,57070.97,41243.49,7.901,24,VT,Home Improvement,D,29,60-100k,Current,0,BlueRiver Loan Co,2026-06-28,2026-07-11,complete,origination_core
+L00382,B00170,Auto,2023-01-28,2028-01-02,390463.28,238943.04,13.173,60,LA,Debt Consolidation,B,11,30-60k,Current,0,BlueRiver Loan Co,2026-07-25,2026-06-20,complete,origination_core
+L00383,B00057,Student,2020-09-07,2030-07-17,464049.43,454533.35,4.215,120,NY,Purchase,D,3,<30k,Current,0,Cornerstone Servicing,2026-07-16,2026-07-06,complete,origination_core
+L00384,B00028,Mortgage,2022-06-22,2032-04-30,50842.83,21030.01,15.934,120,VA,Purchase,A,28,>150k,Current,0,Cornerstone Servicing,2026-06-28,2026-07-22,partial,origination_core
+L00385,B00350,Student,2021-03-04,2026-02-06,434313.47,174662.84,15.961,60,KY,Working Capital,D,32,100-150k,Current,0,Acme Servicing,2026-07-08,2026-07-28,complete,origination_core
+L00386,B00260,Student,2023-02-06,2025-01-26,403819.29,217939.20,6.837,24,ID,Refinance,C,29,60-100k,Current,0,DeltaPay,2026-07-10,2026-07-06,partial,origination_core
+L00387,B00208,Personal,2022-04-15,2037-01-26,478149.63,258467.03,11.470,180,DC,Home Improvement,B,1,<30k,Current,0,DeltaPay,2026-06-30,2026-06-06,complete,origination_core
+L00388,B00240,Personal,2020-01-24,2024-12-28,140865.76,103143.16,15.349,60,GA,Home Improvement,D,28,100-150k,Current,0,Acme Servicing,2026-07-22,2026-07-02,complete,origination_core
+L00389,B00276,Personal,2025-08-29,2027-08-19,121028.35,27644.74,14.767,24,FL,Refinance,D,36,>150k,Current,0,Cornerstone Servicing,2026-07-06,2026-07-14,complete,origination_core
+L00390,B00491,Auto,2024-05-10,2039-02-21,465258.20,446751.60,14.650,180,DC,Refinance,B,12,>150k,Current,0,Cornerstone Servicing,2026-07-18,2026-06-03,complete,origination_core
+L00391,B00495,Auto,2020-08-19,2030-06-28,278661.36,105038.62,7.863,120,AZ,Refinance,D,11,100-150k,Current,0,Acme Servicing,2026-06-28,2026-06-20,complete,origination_core
+L00392,B00043,SMB,2018-10-21,2020-10-10,417987.81,161816.92,10.728,24,IA,Home Improvement,A,39,60-100k,Current,0,BlueRiver Loan Co,2026-06-26,2026-07-28,partial,origination_core
+L00393,B00033,Auto,2024-01-02,2033-11-10,278301.18,262514.46,7.660,120,MI,Purchase,C,4,30-60k,Current,0,Acme Servicing,2026-07-31,2026-06-25,partial,origination_core
+L00394,B00415,Mortgage,2019-08-12,2024-07-16,126821.15,44741.53,17.021,60,NJ,Refinance,C,10,>150k,Current,0,Cornerstone Servicing,2026-07-24,2026-07-22,partial,origination_core
+L00395,B00357,SMB,2023-10-10,2053-05-05,336066.14,228546.25,10.309,360,MN,Working Capital,D,40,>150k,Current,0,BlueRiver Loan Co,2026-07-26,2026-06-18,complete,origination_core
+L00396,B00411,SMB,2021-12-12,2051-07-08,187212.47,115725.93,17.824,360,LA,Debt Consolidation,A,0,<30k,Current,0,BlueRiver Loan Co,2026-06-23,2026-06-22,complete,origination_core
+L00397,B00154,Student,2019-04-10,2022-03-25,173688.50,64841.04,11.320,36,IN,Purchase,B,37,100-150k,Current,0,DeltaPay,2026-07-16,2026-06-30,partial,origination_core
+L00398,B00378,Student,2024-05-23,2026-05-13,63974.12,42147.80,11.253,24,MA,Refinance,D,23,>150k,Current,0,Cornerstone Servicing,2026-06-24,2026-07-22,complete,origination_core
+L00399,B00014,SMB,2021-10-09,2031-08-18,308546.85,194394.38,12.867,120,ID,Working Capital,C,24,<30k,Current,0,Cornerstone Servicing,2026-07-07,2026-06-17,partial,origination_core
+L00400,B00413,SMB,2024-03-18,2028-02-26,467397.68,264509.03,7.032,48,KS,Home Improvement,D,1,60-100k,Current,0,DeltaPay,2026-07-06,2026-06-07,partial,origination_core
+L00401,B00017,SMB,2020-04-21,2023-04-06,11757.60,8864.57,6.429,36,NC,Working Capital,C,34,60-100k,Current,0,Acme Servicing,2026-07-07,2026-07-26,partial,origination_core
+L00402,B00160,SMB,2024-10-16,2054-05-12,145820.11,53790.21,10.676,360,OH,Purchase,B,39,<30k,Current,0,BlueRiver Loan Co,2026-07-31,2026-07-08,partial,origination_core
+L00403,B00106,Student,2023-08-05,2053-02-28,62676.60,31924.85,4.450,360,IN,Home Improvement,B,32,>150k,Current,0,Acme Servicing,2026-07-20,2026-07-10,partial,origination_core
+L00404,B00365,Student,2024-07-21,2054-02-14,199982.83,169600.69,17.269,360,WV,Debt Consolidation,D,23,100-150k,Current,0,Cornerstone Servicing,2026-06-27,2026-06-07,complete,origination_core
+L00405,B00224,Auto,2020-08-07,2025-07-12,38002.12,26531.03,9.753,60,TX,Debt Consolidation,D,27,30-60k,Current,0,DeltaPay,2026-07-12,2026-07-23,complete,origination_core
+L00406,B00307,SMB,2025-01-03,2034-11-12,7749.22,7407.09,12.171,120,SC,Home Improvement,A,8,30-60k,Current,0,Cornerstone Servicing,2026-06-26,2026-06-16,partial,origination_core
+L00407,B00275,SMB,2024-01-10,2025-12-30,481801.93,470549.67,9.065,24,OR,Refinance,B,11,>150k,Current,0,BlueRiver Loan Co,2026-07-29,2026-07-11,partial,origination_core
+L00408,B00294,Personal,2024-10-14,2029-09-18,231497.83,225354.83,16.225,60,LA,Debt Consolidation,B,20,30-60k,Current,0,Cornerstone Servicing,2026-07-08,2026-06-21,complete,origination_core
+L00409,B00416,Mortgage,2025-02-24,2029-02-03,211321.56,147368.90,9.413,48,WY,Home Improvement,C,38,<30k,Current,0,Acme Servicing,2026-07-08,2026-06-09,partial,origination_core
+L00410,B00170,Student,2022-08-27,2032-07-05,332126.97,110094.51,5.643,120,WV,Working Capital,A,13,60-100k,Current,0,Cornerstone Servicing,2026-07-21,2026-06-14,partial,origination_core
+L00411,B00021,SMB,2018-09-24,2048-04-19,277541.39,155312.80,17.689,360,IA,Home Improvement,D,27,60-100k,Current,0,Cornerstone Servicing,2026-07-25,2026-06-23,complete,origination_core
+L00412,B00324,Mortgage,2021-12-25,2036-10-07,181600.47,126582.02,9.106,180,ME,Home Improvement,A,5,30-60k,Current,0,Acme Servicing,2026-06-25,2026-07-22,partial,origination_core
+L00413,B00356,Mortgage,2021-11-02,2025-10-12,264574.13,53305.11,13.129,48,NJ,Purchase,C,23,<30k,Current,0,DeltaPay,2026-07-07,2026-06-24,complete,origination_core
+L00414,B00220,Auto,2018-05-20,2033-03-02,339749.19,279826.10,14.982,180,TX,Purchase,A,27,<30k,Current,0,Cornerstone Servicing,2026-07-23,2026-06-27,complete,origination_core
+L00415,B00292,Student,2019-03-11,2033-12-22,471541.92,114289.43,15.811,180,SD,Debt Consolidation,B,21,60-100k,Current,0,DeltaPay,2026-07-26,2026-06-18,complete,origination_core
+L00416,B00317,Mortgage,2020-04-26,2035-02-07,241148.95,91831.33,9.644,180,OK,Purchase,A,35,30-60k,Current,0,BlueRiver Loan Co,2026-07-24,2026-06-12,partial,origination_core
+L00417,B00484,Student,2022-04-27,2027-04-01,168339.96,57399.68,7.058,60,IL,Refinance,B,35,>150k,Current,0,BlueRiver Loan Co,2026-07-06,2026-07-20,partial,origination_core
+L00418,B00052,Mortgage,2023-02-13,2027-01-23,373987.91,116701.63,5.241,48,NM,Debt Consolidation,D,11,<30k,Current,0,DeltaPay,2026-06-29,2026-06-28,partial,origination_core
+L00419,B00142,Student,2022-06-02,2051-12-27,408069.08,308327.32,7.810,360,MD,Debt Consolidation,D,28,>150k,Current,0,DeltaPay,2026-07-24,2026-07-12,complete,origination_core
+L00420,B00439,Student,2021-02-10,2026-01-15,291765.97,122808.23,15.931,60,ND,Purchase,B,25,60-100k,Current,0,DeltaPay,2026-07-08,2026-07-29,complete,origination_core
+L00421,B00072,Auto,2018-08-22,2028-06-30,327250.09,142507.93,5.490,120,SC,Refinance,C,11,30-60k,Current,0,BlueRiver Loan Co,2026-07-27,2026-06-06,partial,origination_core
+L00422,B00478,Mortgage,2018-11-18,2048-06-13,227724.03,123682.33,15.510,360,MI,Purchase,B,38,30-60k,Current,0,BlueRiver Loan Co,2026-07-30,2026-06-29,complete,origination_core
+L00423,B00194,Student,2021-06-07,2051-01-01,432349.44,384128.17,12.782,360,ME,Working Capital,A,34,<30k,Current,0,Cornerstone Servicing,2026-07-21,2026-06-26,partial,origination_core
+L00424,B00143,Personal,2021-09-17,2036-06-30,94026.75,72327.90,3.106,180,VT,Debt Consolidation,C,28,60-100k,Current,0,DeltaPay,2026-07-03,2026-06-02,complete,origination_core
+L00425,B00324,Mortgage,2023-09-15,2053-04-10,273425.01,93014.30,6.608,360,WV,Home Improvement,D,16,30-60k,Current,0,Cornerstone Servicing,2026-06-26,2026-06-28,complete,origination_core
+L00426,B00400,Personal,2024-12-07,2027-11-22,463972.12,260142.09,12.116,36,OH,Debt Consolidation,C,32,>150k,Current,0,Acme Servicing,2026-07-20,2026-07-25,partial,origination_core
+L00427,B00228,Mortgage,2025-10-22,2040-08-04,114749.72,110604.22,7.939,180,OH,Debt Consolidation,A,17,100-150k,Current,0,Cornerstone Servicing,2026-07-12,2026-06-14,complete,origination_core
+L00428,B00227,Auto,2022-11-03,2026-10-13,249342.46,218243.28,3.161,48,LA,Refinance,A,32,100-150k,Current,0,Acme Servicing,2026-07-27,2026-07-31,complete,origination_core
+L00429,B00355,Personal,2022-10-23,2027-09-27,313265.55,170769.02,10.388,60,NH,Home Improvement,A,34,<30k,Current,0,DeltaPay,2026-07-05,2026-06-22,partial,origination_core
+L00430,B00297,Student,2018-06-13,2020-06-02,433126.33,292546.43,4.346,24,WY,Purchase,A,23,30-60k,Current,0,BlueRiver Loan Co,2026-07-29,2026-07-20,partial,origination_core
+L00431,B00112,SMB,2022-11-28,2025-11-12,300220.78,269385.27,8.159,36,FL,Debt Consolidation,A,3,60-100k,Current,0,BlueRiver Loan Co,2026-07-09,2026-08-01,complete,origination_core
+L00432,B00072,Personal,2025-06-24,2030-05-29,305808.38,271607.01,17.837,60,CA,Purchase,A,25,30-60k,Current,0,DeltaPay,2026-07-10,2026-06-15,complete,origination_core
+L00433,B00319,Mortgage,2020-02-20,2034-12-03,400351.55,153443.35,3.578,180,IA,Working Capital,D,25,>150k,Current,0,BlueRiver Loan Co,2026-07-19,2026-06-24,partial,origination_core
+L00434,B00176,Auto,2019-05-28,2034-03-10,466801.90,140711.05,4.349,180,MO,Home Improvement,A,11,30-60k,Current,0,DeltaPay,2026-07-30,2026-06-22,complete,origination_core
+L00435,B00114,SMB,2023-08-08,2053-03-03,496446.54,108974.02,9.636,360,HI,Home Improvement,B,21,60-100k,Current,0,BlueRiver Loan Co,2026-07-18,2026-06-20,complete,origination_core
+L00436,B00189,Mortgage,2019-10-12,2049-05-07,315843.62,85521.37,3.997,360,NJ,Purchase,C,31,<30k,Current,0,Acme Servicing,2026-06-27,2026-06-28,partial,origination_core
+L00437,B00485,Mortgage,2018-08-08,2022-07-18,156406.39,126373.87,14.965,48,AL,Refinance,A,7,30-60k,Current,0,DeltaPay,2026-07-30,2026-06-18,partial,origination_core
+L00438,B00092,SMB,2021-08-06,2026-07-11,266675.77,159150.02,11.653,60,NM,Working Capital,D,39,60-100k,Current,0,BlueRiver Loan Co,2026-07-31,2026-06-08,partial,origination_core
+L00439,B00355,Personal,2021-06-02,2050-12-27,471135.48,94827.46,4.823,360,VA,Home Improvement,C,37,100-150k,Current,0,DeltaPay,2026-07-08,2026-07-21,complete,origination_core
+L00440,B00160,Mortgage,2020-08-03,2024-07-13,307068.22,290384.51,15.099,48,WV,Working Capital,B,29,30-60k,Current,0,BlueRiver Loan Co,2026-07-21,2026-06-03,partial,origination_core
+L00441,B00078,SMB,2019-01-28,2022-01-12,119655.53,64625.32,3.504,36,WA,Refinance,C,14,30-60k,Current,0,Acme Servicing,2026-07-08,2026-07-11,complete,origination_core
+L00442,B00124,SMB,2021-05-01,2023-04-21,424717.64,366331.30,4.252,24,ND,Debt Consolidation,D,17,60-100k,Current,0,Cornerstone Servicing,2026-07-14,2026-08-01,complete,origination_core
+L00443,B00497,Auto,2020-01-23,2049-08-18,61585.95,21045.24,11.381,360,KY,Debt Consolidation,B,39,30-60k,Current,0,Cornerstone Servicing,2026-06-30,2026-06-13,partial,origination_core
+L00444,B00388,Personal,2025-12-30,2028-12-14,327943.09,79651.16,13.651,36,NM,Working Capital,B,24,>150k,Current,0,Cornerstone Servicing,2026-06-26,2026-06-09,partial,origination_core
+L00445,B00478,Auto,2024-10-14,2026-10-04,24933.74,23119.17,5.931,24,CO,Working Capital,D,7,30-60k,Current,0,DeltaPay,2026-07-21,2026-06-11,complete,origination_core
+L00446,B00411,Personal,2018-08-13,2022-07-23,142841.02,39539.32,6.247,48,NE,Purchase,B,19,30-60k,Current,0,Cornerstone Servicing,2026-07-25,2026-06-23,complete,origination_core
+L00447,B00248,Mortgage,2019-09-22,2034-07-05,39425.81,8863.66,10.329,180,KS,Working Capital,A,0,100-150k,Current,0,BlueRiver Loan Co,2026-07-31,2026-07-25,partial,origination_core
+L00448,B00033,SMB,2023-01-27,2025-01-16,281145.58,189178.73,12.593,24,AZ,Working Capital,B,3,60-100k,Current,0,DeltaPay,2026-07-07,2026-06-13,partial,origination_core
+L00449,B00458,Auto,2018-10-12,2021-09-26,267101.16,128222.10,11.474,36,ME,Working Capital,C,16,60-100k,Current,0,DeltaPay,2026-07-20,2026-06-05,partial,origination_core
+L00450,B00271,Auto,2022-06-07,2024-05-27,110194.34,82650.50,11.701,24,NM,Refinance,D,3,30-60k,Current,0,Acme Servicing,2026-07-04,2026-06-19,partial,origination_core
+L00451,B00343,Mortgage,2020-09-07,2030-07-17,260778.71,93524.45,13.048,120,HI,Purchase,B,0,>150k,Current,0,DeltaPay,2026-06-27,2026-07-25,partial,origination_core
+L00452,B00186,Mortgage,2020-07-16,2030-05-25,64011.71,43443.89,12.846,120,WI,Purchase,B,20,100-150k,Current,0,BlueRiver Loan Co,2026-06-28,2026-06-16,partial,origination_core
+L00453,B00485,Auto,2025-06-21,2029-05-31,191432.47,173711.96,12.166,48,CA,Refinance,B,23,>150k,Current,0,BlueRiver Loan Co,2026-07-07,2026-06-10,partial,origination_core
+L00454,B00042,Mortgage,2020-10-08,2023-09-23,173620.49,112603.22,11.517,36,NC,Purchase,C,34,30-60k,Current,0,BlueRiver Loan Co,2026-07-07,2026-06-09,partial,origination_core
+L00455,B00071,SMB,2025-12-10,2040-09-22,407958.77,358034.40,17.307,180,HI,Purchase,A,14,>150k,Current,0,DeltaPay,2026-07-21,2026-07-14,complete,origination_core
+L00456,B00444,SMB,2019-04-29,2021-04-18,355428.79,124570.03,4.216,24,WY,Refinance,C,32,30-60k,Current,0,Cornerstone Servicing,2026-07-24,2026-07-26,complete,origination_core
+L00457,B00461,Student,2023-01-27,2028-01-01,48872.22,10397.70,4.114,60,OH,Purchase,C,20,>150k,Current,0,Cornerstone Servicing,2026-06-22,2026-07-08,complete,origination_core
+L00458,B00238,SMB,2025-12-24,2028-12-08,56398.42,22906.75,5.715,36,NV,Debt Consolidation,A,21,<30k,Current,0,BlueRiver Loan Co,2026-07-12,2026-07-19,partial,origination_core
+L00459,B00016,Student,2018-06-11,2033-03-24,279321.92,186463.16,14.666,180,UT,Refinance,C,38,60-100k,Current,0,DeltaPay,2026-07-12,2026-07-15,partial,origination_core
+L00460,B00258,Mortgage,2019-03-20,2033-12-31,130804.73,60707.44,8.076,180,OR,Home Improvement,A,5,60-100k,Current,0,Cornerstone Servicing,2026-07-28,2026-07-11,partial,origination_core
+L00461,B00354,Personal,2024-12-12,2034-10-21,255069.83,101466.71,3.994,120,TX,Refinance,C,39,>150k,Current,0,DeltaPay,2026-07-29,2026-07-06,complete,origination_core
+L00462,B00425,Mortgage,2025-09-13,2027-09-03,226315.69,90798.91,5.449,24,AR,Refinance,B,18,100-150k,Current,0,BlueRiver Loan Co,2026-07-26,2026-07-30,complete,origination_core
+L00463,B00236,Auto,2019-04-12,2022-03-27,295296.72,286140.60,8.174,36,ND,Debt Consolidation,D,9,30-60k,Current,0,DeltaPay,2026-06-25,2026-06-06,complete,origination_core
+L00464,B00235,Mortgage,2019-12-07,2023-11-16,351686.62,157816.96,17.426,48,TX,Debt Consolidation,D,38,30-60k,Current,0,Cornerstone Servicing,2026-07-08,2026-06-08,partial,origination_core
+L00465,B00030,Mortgage,2023-08-31,2026-08-15,17097.94,11622.82,13.829,36,AR,Debt Consolidation,A,34,<30k,Current,0,Cornerstone Servicing,2026-07-15,2026-07-03,complete,origination_core
+L00466,B00486,Mortgage,2021-01-22,2023-01-12,298861.83,143642.70,13.221,24,UT,Debt Consolidation,B,0,60-100k,Current,0,Cornerstone Servicing,2026-07-27,2026-07-01,partial,origination_core
+L00467,B00211,Student,2020-03-08,2034-12-20,263356.26,100747.22,16.145,180,OH,Home Improvement,D,39,30-60k,Current,0,Acme Servicing,2026-06-26,2026-07-10,complete,origination_core
+L00468,B00165,Auto,2025-10-09,2040-07-22,486569.45,303374.14,8.488,180,SC,Debt Consolidation,A,27,>150k,Current,0,Cornerstone Servicing,2026-07-28,2026-06-29,complete,origination_core
+L00469,B00328,Auto,2023-02-24,2025-02-13,245647.74,84174.77,17.377,24,VT,Purchase,D,1,<30k,Current,0,DeltaPay,2026-07-30,2026-06-20,partial,origination_core
+L00470,B00092,SMB,2018-06-21,2021-06-05,207873.94,99408.40,5.849,36,KY,Refinance,B,4,100-150k,Current,0,BlueRiver Loan Co,2026-06-27,2026-07-19,complete,origination_core
+L00471,B00415,Auto,2021-05-08,2026-04-12,306117.37,155694.32,12.377,60,IL,Debt Consolidation,C,6,<30k,Current,0,BlueRiver Loan Co,2026-07-25,2026-07-03,partial,origination_core
+L00472,B00082,Personal,2023-06-25,2025-06-14,89878.25,33285.90,16.552,24,WV,Purchase,A,3,30-60k,Current,0,DeltaPay,2026-07-13,2026-07-13,partial,origination_core
+L00473,B00078,Student,2023-07-29,2025-07-18,113312.47,36897.21,8.978,24,MO,Refinance,C,20,<30k,Current,0,BlueRiver Loan Co,2026-07-20,2026-06-08,partial,origination_core
+L00474,B00355,Student,2024-08-26,2028-08-05,55654.47,41616.19,13.746,48,IL,Working Capital,C,8,100-150k,Current,0,Acme Servicing,2026-07-07,2026-07-01,complete,origination_core
+L00475,B00295,SMB,2019-02-22,2023-02-01,388416.13,335781.96,3.424,48,UT,Home Improvement,D,3,30-60k,Current,0,Cornerstone Servicing,2026-06-26,2026-06-02,complete,origination_core
+L00476,B00166,Auto,2022-10-21,2032-08-29,20482.63,9965.02,7.635,120,NC,Working Capital,A,9,60-100k,Current,0,Acme Servicing,2026-07-21,2026-07-15,complete,origination_core
+L00477,B00095,Auto,2018-09-28,2048-04-23,299747.62,146675.41,13.887,360,PA,Refinance,D,8,30-60k,Current,0,DeltaPay,2026-06-22,2026-06-07,partial,origination_core
+L00478,B00185,Personal,2021-09-17,2024-09-01,205260.24,144474.00,12.410,36,PA,Debt Consolidation,D,19,<30k,Current,0,Acme Servicing,2026-07-31,2026-07-15,partial,origination_core
+L00479,B00380,Auto,2019-02-09,2022-01-24,454691.31,157468.57,9.774,36,MT,Home Improvement,B,1,100-150k,Current,0,BlueRiver Loan Co,2026-07-29,2026-06-22,partial,origination_core
+L00480,B00266,Mortgage,2023-08-30,2026-08-14,200650.85,42581.86,8.168,36,CO,Debt Consolidation,C,12,60-100k,Current,0,Acme Servicing,2026-06-22,2026-07-06,complete,origination_core
+L00481,B00315,Auto,2022-03-04,2051-09-28,174323.83,118049.54,11.619,360,MT,Debt Consolidation,C,2,30-60k,Current,0,DeltaPay,2026-07-13,2026-06-14,partial,origination_core
+L00482,B00140,Auto,2018-10-09,2021-09-23,146777.82,47081.49,16.489,36,VT,Home Improvement,C,4,30-60k,Current,0,DeltaPay,2026-07-05,2026-06-03,partial,origination_core
+L00483,B00251,Personal,2018-11-29,2022-11-08,282869.66,218277.11,17.301,48,VT,Working Capital,A,2,<30k,Current,0,Acme Servicing,2026-06-27,2026-06-05,complete,origination_core
+L00484,B00383,SMB,2023-12-06,2038-09-18,72602.62,52697.86,17.166,180,AK,Debt Consolidation,C,10,100-150k,Current,0,DeltaPay,2026-07-31,2026-07-20,complete,origination_core
+L00485,B00313,Student,2023-12-04,2033-10-12,86126.67,27390.24,7.321,120,DC,Home Improvement,D,18,>150k,Current,0,Acme Servicing,2026-07-05,2026-06-24,complete,origination_core
+L00486,B00229,Auto,2025-08-08,2040-05-21,85573.99,29842.94,16.431,180,AK,Home Improvement,C,32,>150k,Current,0,Acme Servicing,2026-07-02,2026-06-16,complete,origination_core
+L00487,B00114,Mortgage,2020-06-01,2023-05-17,460474.12,248798.98,11.938,36,PA,Purchase,C,3,100-150k,Current,0,Acme Servicing,2026-07-24,2026-07-16,partial,origination_core
+L00488,B00200,SMB,2025-12-11,2030-11-15,431360.19,219409.67,14.619,60,CO,Working Capital,D,28,100-150k,Current,0,Cornerstone Servicing,2026-07-26,2026-07-23,partial,origination_core
+L00489,B00118,SMB,2021-08-30,2026-08-04,159554.72,126294.10,16.422,60,NH,Home Improvement,D,1,100-150k,Current,0,Cornerstone Servicing,2026-07-08,2026-07-18,complete,origination_core
+L00490,B00466,Student,2019-11-20,2029-09-28,480648.09,262242.97,17.213,120,SC,Debt Consolidation,C,23,60-100k,Current,0,Cornerstone Servicing,2026-07-01,2026-06-03,complete,origination_core
+L00491,B00272,Student,2018-10-19,2033-08-01,174963.47,86715.27,4.249,180,SD,Home Improvement,C,5,>150k,Current,0,Cornerstone Servicing,2026-06-26,2026-07-10,complete,origination_core
+L00492,B00267,Mortgage,2021-06-08,2023-05-29,63708.53,24211.10,16.748,24,DC,Working Capital,A,31,<30k,Current,0,BlueRiver Loan Co,2026-07-25,2026-07-01,partial,origination_core
+L00493,B00376,Auto,2025-02-06,2034-12-16,67034.43,37466.07,10.869,120,AZ,Purchase,C,20,>150k,Current,0,Cornerstone Servicing,2026-07-31,2026-07-30,partial,origination_core
+L00494,B00265,SMB,2020-05-28,2023-05-13,362565.87,276749.81,15.120,36,RI,Working Capital,B,8,60-100k,Current,0,BlueRiver Loan Co,2026-07-07,2026-06-13,partial,origination_core
+L00495,B00270,Student,2025-04-29,2028-04-13,26298.86,6878.91,17.254,36,OH,Refinance,B,27,30-60k,Current,0,Cornerstone Servicing,2026-06-30,2026-06-29,partial,origination_core
+L00496,B00391,Auto,2023-01-14,2026-12-24,487709.18,250570.75,6.012,48,NC,Home Improvement,B,5,<30k,Current,0,Acme Servicing,2026-07-15,2026-06-11,partial,origination_core
+L00497,B00227,Auto,2021-07-03,2051-01-27,154242.40,36089.72,11.427,360,NY,Purchase,C,17,30-60k,Current,0,DeltaPay,2026-07-30,2026-07-10,complete,origination_core
+L00498,B00001,Student,2018-07-23,2020-07-12,167522.30,56179.59,13.266,24,DC,Debt Consolidation,B,18,<30k,Current,0,BlueRiver Loan Co,2026-06-30,2026-06-18,partial,origination_core
+L00499,B00063,Mortgage,2025-07-07,2027-06-27,232656.87,121940.45,3.450,24,TN,Home Improvement,C,31,30-60k,Current,0,BlueRiver Loan Co,2026-07-09,2026-06-25,partial,origination_core
+L00500,B00223,Personal,2018-06-20,2048-01-14,154838.97,97500.10,9.441,360,OK,Purchase,C,18,>150k,Current,0,Cornerstone Servicing,2026-06-25,2026-07-24,complete,origination_core
+L00501,B00317,Auto,2021-03-05,2050-09-29,70317.23,24867.64,12.270,360,FL,Home Improvement,C,25,100-150k,Current,0,Acme Servicing,2026-07-06,2026-07-06,partial,origination_core
+L00502,B00499,Mortgage,2018-12-11,2033-09-23,203204.23,76651.71,11.262,180,TN,Working Capital,C,29,30-60k,Current,0,Acme Servicing,2026-07-10,2026-06-10,partial,origination_core
+L00503,B00165,SMB,2023-08-12,2027-07-22,137353.35,127994.65,13.855,48,NH,Debt Consolidation,B,10,60-100k,Current,0,Cornerstone Servicing,2026-07-16,2026-07-20,partial,origination_core
+L00504,B00039,Mortgage,2018-09-16,2021-08-31,197981.61,110764.24,10.455,36,NM,Debt Consolidation,A,12,>150k,Current,0,BlueRiver Loan Co,2026-07-10,2026-07-05,partial,origination_core
+L00505,B00230,SMB,2018-12-01,2021-11-15,13632.10,12727.93,5.945,36,MD,Refinance,C,23,60-100k,Current,0,DeltaPay,2026-07-12,2026-07-26,complete,origination_core
+L00506,B00172,SMB,2023-12-11,2053-07-06,245269.94,140415.79,12.964,360,AZ,Debt Consolidation,A,5,30-60k,Current,0,BlueRiver Loan Co,2026-07-02,2026-07-03,partial,origination_core
+L00507,B00319,Student,2021-02-22,2025-02-01,200560.18,116445.69,6.732,48,SC,Home Improvement,A,35,30-60k,Current,0,DeltaPay,2026-07-03,2026-07-20,complete,origination_core
+L00508,B00411,Personal,2019-05-17,2022-05-01,179880.05,92614.01,12.313,36,HI,Debt Consolidation,C,17,30-60k,Current,0,Acme Servicing,2026-06-24,2026-07-07,partial,origination_core
+L00509,B00096,Mortgage,2024-11-12,2026-11-02,204991.05,95741.32,7.192,24,VA,Debt Consolidation,B,7,30-60k,Current,0,BlueRiver Loan Co,2026-07-01,2026-06-05,complete,origination_core
+L00510,B00476,Personal,2021-10-05,2025-09-14,24797.51,24049.90,3.339,48,CO,Home Improvement,D,2,100-150k,Current,0,DeltaPay,2026-07-08,2026-06-16,complete,origination_core
+L00511,B00211,SMB,2025-07-03,2035-05-12,192435.10,146350.65,12.241,120,LA,Purchase,D,15,30-60k,Current,0,Acme Servicing,2026-07-17,2026-06-26,partial,origination_core
+L00512,B00422,Personal,2024-09-08,2029-08-13,51699.04,45908.73,6.371,60,ME,Purchase,A,16,<30k,Current,0,Cornerstone Servicing,2026-07-14,2026-07-26,partial,origination_core
+L00513,B00397,Personal,2021-07-31,2026-07-05,80740.78,28990.96,16.677,60,MN,Working Capital,D,22,<30k,Current,0,BlueRiver Loan Co,2026-07-26,2026-06-29,complete,origination_core
+L00514,B00353,Auto,2020-04-06,2035-01-18,260101.98,62259.72,13.730,180,CA,Debt Consolidation,A,38,30-60k,Current,0,Acme Servicing,2026-07-06,2026-06-18,partial,origination_core
+L00515,B00367,Mortgage,2022-03-18,2026-02-25,267827.96,102741.89,11.654,48,AL,Debt Consolidation,A,15,100-150k,Current,0,BlueRiver Loan Co,2026-07-15,2026-07-08,complete,origination_core
+L00516,B00393,SMB,2021-06-15,2031-04-24,33954.18,28918.00,17.966,120,MO,Home Improvement,C,27,<30k,Current,0,BlueRiver Loan Co,2026-07-29,2026-06-17,complete,origination_core
+L00517,B00056,Auto,2023-08-19,2026-08-03,442282.90,331183.38,14.301,36,SD,Purchase,D,0,>150k,Current,0,DeltaPay,2026-07-08,2026-06-07,partial,origination_core
+L00518,B00329,SMB,2021-04-22,2025-04-01,375684.53,113713.72,9.710,48,HI,Home Improvement,D,14,100-150k,Current,0,DeltaPay,2026-07-28,2026-07-10,complete,origination_core
+L00519,B00128,Mortgage,2019-10-27,2049-05-22,46194.71,40067.97,5.655,360,NC,Working Capital,C,13,100-150k,Current,0,DeltaPay,2026-06-29,2026-06-04,partial,origination_core
+L00520,B00032,SMB,2025-10-08,2027-09-28,244622.22,142296.47,11.125,24,SD,Purchase,B,20,>150k,Current,0,BlueRiver Loan Co,2026-06-29,2026-07-14,partial,origination_core
+L00521,B00422,SMB,2025-09-23,2040-07-06,408542.71,164834.90,8.312,180,GA,Home Improvement,C,27,>150k,Current,0,Acme Servicing,2026-07-11,2026-07-01,complete,origination_core
+L00522,B00020,Auto,2019-06-06,2034-03-19,175869.44,150488.41,8.938,180,HI,Refinance,A,36,<30k,Current,0,Cornerstone Servicing,2026-07-21,2026-06-10,complete,origination_core
+L00523,B00317,Personal,2024-11-06,2026-10-27,272770.74,61196.46,3.725,24,TN,Refinance,B,6,60-100k,Current,0,BlueRiver Loan Co,2026-07-17,2026-07-11,complete,origination_core
+L00524,B00371,Personal,2020-06-23,2050-01-17,404100.41,290488.02,5.131,360,KY,Home Improvement,A,15,100-150k,Current,0,BlueRiver Loan Co,2026-07-27,2026-07-27,complete,origination_core
+L00525,B00356,Auto,2020-09-10,2035-06-24,411111.92,243454.24,11.307,180,AK,Purchase,A,4,>150k,Current,0,Acme Servicing,2026-06-29,2026-06-15,complete,origination_core
+L00526,B00207,Mortgage,2025-02-27,2028-02-12,119428.60,33119.17,6.034,36,IN,Refinance,C,34,<30k,Current,0,DeltaPay,2026-07-11,2026-07-13,complete,origination_core
+L00527,B00153,Personal,2024-08-21,2028-07-31,267798.09,173871.86,6.416,48,WI,Purchase,C,34,30-60k,Current,0,Cornerstone Servicing,2026-06-23,2026-07-08,partial,origination_core
+L00528,B00338,Personal,2023-02-16,2028-01-21,276980.68,269905.49,17.048,60,CA,Debt Consolidation,C,35,>150k,Current,0,DeltaPay,2026-07-26,2026-06-18,complete,origination_core
+L00529,B00284,Personal,2022-12-20,2024-12-09,451646.89,154892.90,13.216,24,DC,Refinance,A,26,>150k,Current,0,Acme Servicing,2026-07-28,2026-07-22,partial,origination_core
+L00530,B00346,Mortgage,2025-09-29,2027-09-19,49525.36,46006.12,13.264,24,WI,Working Capital,C,11,100-150k,Current,0,Cornerstone Servicing,2026-06-28,2026-07-25,complete,origination_core
+L00531,B00195,Auto,2020-03-13,2030-01-20,19952.28,5242.61,13.068,120,HI,Debt Consolidation,B,29,>150k,Current,0,BlueRiver Loan Co,2026-07-10,2026-06-07,complete,origination_core
+L00532,B00457,Mortgage,2022-09-25,2027-08-30,93128.39,47170.87,3.261,60,TX,Debt Consolidation,B,18,<30k,Current,0,Acme Servicing,2026-07-02,2026-07-27,complete,origination_core
+L00533,B00493,SMB,2021-07-07,2024-06-21,239590.25,140438.39,11.069,36,CA,Debt Consolidation,B,6,<30k,Current,0,Acme Servicing,2026-06-22,2026-07-06,complete,origination_core
+L00534,B00440,Personal,2023-08-14,2026-07-29,84565.14,60959.45,3.762,36,RI,Purchase,D,16,>150k,Current,0,BlueRiver Loan Co,2026-07-20,2026-06-12,partial,origination_core
+L00535,B00016,Mortgage,2023-05-22,2028-04-25,267069.22,132486.65,12.921,60,IN,Home Improvement,A,38,>150k,Current,0,DeltaPay,2026-06-23,2026-07-06,partial,origination_core
+L00536,B00436,SMB,2020-12-17,2023-12-02,85968.66,71558.52,8.959,36,ND,Working Capital,C,10,>150k,Current,0,DeltaPay,2026-07-04,2026-07-06,complete,origination_core
+L00537,B00323,SMB,2025-09-02,2035-07-12,494422.40,369648.96,3.602,120,WY,Purchase,C,35,>150k,Current,0,DeltaPay,2026-06-24,2026-06-07,complete,origination_core
+L00538,B00166,SMB,2019-09-21,2034-07-04,88633.29,31915.99,14.371,180,MI,Working Capital,D,17,60-100k,Current,0,Cornerstone Servicing,2026-06-24,2026-06-10,partial,origination_core
+L00539,B00490,Student,2024-01-05,2053-07-31,456640.82,142700.48,4.285,360,OR,Home Improvement,B,22,100-150k,Current,0,Cornerstone Servicing,2026-07-26,2026-07-19,complete,origination_core
+L00540,B00089,SMB,2025-06-11,2029-05-21,138537.22,81342.86,7.477,48,DC,Refinance,A,32,100-150k,Current,0,BlueRiver Loan Co,2026-06-25,2026-07-18,complete,origination_core
+L00541,B00419,Personal,2020-08-17,2035-05-31,436330.98,162127.03,11.051,180,NJ,Refinance,A,11,>150k,Current,0,BlueRiver Loan Co,2026-07-24,2026-07-08,complete,origination_core
+L00542,B00286,SMB,2021-07-10,2051-02-03,175765.58,46455.73,4.136,360,SC,Refinance,A,19,100-150k,Current,0,Cornerstone Servicing,2026-07-20,2026-07-28,partial,origination_core
+L00543,B00328,Personal,2021-04-02,2023-03-23,217584.32,150948.09,9.160,24,DE,Refinance,A,24,60-100k,Current,0,Cornerstone Servicing,2026-07-13,2026-06-24,partial,origination_core
+L00544,B00381,SMB,2024-08-16,2054-03-12,318276.07,129370.13,9.293,360,ID,Purchase,D,29,30-60k,Current,0,Cornerstone Servicing,2026-07-14,2026-06-12,partial,origination_core
+L00545,B00114,Auto,2024-05-18,2026-05-08,129181.53,124988.21,13.788,24,VT,Home Improvement,D,22,60-100k,Current,0,DeltaPay,2026-07-31,2026-06-15,partial,origination_core
+L00546,B00079,Mortgage,2025-05-07,2029-04-16,360556.38,335910.87,8.776,48,MS,Home Improvement,C,4,60-100k,Current,0,DeltaPay,2026-07-09,2026-07-11,complete,origination_core
+L00547,B00160,Auto,2020-11-12,2023-10-28,23413.61,20379.94,12.040,36,KY,Debt Consolidation,B,31,60-100k,Current,0,Cornerstone Servicing,2026-06-24,2026-07-04,complete,origination_core
+L00548,B00274,Mortgage,2022-01-21,2051-08-17,190120.86,124424.26,12.409,360,LA,Working Capital,D,20,30-60k,Current,0,DeltaPay,2026-07-11,2026-06-15,complete,origination_core
+L00549,B00162,Student,2023-07-14,2025-07-03,328801.17,68735.64,7.363,24,WA,Refinance,D,30,60-100k,Current,0,BlueRiver Loan Co,2026-07-28,2026-07-09,complete,origination_core
+L00550,B00398,Auto,2023-04-25,2028-03-29,440332.09,143803.71,10.493,60,LA,Working Capital,D,36,100-150k,Current,0,DeltaPay,2026-06-25,2026-06-05,complete,origination_core
+L00551,B00407,Personal,2019-11-27,2022-11-11,288061.67,148331.92,12.915,36,RI,Home Improvement,A,7,>150k,Current,0,DeltaPay,2026-07-06,2026-07-10,partial,origination_core
+L00552,B00300,Mortgage,2022-08-28,2027-08-02,275358.23,152371.41,3.590,60,KY,Refinance,D,6,100-150k,Current,0,Cornerstone Servicing,2026-07-09,2026-07-11,partial,origination_core
+L00553,B00148,Personal,2025-07-30,2028-07-14,181476.26,123949.21,10.790,36,WI,Debt Consolidation,B,31,<30k,Current,0,Acme Servicing,2026-07-10,2026-07-21,complete,origination_core
+L00554,B00166,Student,2021-04-14,2026-03-19,308676.31,282456.76,5.665,60,MS,Home Improvement,D,35,100-150k,Current,0,BlueRiver Loan Co,2026-07-04,2026-06-22,complete,origination_core
+L00555,B00247,Student,2024-03-03,2026-02-21,417639.16,110506.68,6.703,24,FL,Debt Consolidation,A,5,<30k,Current,0,BlueRiver Loan Co,2026-07-11,2026-07-17,partial,origination_core
+L00556,B00069,Mortgage,2019-08-05,2029-06-13,376409.87,233422.01,3.774,120,CA,Refinance,A,5,100-150k,Current,0,BlueRiver Loan Co,2026-07-14,2026-07-26,complete,origination_core
+L00557,B00190,Student,2023-01-10,2027-12-15,377283.27,139491.47,6.692,60,LA,Working Capital,A,40,60-100k,Current,0,DeltaPay,2026-07-03,2026-06-19,partial,origination_core
+L00558,B00450,Auto,2022-04-30,2026-04-09,10599.76,8469.74,3.522,48,LA,Working Capital,C,26,60-100k,Current,0,DeltaPay,2026-07-31,2026-07-23,complete,origination_core
+L00559,B00345,Auto,2025-01-02,2029-12-07,205188.70,123578.86,5.002,60,NC,Refinance,D,15,100-150k,Current,0,DeltaPay,2026-07-08,2026-06-29,complete,origination_core
+L00560,B00289,SMB,2021-12-24,2051-07-20,164079.82,36754.62,5.942,360,UT,Debt Consolidation,C,6,60-100k,Current,0,Cornerstone Servicing,2026-07-04,2026-06-24,partial,origination_core
+L00561,B00219,Student,2024-05-14,2053-12-08,335757.74,251611.27,13.729,360,WV,Refinance,B,23,100-150k,Current,0,BlueRiver Loan Co,2026-07-30,2026-06-09,partial,origination_core
+L00562,B00220,Personal,2019-04-30,2023-04-09,373199.17,213230.72,4.880,48,KS,Purchase,C,38,<30k,Current,0,BlueRiver Loan Co,2026-07-04,2026-06-24,complete,origination_core
+L00563,B00127,SMB,2024-01-10,2038-10-23,52835.59,43598.37,6.618,180,VA,Working Capital,C,0,30-60k,Current,0,Acme Servicing,2026-07-23,2026-06-19,partial,origination_core
+L00564,B00404,Student,2023-01-07,2026-12-17,384715.40,372622.24,4.424,48,RI,Debt Consolidation,B,17,>150k,Current,0,Acme Servicing,2026-07-11,2026-07-27,partial,origination_core
+L00565,B00044,SMB,2024-10-14,2029-09-18,96745.46,22570.18,6.374,60,NM,Purchase,A,40,60-100k,Current,0,DeltaPay,2026-07-05,2026-06-12,complete,origination_core
+L00566,B00327,Student,2023-09-10,2033-07-19,463972.25,187458.68,17.788,120,CA,Debt Consolidation,B,16,30-60k,Current,0,Acme Servicing,2026-07-24,2026-06-25,complete,origination_core
+L00567,B00315,Student,2021-03-29,2024-03-13,326376.36,149756.57,12.333,36,IL,Purchase,A,36,<30k,Current,0,DeltaPay,2026-06-22,2026-06-03,partial,origination_core
+L00568,B00495,SMB,2019-12-16,2049-07-11,122235.53,90498.52,10.031,360,RI,Purchase,A,4,<30k,Current,0,BlueRiver Loan Co,2026-07-30,2026-07-09,partial,origination_core
+L00569,B00431,Mortgage,2025-02-15,2028-01-31,328520.29,316110.05,3.195,36,KS,Purchase,A,30,30-60k,Current,0,DeltaPay,2026-07-21,2026-07-10,complete,origination_core
+L00570,B00222,Auto,2022-06-09,2027-05-14,29465.52,7636.86,10.108,60,WI,Refinance,B,13,>150k,Current,0,BlueRiver Loan Co,2026-07-14,2026-07-05,partial,origination_core
+L00571,B00329,SMB,2024-07-13,2039-04-26,345888.22,164061.46,17.300,180,TX,Refinance,C,8,>150k,Current,0,BlueRiver Loan Co,2026-06-30,2026-07-07,complete,origination_core
+L00572,B00343,Personal,2019-11-07,2023-10-17,443163.54,251848.47,3.287,48,NC,Working Capital,B,39,>150k,Current,0,BlueRiver Loan Co,2026-07-08,2026-07-30,complete,origination_core
+L00573,B00232,Auto,2024-01-04,2053-07-30,327428.67,250465.52,17.555,360,IN,Debt Consolidation,C,11,100-150k,Current,0,BlueRiver Loan Co,2026-07-28,2026-06-22,complete,origination_core
+L00574,B00030,Student,2024-06-22,2034-05-01,19671.67,8582.31,5.623,120,OH,Debt Consolidation,D,30,30-60k,Current,0,Acme Servicing,2026-07-31,2026-06-15,complete,origination_core
+L00575,B00395,Mortgage,2018-11-10,2048-06-05,66338.52,23942.40,12.529,360,IN,Debt Consolidation,C,23,30-60k,Current,0,Cornerstone Servicing,2026-07-18,2026-07-12,complete,origination_core
+L00576,B00350,Mortgage,2025-09-18,2055-04-14,353281.73,277209.11,13.247,360,KS,Debt Consolidation,C,9,60-100k,Current,0,Acme Servicing,2026-07-01,2026-07-14,complete,origination_core
+L00577,B00165,Personal,2023-11-20,2025-11-09,344122.16,248030.61,4.310,24,PA,Working Capital,B,25,>150k,Current,0,DeltaPay,2026-06-30,2026-06-25,complete,origination_core
+L00578,B00309,Auto,2023-03-10,2028-02-12,356535.56,228309.35,10.310,60,MD,Home Improvement,A,35,>150k,Current,0,BlueRiver Loan Co,2026-07-08,2026-07-29,complete,origination_core
+L00579,B00416,Student,2022-10-18,2037-07-31,190775.12,38787.88,3.736,180,CT,Refinance,C,21,>150k,Current,0,BlueRiver Loan Co,2026-07-02,2026-06-02,partial,origination_core
+L00580,B00464,Mortgage,2018-06-20,2023-05-25,26534.24,17887.60,3.605,60,CO,Home Improvement,C,33,100-150k,Current,0,Cornerstone Servicing,2026-07-23,2026-07-01,partial,origination_core
+L00581,B00123,Mortgage,2024-11-18,2054-06-14,287164.16,241735.51,6.813,360,GA,Home Improvement,A,30,100-150k,Current,0,Acme Servicing,2026-07-24,2026-07-17,complete,origination_core
+L00582,B00417,Student,2024-07-08,2034-05-17,325182.40,156883.21,3.583,120,NH,Home Improvement,C,13,100-150k,Current,0,DeltaPay,2026-07-13,2026-07-31,partial,origination_core
+L00583,B00219,Mortgage,2022-03-10,2032-01-17,24308.56,11661.67,3.458,120,MD,Purchase,A,39,>150k,Current,0,Acme Servicing,2026-07-28,2026-06-03,partial,origination_core
+L00584,B00466,Mortgage,2019-11-04,2024-10-08,253505.38,172009.31,6.332,60,MD,Purchase,B,14,30-60k,Current,0,BlueRiver Loan Co,2026-07-01,2026-06-09,complete,origination_core
+L00585,B00276,SMB,2025-07-31,2030-07-05,396934.13,200287.79,10.632,60,FL,Working Capital,D,21,60-100k,Current,0,Cornerstone Servicing,2026-07-25,2026-06-12,partial,origination_core
+L00586,B00099,Auto,2025-02-22,2027-02-12,445728.96,104533.34,3.978,24,MI,Home Improvement,B,24,60-100k,Current,0,DeltaPay,2026-07-22,2026-06-05,complete,origination_core
+L00587,B00344,SMB,2023-03-09,2052-10-02,13684.12,3756.34,8.270,360,FL,Home Improvement,A,32,60-100k,Current,0,DeltaPay,2026-07-16,2026-06-24,complete,origination_core
+L00588,B00197,SMB,2022-12-22,2024-12-11,272280.36,226589.56,5.288,24,CT,Refinance,D,40,100-150k,Current,0,DeltaPay,2026-06-24,2026-07-27,partial,origination_core
+L00589,B00304,Personal,2021-11-12,2051-06-08,52985.90,35121.47,13.358,360,NY,Home Improvement,A,17,30-60k,Current,0,BlueRiver Loan Co,2026-06-26,2026-06-04,complete,origination_core
+L00590,B00408,Student,2024-05-10,2027-04-25,301075.35,216368.57,14.028,36,NJ,Working Capital,B,37,>150k,Current,0,Cornerstone Servicing,2026-07-07,2026-06-13,complete,origination_core
+L00591,B00030,Student,2023-02-16,2037-11-29,98194.63,31344.82,3.310,180,VA,Home Improvement,A,31,<30k,Current,0,DeltaPay,2026-07-02,2026-07-25,partial,origination_core
+L00592,B00117,Personal,2019-12-18,2029-10-26,141810.00,133135.59,12.352,120,ME,Working Capital,D,16,30-60k,Current,0,DeltaPay,2026-06-30,2026-06-18,complete,origination_core
+L00593,B00416,Mortgage,2020-02-12,2025-01-16,70449.57,28800.62,10.645,60,MO,Refinance,C,17,<30k,Current,0,Cornerstone Servicing,2026-07-24,2026-07-04,complete,origination_core
+L00594,B00178,Auto,2019-12-28,2034-10-10,66475.24,36151.18,3.299,180,GA,Refinance,C,8,60-100k,Current,0,Cornerstone Servicing,2026-07-29,2026-07-09,complete,origination_core
+L00595,B00141,Auto,2023-11-10,2033-09-18,146316.37,70787.07,8.705,120,RI,Refinance,A,19,60-100k,Current,0,Acme Servicing,2026-06-28,2026-06-05,complete,origination_core
+L00596,B00353,SMB,2024-12-07,2027-11-22,350164.66,268583.79,4.775,36,CT,Home Improvement,D,3,100-150k,Current,0,BlueRiver Loan Co,2026-07-12,2026-07-26,complete,origination_core
+L00597,B00186,Mortgage,2022-08-21,2024-08-10,246835.52,213164.76,5.728,24,VT,Purchase,D,40,>150k,Current,0,Acme Servicing,2026-07-11,2026-06-25,complete,origination_core
+L00598,B00382,Student,2025-04-12,2040-01-24,103789.15,28300.83,10.875,180,PA,Purchase,D,19,>150k,Current,0,Cornerstone Servicing,2026-07-19,2026-06-07,complete,origination_core
+L00599,B00428,Auto,2019-07-14,2029-05-22,290436.95,237536.25,4.736,120,HI,Refinance,A,0,30-60k,Current,0,BlueRiver Loan Co,2026-07-11,2026-06-16,partial,origination_core
+L00600,B00210,Personal,2025-11-09,2030-10-14,37640.61,21769.75,15.638,60,LA,Working Capital,B,22,>150k,Current,0,Acme Servicing,2026-07-01,2026-07-09,complete,origination_core
+L00601,B00201,Personal,2020-08-11,2024-07-21,181673.89,64738.02,4.882,48,VA,Refinance,C,0,60-100k,Current,0,Acme Servicing,2026-06-24,2026-06-18,partial,origination_core
+L00602,B00260,Student,2022-09-17,2032-07-26,443818.70,98063.77,10.588,120,WY,Working Capital,B,21,100-150k,Current,0,DeltaPay,2026-07-10,2026-06-29,partial,origination_core
+L00603,B00248,SMB,2022-02-22,2032-01-01,74613.92,54072.86,5.402,120,MS,Debt Consolidation,B,6,100-150k,Current,0,Acme Servicing,2026-07-13,2026-07-15,complete,origination_core
+L00604,B00484,SMB,2021-12-20,2025-11-29,408212.14,368665.86,9.048,48,MI,Working Capital,B,34,<30k,Current,0,BlueRiver Loan Co,2026-07-12,2026-07-22,partial,origination_core
+L00605,B00469,Personal,2020-08-10,2030-06-19,159505.89,132861.98,7.912,120,VA,Purchase,C,27,30-60k,Current,0,Cornerstone Servicing,2026-06-27,2026-06-14,complete,origination_core
+L00606,B00323,Student,2021-01-28,2050-08-24,366781.64,214617.76,10.943,360,IL,Working Capital,D,16,100-150k,Current,0,BlueRiver Loan Co,2026-07-05,2026-07-20,complete,origination_core
+L00607,B00213,SMB,2022-06-27,2037-04-09,319286.34,191339.01,3.058,180,CA,Debt Consolidation,A,40,<30k,Current,0,BlueRiver Loan Co,2026-07-23,2026-06-29,complete,origination_core
+L00608,B00004,SMB,2018-06-15,2023-05-20,86429.85,61407.65,3.997,60,MN,Purchase,B,7,<30k,Current,0,Cornerstone Servicing,2026-07-31,2026-07-17,complete,origination_core
+L00609,B00066,SMB,2019-06-01,2021-05-21,407392.24,314809.97,5.288,24,WI,Working Capital,A,9,30-60k,Current,0,BlueRiver Loan Co,2026-07-10,2026-06-05,partial,origination_core
+L00610,B00102,Auto,2020-03-31,2049-10-25,383898.80,95594.23,5.159,360,TN,Home Improvement,D,11,30-60k,Current,0,BlueRiver Loan Co,2026-06-30,2026-06-28,partial,origination_core
+L00611,B00013,SMB,2025-11-26,2055-06-22,139474.60,60914.65,11.289,360,AR,Working Capital,D,10,<30k,Current,0,DeltaPay,2026-07-12,2026-07-19,partial,origination_core
+L00612,B00131,Mortgage,2024-01-24,2028-12-28,279554.45,105933.55,14.328,60,WI,Purchase,D,10,60-100k,Current,0,DeltaPay,2026-07-02,2026-06-18,partial,origination_core
+L00613,B00048,Student,2024-09-20,2026-09-10,125805.73,37549.44,3.064,24,NM,Debt Consolidation,B,35,60-100k,Current,0,Cornerstone Servicing,2026-07-13,2026-07-12,complete,origination_core
+L00614,B00427,Student,2024-06-15,2026-06-05,114559.20,85462.42,16.465,24,TN,Refinance,A,9,60-100k,Current,0,Acme Servicing,2026-07-23,2026-07-30,complete,origination_core
+L00615,B00038,Mortgage,2021-06-10,2051-01-04,298348.65,231853.19,17.464,360,HI,Refinance,A,19,>150k,Current,0,DeltaPay,2026-07-07,2026-06-10,partial,origination_core
+L00616,B00154,Student,2023-08-27,2028-07-31,422976.98,90980.83,10.776,60,MD,Refinance,D,10,>150k,Current,0,BlueRiver Loan Co,2026-07-19,2026-06-08,partial,origination_core
+L00617,B00477,Mortgage,2019-04-01,2024-03-05,392211.21,360705.51,17.991,60,AL,Home Improvement,A,16,60-100k,Current,0,Acme Servicing,2026-07-28,2026-07-13,partial,origination_core
+L00618,B00359,Mortgage,2024-01-16,2053-08-11,437970.03,277093.99,10.789,360,GA,Purchase,A,39,30-60k,Current,0,Acme Servicing,2026-07-04,2026-06-18,complete,origination_core
+L00619,B00079,Mortgage,2025-04-21,2028-04-05,252335.12,212778.11,12.349,36,TX,Purchase,D,12,<30k,Current,0,Acme Servicing,2026-06-22,2026-07-09,complete,origination_core
+L00620,B00073,Mortgage,2025-05-24,2035-04-02,358646.12,311282.75,16.711,120,CA,Home Improvement,B,17,60-100k,Current,0,Acme Servicing,2026-07-27,2026-06-07,complete,origination_core
+L00621,B00482,Mortgage,2025-01-03,2039-10-17,490088.46,371651.98,15.014,180,DE,Home Improvement,C,27,100-150k,Current,0,Acme Servicing,2026-07-13,2026-06-07,partial,origination_core
+L00622,B00006,Mortgage,2022-12-28,2052-07-23,398234.76,80728.47,10.335,360,NM,Home Improvement,D,32,60-100k,Current,0,DeltaPay,2026-07-16,2026-06-14,complete,origination_core
+L00623,B00307,Mortgage,2019-03-30,2048-10-23,79375.25,40034.41,7.070,360,AK,Refinance,B,40,60-100k,Current,0,DeltaPay,2026-07-06,2026-06-18,complete,origination_core
+L00624,B00287,SMB,2018-12-30,2022-12-09,137893.93,55902.50,12.613,48,WV,Home Improvement,D,28,60-100k,Current,0,Acme Servicing,2026-07-22,2026-07-08,partial,origination_core
+L00625,B00186,Personal,2020-04-18,2022-04-08,116566.25,57507.20,6.636,24,NJ,Working Capital,D,39,30-60k,Current,0,Cornerstone Servicing,2026-07-06,2026-07-26,complete,origination_core
+L00626,B00117,Auto,2025-12-28,2055-07-24,479538.98,147880.66,16.603,360,SD,Purchase,B,6,60-100k,Current,0,Acme Servicing,2026-07-05,2026-07-14,partial,origination_core
+L00627,B00321,Personal,2020-07-31,2022-07-21,83855.04,58154.89,14.574,24,KY,Working Capital,B,14,>150k,Current,0,BlueRiver Loan Co,2026-07-29,2026-06-22,complete,origination_core
+L00628,B00207,Personal,2021-08-26,2031-07-05,28341.82,12378.54,6.001,120,OH,Working Capital,B,6,>150k,Current,0,DeltaPay,2026-07-21,2026-06-18,complete,origination_core
+L00629,B00146,Personal,2020-12-21,2035-10-04,349847.62,259074.12,6.080,180,SD,Purchase,C,37,>150k,Current,0,BlueRiver Loan Co,2026-06-23,2026-06-26,complete,origination_core
+L00630,B00207,Mortgage,2024-10-16,2034-08-25,337140.19,300553.39,4.156,120,NM,Refinance,C,3,100-150k,Current,0,DeltaPay,2026-07-22,2026-07-21,partial,origination_core
+L00631,B00360,Personal,2019-08-31,2021-08-20,458791.47,268264.56,8.366,24,NY,Refinance,D,6,60-100k,Current,0,Cornerstone Servicing,2026-07-03,2026-07-09,partial,origination_core
+L00632,B00220,Mortgage,2019-05-14,2023-04-23,397175.43,131140.67,12.170,48,FL,Working Capital,B,34,>150k,Current,0,Cornerstone Servicing,2026-07-21,2026-07-14,complete,origination_core
+L00633,B00002,Student,2022-01-06,2031-11-15,355023.95,252501.41,16.688,120,NE,Working Capital,B,33,>150k,Current,0,Cornerstone Servicing,2026-07-30,2026-07-08,partial,origination_core
+L00634,B00425,Auto,2023-12-02,2028-11-05,296255.86,212304.85,6.047,60,MS,Purchase,A,16,60-100k,Current,0,DeltaPay,2026-07-22,2026-07-23,complete,origination_core
+L00635,B00397,Auto,2025-07-10,2027-06-30,316951.05,200125.69,13.708,24,LA,Refinance,D,31,100-150k,Current,0,BlueRiver Loan Co,2026-07-15,2026-06-04,complete,origination_core
+L00636,B00019,Student,2018-06-01,2047-12-26,19115.61,16573.75,16.679,360,GA,Debt Consolidation,C,0,>150k,Current,0,DeltaPay,2026-07-30,2026-06-17,complete,origination_core
+L00637,B00344,Personal,2021-02-22,2031-01-01,241724.42,211947.02,7.484,120,NV,Working Capital,C,33,60-100k,Current,0,DeltaPay,2026-07-03,2026-07-16,partial,origination_core
+L00638,B00485,Auto,2022-06-09,2032-04-17,127058.10,123396.34,5.744,120,AK,Debt Consolidation,A,8,100-150k,Current,0,BlueRiver Loan Co,2026-06-29,2026-07-08,complete,origination_core
+L00639,B00044,Mortgage,2022-12-02,2025-11-16,232391.81,145186.64,8.355,36,UT,Purchase,C,11,30-60k,Current,0,DeltaPay,2026-07-28,2026-07-23,complete,origination_core
+L00640,B00087,SMB,2021-02-06,2035-11-20,425717.51,408678.39,5.437,180,IA,Home Improvement,C,37,60-100k,Current,0,BlueRiver Loan Co,2026-07-29,2026-07-07,complete,origination_core
+L00641,B00115,Personal,2023-06-06,2052-12-30,168554.39,36933.33,5.493,360,FL,Home Improvement,B,2,30-60k,Current,0,Cornerstone Servicing,2026-07-14,2026-06-26,complete,origination_core
+L00642,B00146,Mortgage,2018-10-24,2028-09-01,186231.61,107002.64,13.128,120,WV,Working Capital,A,28,30-60k,Current,0,Acme Servicing,2026-06-30,2026-06-11,partial,origination_core
+L00643,B00198,Mortgage,2020-03-08,2022-02-26,98625.17,27682.31,7.077,24,OR,Debt Consolidation,D,23,30-60k,Current,0,Acme Servicing,2026-07-22,2026-07-05,partial,origination_core
+L00644,B00257,Personal,2023-03-08,2052-10-01,96001.60,41754.77,3.553,360,IA,Purchase,A,26,30-60k,Current,0,DeltaPay,2026-07-02,2026-07-11,complete,origination_core
+L00645,B00381,SMB,2023-08-07,2038-05-20,315525.10,170286.76,8.198,180,MS,Refinance,A,23,60-100k,Current,0,Cornerstone Servicing,2026-07-19,2026-06-13,complete,origination_core
+L00646,B00299,Auto,2020-01-17,2022-01-06,419509.79,168622.01,13.508,24,MA,Debt Consolidation,B,26,>150k,Current,0,Cornerstone Servicing,2026-07-27,2026-06-26,complete,origination_core
+L00647,B00455,Personal,2025-01-22,2034-12-01,240772.11,129220.10,13.486,120,ID,Debt Consolidation,B,21,100-150k,Current,0,Acme Servicing,2026-07-12,2026-07-08,partial,origination_core
+L00648,B00242,Student,2023-09-25,2028-08-29,147199.68,109975.31,4.498,60,IA,Debt Consolidation,C,27,<30k,Current,0,DeltaPay,2026-07-25,2026-06-02,partial,origination_core
+L00649,B00329,Auto,2025-01-31,2054-08-27,210834.13,46659.00,15.424,360,NE,Debt Consolidation,D,13,100-150k,Current,0,BlueRiver Loan Co,2026-07-23,2026-07-11,partial,origination_core
+L00650,B00191,Personal,2021-01-23,2023-01-13,472872.45,97885.85,10.513,24,NV,Home Improvement,D,38,60-100k,Current,0,Acme Servicing,2026-07-30,2026-07-28,complete,origination_core
+L00651,B00028,Personal,2019-06-11,2034-03-24,267615.66,75714.89,9.708,180,LA,Home Improvement,A,13,60-100k,Current,0,DeltaPay,2026-07-21,2026-06-17,complete,origination_core
+L00652,B00479,SMB,2021-02-18,2050-09-14,412371.22,367881.27,9.402,360,MI,Purchase,A,1,<30k,Current,0,BlueRiver Loan Co,2026-07-23,2026-07-01,partial,origination_core
+L00653,B00417,Personal,2022-08-02,2037-05-15,335280.62,292070.26,9.459,180,NJ,Debt Consolidation,B,27,100-150k,Current,0,BlueRiver Loan Co,2026-07-07,2026-07-12,partial,origination_core
+L00654,B00275,SMB,2023-12-18,2033-10-26,237549.88,175637.78,17.227,120,KS,Refinance,B,14,60-100k,Current,0,BlueRiver Loan Co,2026-07-23,2026-07-16,complete,origination_core
+L00655,B00154,SMB,2019-02-10,2048-09-05,377559.60,282887.37,10.264,360,CO,Home Improvement,B,27,<30k,Current,0,DeltaPay,2026-07-29,2026-07-15,partial,origination_core
+L00656,B00281,Personal,2022-02-20,2036-12-03,328003.82,88166.85,6.805,180,OK,Purchase,C,6,60-100k,Current,0,DeltaPay,2026-06-28,2026-06-02,partial,origination_core
+L00657,B00344,Student,2019-02-09,2048-09-04,14441.43,12323.61,14.113,360,NH,Home Improvement,D,8,30-60k,Current,0,BlueRiver Loan Co,2026-07-26,2026-06-21,complete,origination_core
+L00658,B00054,Auto,2021-11-27,2031-10-06,130571.60,102431.77,5.818,120,SD,Debt Consolidation,A,12,>150k,Current,0,BlueRiver Loan Co,2026-07-14,2026-07-24,partial,origination_core
+L00659,B00421,Mortgage,2023-11-30,2026-11-14,239544.17,70261.56,15.568,36,NE,Purchase,B,26,<30k,Current,0,DeltaPay,2026-07-03,2026-06-07,partial,origination_core
+L00660,B00033,Personal,2024-11-26,2029-10-31,329949.32,228056.91,4.768,60,MS,Debt Consolidation,B,22,100-150k,Current,0,Cornerstone Servicing,2026-07-01,2026-06-29,complete,origination_core
+L00661,B00159,Personal,2025-08-10,2055-03-06,373483.79,96570.77,7.928,360,CT,Refinance,D,8,100-150k,Current,0,Acme Servicing,2026-07-11,2026-06-22,complete,origination_core
+L00662,B00378,SMB,2018-08-06,2022-07-16,40167.96,25228.67,3.216,48,TX,Debt Consolidation,D,29,60-100k,Current,0,DeltaPay,2026-06-29,2026-06-23,complete,origination_core
+L00663,B00313,Mortgage,2023-06-20,2038-04-02,211600.24,168051.15,13.072,180,RI,Refinance,B,38,100-150k,Current,0,DeltaPay,2026-07-06,2026-07-26,complete,origination_core
+L00664,B00460,Personal,2020-03-16,2024-02-24,54735.89,16534.70,15.336,48,ND,Home Improvement,A,2,100-150k,Current,0,Cornerstone Servicing,2026-07-18,2026-07-29,complete,origination_core
+L00665,B00103,SMB,2018-09-15,2022-08-25,135230.28,46658.95,8.249,48,VT,Refinance,D,13,100-150k,Current,0,BlueRiver Loan Co,2026-07-22,2026-06-23,partial,origination_core
+L00666,B00235,Mortgage,2025-01-15,2028-12-25,249738.09,98212.96,8.663,48,OR,Working Capital,C,34,30-60k,Current,0,DeltaPay,2026-07-25,2026-06-12,partial,origination_core
+L00667,B00123,SMB,2018-12-19,2020-12-08,473497.34,233719.79,6.051,24,OH,Debt Consolidation,B,22,60-100k,Current,0,Cornerstone Servicing,2026-06-25,2026-06-15,complete,origination_core
+L00668,B00467,SMB,2020-03-19,2030-01-26,265131.25,59067.51,11.200,120,ND,Refinance,D,23,30-60k,Current,0,Cornerstone Servicing,2026-07-06,2026-07-22,complete,origination_core
+L00669,B00317,Personal,2022-09-16,2027-08-21,403821.62,155082.35,8.130,60,AK,Home Improvement,B,1,60-100k,Current,0,Cornerstone Servicing,2026-07-16,2026-07-01,complete,origination_core
+L00670,B00460,SMB,2018-08-23,2021-08-07,440351.50,98318.21,6.748,36,PA,Refinance,B,11,<30k,Current,0,Cornerstone Servicing,2026-07-17,2026-07-21,complete,origination_core
+L00671,B00461,Personal,2020-09-12,2024-08-22,276152.10,109421.17,7.270,48,IA,Home Improvement,C,8,100-150k,Current,0,Cornerstone Servicing,2026-07-12,2026-07-22,complete,origination_core
+L00672,B00175,Personal,2025-11-13,2030-10-18,409006.62,157190.85,17.858,60,CA,Working Capital,A,34,100-150k,Current,0,DeltaPay,2026-07-10,2026-06-07,complete,origination_core
+L00673,B00230,Personal,2024-08-03,2029-07-08,431682.17,89196.90,13.094,60,WV,Home Improvement,D,23,<30k,Current,0,Acme Servicing,2026-07-16,2026-07-11,partial,origination_core
+L00674,B00162,Mortgage,2022-07-26,2032-06-03,250222.65,228960.69,10.579,120,AK,Refinance,D,5,>150k,Current,0,BlueRiver Loan Co,2026-06-29,2026-07-19,complete,origination_core
+L00675,B00173,Auto,2025-08-18,2055-03-14,103345.74,30491.13,8.974,360,TN,Purchase,B,40,>150k,Current,0,Acme Servicing,2026-07-03,2026-06-04,complete,origination_core
+L00676,B00118,Auto,2023-10-01,2038-07-14,166279.79,144997.64,6.228,180,NV,Purchase,B,26,100-150k,Current,0,Acme Servicing,2026-07-29,2026-06-02,complete,origination_core
+L00677,B00208,Personal,2025-12-28,2055-07-24,430190.36,393288.36,15.285,360,ID,Debt Consolidation,D,24,60-100k,Current,0,Cornerstone Servicing,2026-06-22,2026-06-10,complete,origination_core
+L00678,B00410,SMB,2021-05-16,2036-02-27,451316.71,364004.68,12.336,180,TN,Debt Consolidation,B,26,<30k,Current,0,DeltaPay,2026-06-29,2026-06-08,partial,origination_core
+L00679,B00108,Auto,2021-03-03,2031-01-10,206905.48,130489.91,6.102,120,MD,Refinance,C,24,<30k,Current,0,Cornerstone Servicing,2026-07-16,2026-07-06,partial,origination_core
+L00680,B00176,Student,2025-09-04,2035-07-14,343221.29,260093.49,7.143,120,TX,Purchase,A,12,30-60k,Current,0,Cornerstone Servicing,2026-07-06,2026-06-20,complete,origination_core
+L00681,B00400,Personal,2026-01-01,2055-07-28,148820.63,66660.40,14.593,360,NV,Purchase,A,26,<30k,Current,0,DeltaPay,2026-07-02,2026-07-04,complete,origination_core
+L00682,B00153,Personal,2018-07-06,2022-06-15,145271.65,69644.71,3.310,48,NH,Home Improvement,A,35,>150k,Current,0,DeltaPay,2026-06-25,2026-06-24,complete,origination_core
+L00683,B00038,Mortgage,2022-11-09,2032-09-17,494101.01,151243.63,11.841,120,CO,Working Capital,A,30,60-100k,Current,0,Acme Servicing,2026-07-07,2026-07-03,partial,origination_core
+L00684,B00179,Mortgage,2019-02-02,2024-01-07,212698.89,45186.73,5.963,60,LA,Debt Consolidation,B,32,60-100k,Current,0,BlueRiver Loan Co,2026-07-26,2026-07-27,complete,origination_core
+L00685,B00130,Student,2022-03-09,2024-02-27,173793.03,106211.19,16.648,24,DE,Working Capital,C,35,100-150k,Current,0,Cornerstone Servicing,2026-07-24,2026-06-09,complete,origination_core
+L00686,B00269,Student,2018-07-03,2022-06-12,213049.37,83812.99,12.456,48,OK,Refinance,D,0,30-60k,Current,0,Acme Servicing,2026-07-11,2026-06-23,partial,origination_core
+L00687,B00412,Auto,2023-06-12,2053-01-05,225061.04,63625.38,13.363,360,NM,Working Capital,D,26,100-150k,Current,0,DeltaPay,2026-07-19,2026-06-19,complete,origination_core
+L00688,B00178,Auto,2022-10-26,2026-10-05,396925.47,131375.48,6.002,48,ME,Home Improvement,B,26,30-60k,Current,0,DeltaPay,2026-07-14,2026-06-12,partial,origination_core
+L00689,B00399,Mortgage,2025-11-22,2055-06-18,148506.52,51412.74,7.421,360,WY,Home Improvement,C,33,>150k,Current,0,Cornerstone Servicing,2026-07-26,2026-07-07,partial,origination_core
+L00690,B00008,Mortgage,2024-07-20,2028-06-29,345877.88,333744.13,3.763,48,ND,Home Improvement,A,0,<30k,Current,0,Cornerstone Servicing,2026-07-30,2026-06-24,complete,origination_core
+L00691,B00031,Student,2021-11-07,2031-09-16,441067.76,138215.27,8.740,120,NJ,Purchase,C,6,60-100k,Current,0,Acme Servicing,2026-07-14,2026-06-08,complete,origination_core
+L00692,B00099,Auto,2020-09-13,2030-07-23,352698.52,295679.75,8.533,120,DE,Purchase,D,31,>150k,Current,0,Acme Servicing,2026-07-02,2026-06-24,complete,origination_core
+L00693,B00232,Auto,2019-11-20,2024-10-24,252271.22,54877.41,12.434,60,CO,Purchase,A,10,>150k,Current,0,Acme Servicing,2026-07-10,2026-06-15,complete,origination_core
+L00694,B00281,Student,2022-11-15,2024-11-04,405949.03,133365.35,13.270,24,DC,Working Capital,B,23,60-100k,Current,0,BlueRiver Loan Co,2026-07-15,2026-07-27,complete,origination_core
+L00695,B00306,Mortgage,2021-09-08,2031-07-18,400670.41,189447.00,12.198,120,WA,Purchase,B,20,>150k,Current,0,BlueRiver Loan Co,2026-07-23,2026-07-11,partial,origination_core
+L00696,B00318,Mortgage,2020-10-05,2050-05-01,296533.57,65788.79,7.360,360,KY,Debt Consolidation,C,2,>150k,Current,0,Acme Servicing,2026-06-28,2026-06-04,partial,origination_core
+L00697,B00292,Auto,2022-05-05,2032-03-13,415952.72,83787.78,12.129,120,CT,Debt Consolidation,B,38,<30k,Current,0,DeltaPay,2026-07-10,2026-06-10,partial,origination_core
+L00698,B00101,Auto,2021-05-12,2026-04-16,27669.85,17949.96,6.769,60,UT,Home Improvement,D,29,60-100k,Current,0,DeltaPay,2026-07-13,2026-06-19,partial,origination_core
+L00699,B00386,Student,2023-09-06,2053-04-01,307444.03,152475.05,9.962,360,IN,Debt Consolidation,B,1,<30k,Current,0,DeltaPay,2026-07-24,2026-07-25,complete,origination_core
+L00700,B00052,Personal,2024-01-14,2028-12-18,222922.85,60754.99,17.249,60,LA,Working Capital,D,3,>150k,Current,0,Cornerstone Servicing,2026-07-14,2026-06-28,partial,origination_core
+L00701,B00011,Auto,2022-11-05,2052-05-31,107153.91,38189.04,4.501,360,OK,Purchase,B,23,100-150k,Current,0,Acme Servicing,2026-07-11,2026-06-05,partial,origination_core
+L00702,B00278,Mortgage,2022-12-09,2024-11-28,371535.71,147062.92,13.505,24,OK,Debt Consolidation,D,13,30-60k,Current,0,DeltaPay,2026-06-23,2026-06-09,partial,origination_core
+L00703,B00248,Student,2021-09-25,2031-08-04,21539.70,4711.89,10.614,120,NH,Home Improvement,D,38,30-60k,Current,0,BlueRiver Loan Co,2026-07-21,2026-07-10,complete,origination_core
+L00704,B00343,Auto,2022-12-29,2026-12-08,340850.02,274416.32,10.565,48,WI,Debt Consolidation,C,34,>150k,Current,0,Cornerstone Servicing,2026-07-26,2026-07-18,complete,origination_core
+L00705,B00076,SMB,2018-08-10,2023-07-15,51507.78,28162.79,6.731,60,MD,Home Improvement,D,33,60-100k,Current,0,BlueRiver Loan Co,2026-07-20,2026-06-13,complete,origination_core
+L00706,B00392,Personal,2024-07-05,2054-01-29,302803.92,203918.44,14.638,360,MT,Purchase,D,21,100-150k,Current,0,Acme Servicing,2026-07-08,2026-06-23,partial,origination_core
+L00707,B00357,Personal,2023-07-13,2033-05-21,232006.94,215912.74,10.256,120,IL,Refinance,C,20,30-60k,Current,0,Acme Servicing,2026-07-23,2026-07-10,complete,origination_core
+L00708,B00337,Student,2023-06-18,2027-05-28,170926.72,116897.11,16.108,48,ME,Purchase,D,22,>150k,Current,0,BlueRiver Loan Co,2026-07-26,2026-07-16,complete,origination_core
+L00709,B00292,Auto,2019-05-26,2034-03-08,233638.11,125844.78,9.944,180,CA,Home Improvement,C,12,<30k,Current,0,Cornerstone Servicing,2026-07-14,2026-07-22,partial,origination_core
+L00710,B00058,Auto,2025-05-15,2054-12-09,27137.73,18979.61,3.703,360,TX,Refinance,B,4,100-150k,Current,0,BlueRiver Loan Co,2026-07-02,2026-07-04,complete,origination_core
+L00711,B00418,Personal,2024-06-25,2029-05-30,332802.64,113557.61,5.669,60,IL,Debt Consolidation,C,34,<30k,Current,0,Acme Servicing,2026-07-09,2026-06-02,partial,origination_core
+L00712,B00469,SMB,2021-10-16,2026-09-20,139531.66,57270.35,3.217,60,AL,Debt Consolidation,A,23,<30k,Current,0,Acme Servicing,2026-07-24,2026-07-27,partial,origination_core
+L00713,B00013,Personal,2020-12-22,2024-12-01,219368.67,110441.19,14.279,48,FL,Debt Consolidation,B,37,100-150k,Current,0,Cornerstone Servicing,2026-07-24,2026-06-05,complete,origination_core
+L00714,B00230,Student,2022-08-28,2025-08-12,74067.24,49936.57,3.665,36,IN,Debt Consolidation,C,13,100-150k,Current,0,DeltaPay,2026-07-01,2026-06-12,complete,origination_core
+L00715,B00274,Auto,2021-01-26,2024-01-11,69050.81,27099.81,4.664,36,ND,Home Improvement,C,40,>150k,Current,0,DeltaPay,2026-06-28,2026-06-22,complete,origination_core
+L00716,B00017,SMB,2024-04-17,2053-11-11,342240.69,97974.10,7.343,360,OH,Refinance,B,15,>150k,Current,0,BlueRiver Loan Co,2026-07-21,2026-06-11,complete,origination_core
+L00717,B00110,Auto,2025-04-25,2028-04-09,178384.84,54918.81,15.647,36,AZ,Debt Consolidation,B,5,100-150k,Current,0,Cornerstone Servicing,2026-06-26,2026-06-22,complete,origination_core
+L00718,B00274,Mortgage,2019-03-30,2023-03-09,101478.98,53271.50,3.187,48,NY,Working Capital,B,18,30-60k,Current,0,BlueRiver Loan Co,2026-07-26,2026-07-28,complete,origination_core
+L00719,B00383,Personal,2024-12-23,2039-10-06,421962.57,282655.06,8.993,180,NE,Home Improvement,A,23,60-100k,Current,0,BlueRiver Loan Co,2026-07-20,2026-08-01,complete,origination_core
+L00720,B00259,SMB,2022-06-18,2026-05-28,357729.25,141518.90,6.395,48,NH,Debt Consolidation,B,13,60-100k,Current,0,DeltaPay,2026-07-22,2026-07-13,partial,origination_core
+L00721,B00488,Auto,2024-10-22,2029-09-26,89712.67,81778.77,12.585,60,ID,Refinance,B,39,>150k,Current,0,BlueRiver Loan Co,2026-07-29,2026-07-17,complete,origination_core
+L00722,B00218,SMB,2021-11-13,2051-06-09,294026.88,129292.26,9.680,360,RI,Home Improvement,A,6,60-100k,Current,0,Cornerstone Servicing,2026-06-28,2026-07-22,partial,origination_core
+L00723,B00276,Personal,2019-06-19,2023-05-29,220710.59,73190.84,11.612,48,CT,Working Capital,A,10,<30k,Current,0,DeltaPay,2026-07-25,2026-07-14,partial,origination_core
+L00724,B00337,Personal,2023-03-09,2027-02-16,136836.63,114778.18,7.247,48,FL,Debt Consolidation,C,18,30-60k,Current,0,BlueRiver Loan Co,2026-07-02,2026-07-19,partial,origination_core
+L00725,B00201,Auto,2020-05-06,2049-11-30,167103.76,128694.89,8.807,360,OH,Home Improvement,B,25,>150k,Current,0,DeltaPay,2026-07-14,2026-06-08,partial,origination_core
+L00726,B00109,Personal,2024-09-24,2054-04-20,332051.53,87727.56,15.139,360,AZ,Working Capital,D,17,30-60k,Current,0,BlueRiver Loan Co,2026-07-24,2026-07-20,partial,origination_core
+L00727,B00416,Auto,2020-07-27,2024-07-06,75757.58,24814.94,8.598,48,ND,Debt Consolidation,D,4,100-150k,Current,0,BlueRiver Loan Co,2026-07-11,2026-06-17,complete,origination_core
+L00728,B00113,Mortgage,2022-05-07,2025-04-21,488561.20,349460.62,9.753,36,CO,Refinance,B,16,>150k,Current,0,DeltaPay,2026-07-07,2026-06-18,complete,origination_core
+L00729,B00064,SMB,2018-12-13,2033-09-25,318634.83,75124.54,14.560,180,CA,Debt Consolidation,C,2,<30k,Current,0,DeltaPay,2026-07-16,2026-06-02,complete,origination_core
+L00730,B00060,Mortgage,2024-08-05,2027-07-21,108548.57,60652.48,4.820,36,NY,Purchase,A,9,>150k,Current,0,Cornerstone Servicing,2026-07-11,2026-07-15,complete,origination_core
+L00731,B00421,SMB,2026-01-06,2030-12-11,384162.71,85618.04,8.494,60,SD,Working Capital,D,16,60-100k,Current,0,BlueRiver Loan Co,2026-07-06,2026-06-21,complete,origination_core
+L00732,B00221,Auto,2018-11-29,2048-06-24,333247.61,248315.18,3.143,360,TX,Purchase,D,0,100-150k,Current,0,BlueRiver Loan Co,2026-06-29,2026-07-13,partial,origination_core
+L00733,B00321,Auto,2021-09-29,2031-08-08,170743.09,113199.25,10.241,120,CO,Purchase,B,28,60-100k,Current,0,Cornerstone Servicing,2026-07-12,2026-07-23,partial,origination_core
+L00734,B00338,Auto,2019-03-09,2029-01-15,109599.21,24742.14,10.745,120,AZ,Working Capital,D,37,30-60k,Current,0,Cornerstone Servicing,2026-07-23,2026-07-17,complete,origination_core
+L00735,B00054,Student,2025-06-24,2029-06-03,97704.52,60716.36,8.810,48,NY,Refinance,C,37,100-150k,Current,0,DeltaPay,2026-07-12,2026-07-01,partial,origination_core
+L00736,B00265,Personal,2025-12-26,2027-12-16,446206.58,141157.74,16.258,24,PA,Refinance,D,22,100-150k,Current,0,Cornerstone Servicing,2026-07-30,2026-06-30,partial,origination_core
+L00737,B00166,Personal,2018-12-08,2023-11-12,350502.95,300357.82,5.817,60,OK,Purchase,D,13,>150k,Current,0,Acme Servicing,2026-07-24,2026-07-18,partial,origination_core
+L00738,B00424,Mortgage,2019-05-30,2048-12-23,115031.88,86465.29,14.937,360,WV,Home Improvement,B,22,30-60k,Current,0,DeltaPay,2026-07-09,2026-07-01,partial,origination_core
+L00739,B00192,Student,2024-04-13,2027-03-29,98603.03,64816.95,5.904,36,ND,Refinance,C,38,100-150k,Current,0,Acme Servicing,2026-07-01,2026-07-08,partial,origination_core
+L00740,B00003,Personal,2021-12-26,2036-10-08,127465.55,97013.23,7.217,180,OR,Working Capital,B,29,>150k,Current,0,Cornerstone Servicing,2026-07-25,2026-06-23,complete,origination_core
+L00741,B00461,Student,2024-09-07,2027-08-23,338534.42,87063.68,16.883,36,AL,Home Improvement,A,21,100-150k,Current,0,BlueRiver Loan Co,2026-07-24,2026-06-22,partial,origination_core
+L00742,B00052,SMB,2024-05-21,2026-05-11,97831.44,61493.27,6.547,24,MI,Home Improvement,B,15,>150k,Current,0,Acme Servicing,2026-07-31,2026-07-02,partial,origination_core
+L00743,B00238,Auto,2021-07-10,2023-06-30,259048.91,235722.45,11.172,24,OK,Working Capital,D,14,60-100k,Current,0,DeltaPay,2026-07-28,2026-06-14,complete,origination_core
+L00744,B00496,Student,2019-06-09,2024-05-13,300251.86,65851.01,16.839,60,RI,Home Improvement,D,15,30-60k,Current,0,Cornerstone Servicing,2026-07-10,2026-06-26,complete,origination_core
+L00745,B00069,Mortgage,2020-10-26,2024-10-05,78937.66,45426.00,15.659,48,KS,Debt Consolidation,B,13,>150k,Current,0,Acme Servicing,2026-07-16,2026-06-21,complete,origination_core
+L00746,B00110,Personal,2021-11-02,2036-08-15,270906.46,114752.51,5.966,180,MS,Home Improvement,A,8,>150k,Current,0,BlueRiver Loan Co,2026-07-12,2026-07-01,partial,origination_core
+L00747,B00391,SMB,2024-09-21,2027-09-06,136548.44,92326.84,17.606,36,CA,Purchase,B,25,<30k,Current,0,Acme Servicing,2026-07-23,2026-07-15,complete,origination_core
+L00748,B00446,Auto,2021-11-17,2036-08-30,473522.94,445407.03,13.236,180,LA,Refinance,B,34,<30k,Current,0,DeltaPay,2026-07-16,2026-07-18,complete,origination_core
+L00749,B00187,Student,2021-09-05,2025-08-15,215041.61,183478.32,7.818,48,DE,Working Capital,A,23,100-150k,Current,0,DeltaPay,2026-07-17,2026-07-04,partial,origination_core
+L00750,B00313,Mortgage,2023-08-03,2053-02-26,185511.98,81913.42,7.032,360,VA,Working Capital,C,15,>150k,Current,0,Cornerstone Servicing,2026-07-21,2026-07-07,partial,origination_core
+L00751,B00062,Mortgage,2023-02-01,2032-12-10,242104.60,202440.33,17.729,120,KY,Refinance,A,35,>150k,Current,0,Cornerstone Servicing,2026-07-07,2026-06-15,partial,origination_core
+L00752,B00490,Auto,2018-11-19,2020-11-08,128099.87,112523.15,6.699,24,MI,Refinance,B,23,30-60k,Current,0,BlueRiver Loan Co,2026-07-11,2026-06-08,complete,origination_core
+L00753,B00296,SMB,2020-08-13,2022-08-03,173092.06,87097.04,12.662,24,KS,Purchase,B,36,60-100k,Current,0,DeltaPay,2026-07-26,2026-07-25,complete,origination_core
+L00754,B00164,Mortgage,2023-08-12,2033-06-20,306526.11,280482.81,13.482,120,WA,Refinance,A,17,>150k,Current,0,DeltaPay,2026-07-04,2026-06-14,complete,origination_core
+L00755,B00410,Personal,2023-12-25,2027-12-04,321864.55,242698.36,14.350,48,MD,Purchase,B,38,100-150k,Current,0,Cornerstone Servicing,2026-06-26,2026-06-17,partial,origination_core
+L00756,B00340,Mortgage,2022-08-01,2052-02-25,258956.09,123986.40,13.893,360,CO,Refinance,C,22,60-100k,Current,0,DeltaPay,2026-07-28,2026-07-13,partial,origination_core
+L00757,B00118,Auto,2025-07-16,2030-06-20,113583.23,37449.45,6.255,60,MA,Working Capital,A,19,60-100k,Current,0,BlueRiver Loan Co,2026-07-20,2026-06-13,partial,origination_core
+L00758,B00497,Auto,2024-06-29,2028-06-08,165846.87,33187.78,12.393,48,OR,Refinance,A,31,60-100k,Current,0,DeltaPay,2026-07-02,2026-07-26,complete,origination_core
+L00759,B00443,SMB,2025-06-03,2027-05-24,332590.46,161854.72,10.576,24,AK,Debt Consolidation,A,4,100-150k,Current,0,DeltaPay,2026-07-09,2026-06-16,partial,origination_core
+L00760,B00216,Personal,2020-09-03,2030-07-13,219312.98,45079.87,6.673,120,PA,Working Capital,D,33,30-60k,Current,0,Cornerstone Servicing,2026-06-24,2026-07-24,complete,origination_core
+L00761,B00401,Mortgage,2021-03-03,2026-02-05,122261.60,119549.22,5.778,60,OK,Refinance,D,28,<30k,Current,0,BlueRiver Loan Co,2026-06-25,2026-07-18,complete,origination_core
+L00762,B00050,Student,2024-08-03,2028-07-13,236694.65,95864.11,7.249,48,WA,Debt Consolidation,C,10,100-150k,Current,0,DeltaPay,2026-06-28,2026-07-19,complete,origination_core
+L00763,B00366,Auto,2020-06-06,2035-03-20,149838.89,52677.54,15.819,180,AZ,Home Improvement,C,40,<30k,Current,0,Cornerstone Servicing,2026-07-18,2026-06-29,complete,origination_core
+L00764,B00052,SMB,2024-10-16,2029-09-20,135108.12,36767.51,9.602,60,KY,Home Improvement,B,9,100-150k,Current,0,Acme Servicing,2026-06-25,2026-07-02,complete,origination_core
+L00765,B00233,SMB,2024-08-21,2029-07-26,88494.53,72437.70,11.515,60,IL,Working Capital,B,40,30-60k,Current,0,Acme Servicing,2026-07-15,2026-07-24,complete,origination_core
+L00766,B00226,Auto,2021-11-13,2026-10-18,147964.50,99806.31,16.455,60,ND,Debt Consolidation,D,24,>150k,Current,0,Cornerstone Servicing,2026-07-11,2026-07-08,partial,origination_core
+L00767,B00324,Mortgage,2024-08-07,2028-07-17,279871.87,150252.10,3.088,48,ME,Working Capital,C,8,60-100k,Current,0,BlueRiver Loan Co,2026-07-14,2026-06-19,complete,origination_core
+L00768,B00410,Student,2025-01-02,2039-10-16,443014.50,366853.04,8.648,180,OH,Refinance,A,19,<30k,Current,0,Cornerstone Servicing,2026-06-30,2026-06-15,complete,origination_core
+L00769,B00012,Student,2021-01-01,2023-12-17,62265.24,18602.74,12.750,36,DE,Purchase,B,1,>150k,Current,0,Cornerstone Servicing,2026-07-08,2026-07-01,complete,origination_core
+L00770,B00163,Auto,2021-05-25,2031-04-03,258261.26,115952.88,17.807,120,IL,Working Capital,D,18,30-60k,Current,0,DeltaPay,2026-07-22,2026-06-15,partial,origination_core
+L00771,B00350,Student,2024-03-13,2038-12-25,23783.16,6843.13,17.493,180,UT,Purchase,D,24,>150k,Current,0,DeltaPay,2026-07-21,2026-07-02,partial,origination_core
+L00772,B00121,Student,2022-05-24,2026-05-03,205148.24,139082.12,11.385,48,AL,Working Capital,B,15,<30k,Current,0,BlueRiver Loan Co,2026-07-16,2026-07-23,partial,origination_core
+L00773,B00236,SMB,2022-02-03,2051-08-30,90986.37,87933.82,4.278,360,LA,Working Capital,D,14,<30k,Current,0,BlueRiver Loan Co,2026-07-18,2026-06-25,partial,origination_core
+L00774,B00197,Personal,2020-06-19,2035-04-02,442585.45,252862.95,4.521,180,UT,Debt Consolidation,C,9,>150k,Current,0,Acme Servicing,2026-06-30,2026-06-19,partial,origination_core
+L00775,B00139,Student,2021-06-04,2023-05-25,478097.12,112641.26,3.804,24,DE,Working Capital,A,37,>150k,Current,0,DeltaPay,2026-07-29,2026-06-10,complete,origination_core
+L00776,B00211,SMB,2022-02-27,2032-01-06,82010.66,57516.00,15.169,120,CA,Refinance,D,34,60-100k,Current,0,DeltaPay,2026-07-01,2026-06-27,complete,origination_core
+L00777,B00398,SMB,2018-11-28,2020-11-17,486048.76,182930.35,4.189,24,ME,Refinance,D,22,30-60k,Current,0,Acme Servicing,2026-06-29,2026-06-11,partial,origination_core
+L00778,B00300,Mortgage,2021-08-02,2026-07-07,232848.86,74482.45,16.857,60,NE,Refinance,D,34,30-60k,Current,0,Cornerstone Servicing,2026-07-31,2026-06-09,partial,origination_core
+L00779,B00446,Personal,2022-04-17,2051-11-11,194417.45,83473.66,4.885,360,AZ,Debt Consolidation,C,13,30-60k,Current,0,Cornerstone Servicing,2026-07-17,2026-07-04,complete,origination_core
+L00780,B00423,Personal,2021-08-23,2024-08-07,224793.98,77974.05,14.668,36,CT,Working Capital,A,29,>150k,Current,0,DeltaPay,2026-07-17,2026-06-17,complete,origination_core
+L00781,B00425,Student,2024-03-30,2027-03-15,30599.52,19471.26,11.775,36,DC,Home Improvement,C,9,<30k,Current,0,DeltaPay,2026-07-20,2026-06-20,complete,origination_core
+L00782,B00483,Auto,2018-08-13,2033-05-26,461031.60,118814.35,16.397,180,IN,Debt Consolidation,A,13,30-60k,Current,0,Acme Servicing,2026-07-09,2026-06-30,complete,origination_core
+L00783,B00278,Auto,2021-06-09,2024-05-24,238322.35,208320.67,16.101,36,AK,Working Capital,B,38,100-150k,Current,0,Cornerstone Servicing,2026-07-29,2026-06-30,complete,origination_core
+L00784,B00109,Student,2025-04-07,2054-11-01,420132.10,160272.52,15.070,360,ME,Working Capital,D,5,100-150k,Current,0,DeltaPay,2026-06-29,2026-07-17,partial,origination_core
+L00785,B00195,Personal,2025-03-22,2029-03-01,144979.11,89401.69,12.719,48,RI,Home Improvement,D,20,100-150k,Current,0,DeltaPay,2026-07-13,2026-07-08,partial,origination_core
+L00786,B00404,Personal,2020-07-23,2024-07-02,382537.11,224638.24,14.586,48,IL,Working Capital,B,16,60-100k,Current,0,Acme Servicing,2026-07-24,2026-07-09,complete,origination_core
+L00787,B00430,Auto,2022-07-22,2026-07-01,371672.85,226123.68,3.536,48,LA,Working Capital,A,27,30-60k,Current,0,DeltaPay,2026-07-25,2026-06-24,complete,origination_core
+L00788,B00492,Personal,2023-04-03,2052-10-27,393739.27,312456.63,9.675,360,OH,Working Capital,D,25,<30k,Current,0,Cornerstone Servicing,2026-07-13,2026-06-17,complete,origination_core
+L00789,B00188,SMB,2021-02-28,2023-02-18,98744.65,78314.50,7.964,24,MS,Debt Consolidation,B,11,<30k,Current,0,BlueRiver Loan Co,2026-07-13,2026-07-03,complete,origination_core
+L00790,B00010,Mortgage,2019-09-08,2021-08-28,371514.39,295921.43,8.813,24,MD,Debt Consolidation,A,18,100-150k,Current,0,BlueRiver Loan Co,2026-07-19,2026-06-18,complete,origination_core
+L00791,B00109,Student,2024-11-03,2029-10-08,127891.37,115338.42,3.041,60,ND,Home Improvement,B,30,100-150k,Current,0,Cornerstone Servicing,2026-07-29,2026-06-20,complete,origination_core
+L00792,B00263,Personal,2025-02-03,2039-11-17,315880.30,284258.56,11.740,180,WY,Debt Consolidation,B,1,<30k,Current,0,Cornerstone Servicing,2026-07-26,2026-06-18,complete,origination_core
+L00793,B00156,Personal,2022-03-12,2025-02-24,334246.83,316304.12,13.906,36,FL,Refinance,D,30,>150k,Current,0,Acme Servicing,2026-07-15,2026-06-04,partial,origination_core
+L00794,B00307,Student,2020-08-13,2024-07-23,150476.29,129351.01,11.478,48,AL,Purchase,B,10,100-150k,Current,0,BlueRiver Loan Co,2026-07-29,2026-07-12,complete,origination_core
+L00795,B00360,Student,2021-12-28,2025-12-07,87232.78,52826.52,15.205,48,ND,Debt Consolidation,A,39,100-150k,Current,0,BlueRiver Loan Co,2026-07-21,2026-07-26,complete,origination_core
+L00796,B00448,Mortgage,2019-09-06,2022-08-21,357118.88,344080.75,15.176,36,MA,Refinance,D,28,30-60k,Current,0,DeltaPay,2026-07-12,2026-06-12,partial,origination_core
+L00797,B00408,Mortgage,2021-01-09,2030-11-18,100975.08,43398.08,11.120,120,SD,Purchase,D,7,>150k,Current,0,Cornerstone Servicing,2026-07-26,2026-06-29,complete,origination_core
+L00798,B00467,Personal,2020-09-07,2025-08-12,460571.83,343592.58,9.943,60,NH,Debt Consolidation,A,37,30-60k,Current,0,DeltaPay,2026-06-24,2026-08-01,complete,origination_core
+L00799,B00107,SMB,2022-08-21,2026-07-31,431461.96,117391.05,15.988,48,CO,Refinance,A,22,<30k,Current,0,BlueRiver Loan Co,2026-07-21,2026-06-17,complete,origination_core
+L00800,B00054,Mortgage,2021-11-09,2025-10-19,162826.07,145177.75,9.450,48,TX,Purchase,A,35,>150k,Current,0,Acme Servicing,2026-07-03,2026-06-15,partial,origination_core
+L00801,B00060,SMB,2021-03-30,2036-01-11,359484.71,97610.91,8.732,180,OK,Debt Consolidation,C,37,<30k,Current,0,BlueRiver Loan Co,2026-06-26,2026-06-06,complete,origination_core
+L00802,B00496,Auto,2020-10-22,2024-10-01,318615.95,222473.84,15.304,48,WA,Debt Consolidation,D,21,>150k,Current,0,DeltaPay,2026-06-26,2026-06-04,partial,origination_core
+L00803,B00384,Auto,2020-03-12,2034-12-24,391528.21,242736.08,9.135,180,MI,Home Improvement,A,4,100-150k,Current,0,DeltaPay,2026-07-01,2026-06-24,complete,origination_core
+L00804,B00128,Auto,2022-09-07,2037-06-20,391874.90,275792.40,10.215,180,AR,Working Capital,D,28,100-150k,Current,0,DeltaPay,2026-07-15,2026-07-22,partial,origination_core
+L00805,B00403,Personal,2025-12-03,2040-09-15,497898.54,312848.53,9.834,180,TN,Purchase,D,27,<30k,Current,0,Acme Servicing,2026-07-03,2026-07-09,complete,origination_core
+L00806,B00074,Auto,2020-07-20,2030-05-29,451593.93,179923.32,9.438,120,CO,Debt Consolidation,B,40,30-60k,Current,0,BlueRiver Loan Co,2026-07-02,2026-07-29,partial,origination_core
+L00807,B00405,Personal,2018-12-03,2028-10-11,65641.00,40715.82,15.720,120,AZ,Purchase,D,32,<30k,Current,0,Cornerstone Servicing,2026-06-28,2026-07-11,partial,origination_core
+L00808,B00295,Personal,2018-11-08,2028-09-16,67029.84,17331.48,5.108,120,MT,Refinance,C,6,<30k,Current,0,DeltaPay,2026-07-01,2026-07-26,partial,origination_core
+L00809,B00146,Mortgage,2019-08-05,2022-07-20,319361.15,292176.22,16.149,36,NH,Working Capital,B,12,<30k,Current,0,BlueRiver Loan Co,2026-07-26,2026-07-27,complete,origination_core
+L00810,B00196,SMB,2023-09-14,2026-08-29,451275.91,412139.01,6.373,36,MT,Purchase,C,30,100-150k,Current,0,Cornerstone Servicing,2026-07-19,2026-06-04,partial,origination_core
+L00811,B00035,Auto,2024-11-04,2039-08-18,170153.75,158147.12,6.843,180,IL,Working Capital,D,29,30-60k,Current,0,DeltaPay,2026-06-23,2026-07-28,partial,origination_core
+L00812,B00058,Personal,2023-06-17,2028-05-21,247671.18,200505.81,11.433,60,VA,Home Improvement,A,1,>150k,Current,0,Cornerstone Servicing,2026-07-06,2026-07-27,partial,origination_core
+L00813,B00440,Auto,2021-06-14,2024-05-29,26457.69,13219.87,4.503,36,MT,Working Capital,C,12,>150k,Current,0,Cornerstone Servicing,2026-06-30,2026-06-04,partial,origination_core
+L00814,B00230,Personal,2022-03-11,2025-02-23,323016.73,113770.09,15.602,36,OH,Working Capital,C,23,60-100k,Current,0,DeltaPay,2026-06-24,2026-06-06,partial,origination_core
+L00815,B00017,Mortgage,2019-03-24,2029-01-30,47643.67,17509.39,14.981,120,MO,Debt Consolidation,A,3,30-60k,Current,0,Cornerstone Servicing,2026-07-02,2026-07-22,partial,origination_core
+L00816,B00220,Auto,2020-08-13,2023-07-29,415342.79,135926.56,14.133,36,NM,Purchase,A,30,60-100k,Current,0,DeltaPay,2026-07-24,2026-07-10,complete,origination_core
+L00817,B00448,Auto,2019-01-17,2023-12-22,133824.25,107356.70,4.093,60,OR,Home Improvement,B,30,>150k,Current,0,BlueRiver Loan Co,2026-07-16,2026-07-07,partial,origination_core
+L00818,B00215,Auto,2023-07-11,2033-05-19,305208.37,176551.53,9.735,120,SD,Debt Consolidation,D,26,<30k,Current,0,BlueRiver Loan Co,2026-07-31,2026-07-06,complete,origination_core
+L00819,B00003,Student,2023-12-23,2027-12-02,26869.52,20503.14,5.114,48,KS,Refinance,D,8,100-150k,Current,0,DeltaPay,2026-07-02,2026-07-05,complete,origination_core
+L00820,B00144,SMB,2025-06-27,2027-06-17,239890.32,188909.32,15.771,24,CO,Home Improvement,B,2,100-150k,Current,0,DeltaPay,2026-07-10,2026-07-27,partial,origination_core
+L00821,B00011,Auto,2021-02-17,2024-02-02,388701.52,94557.28,3.355,36,CT,Working Capital,B,11,60-100k,Current,0,Acme Servicing,2026-07-01,2026-07-08,partial,origination_core
+L00822,B00411,Auto,2018-08-28,2022-08-07,456580.12,276358.25,6.849,48,LA,Refinance,D,29,100-150k,Current,0,BlueRiver Loan Co,2026-06-28,2026-06-10,partial,origination_core
+L00823,B00361,Mortgage,2019-07-21,2049-02-13,88247.02,21650.58,13.200,360,RI,Refinance,B,38,100-150k,Current,0,Cornerstone Servicing,2026-07-17,2026-06-19,complete,origination_core
+L00824,B00460,Auto,2022-02-04,2027-01-09,260594.49,65779.05,15.589,60,NH,Home Improvement,A,26,>150k,Current,0,Cornerstone Servicing,2026-07-25,2026-06-08,complete,origination_core
+L00825,B00231,Student,2025-01-06,2026-12-27,376092.25,98911.04,17.415,24,ME,Purchase,B,21,>150k,Current,0,DeltaPay,2026-06-29,2026-06-06,partial,origination_core
+L00826,B00461,Personal,2018-11-11,2048-06-06,418769.67,106872.83,14.064,360,CT,Purchase,A,26,60-100k,Current,0,DeltaPay,2026-07-21,2026-06-03,complete,origination_core
+L00827,B00017,Mortgage,2025-07-05,2055-01-29,269626.39,131710.94,15.519,360,UT,Home Improvement,A,16,100-150k,Current,0,Cornerstone Servicing,2026-07-06,2026-07-05,complete,origination_core
+L00828,B00080,SMB,2025-10-27,2029-10-06,110677.16,100401.65,17.801,48,MD,Debt Consolidation,A,27,100-150k,Current,0,DeltaPay,2026-07-14,2026-06-17,partial,origination_core
+L00829,B00113,SMB,2024-04-20,2029-03-25,336462.97,122739.68,16.366,60,NY,Purchase,B,5,60-100k,Current,0,Cornerstone Servicing,2026-07-08,2026-06-14,partial,origination_core
+L00830,B00382,Mortgage,2025-05-30,2040-03-12,286749.97,240706.81,9.795,180,KS,Purchase,C,3,>150k,Current,0,DeltaPay,2026-06-27,2026-07-04,complete,origination_core
+L00831,B00220,Auto,2022-04-02,2037-01-13,272355.04,130609.25,15.724,180,VT,Refinance,D,3,30-60k,Current,0,Cornerstone Servicing,2026-07-01,2026-07-22,complete,origination_core
+L00832,B00028,Mortgage,2020-10-22,2030-08-31,441256.35,418997.14,4.020,120,DC,Purchase,B,32,100-150k,Current,0,DeltaPay,2026-07-31,2026-07-17,partial,origination_core
+L00833,B00073,SMB,2023-10-04,2038-07-17,305051.58,223253.97,7.634,180,NH,Debt Consolidation,A,18,60-100k,Current,0,BlueRiver Loan Co,2026-07-05,2026-07-09,complete,origination_core
+L00834,B00203,SMB,2018-07-09,2022-06-18,174679.60,117607.46,7.135,48,IL,Purchase,C,33,>150k,Current,0,Cornerstone Servicing,2026-06-25,2026-06-15,complete,origination_core
+L00835,B00473,SMB,2018-08-31,2048-03-26,164839.19,56187.11,8.581,360,OH,Debt Consolidation,C,11,<30k,Current,0,Cornerstone Servicing,2026-07-03,2026-06-08,complete,origination_core
+L00836,B00138,Auto,2019-12-06,2023-11-15,166343.01,47961.65,9.691,48,SD,Debt Consolidation,A,32,<30k,Current,0,DeltaPay,2026-07-07,2026-06-14,complete,origination_core
+L00837,B00450,Personal,2018-08-25,2021-08-09,263319.07,172512.03,7.939,36,WY,Working Capital,C,0,>150k,Current,0,Cornerstone Servicing,2026-06-24,2026-07-23,complete,origination_core
+L00838,B00110,SMB,2024-03-04,2038-12-16,104424.17,91289.76,17.639,180,AK,Refinance,B,36,60-100k,Current,0,Cornerstone Servicing,2026-07-28,2026-06-14,complete,origination_core
+L00839,B00148,Auto,2018-09-30,2022-09-09,442047.13,123975.28,17.268,48,PA,Home Improvement,C,39,100-150k,Current,0,BlueRiver Loan Co,2026-06-22,2026-06-17,partial,origination_core
+L00840,B00050,Auto,2023-08-23,2038-06-05,243450.27,52915.06,12.072,180,LA,Working Capital,B,40,100-150k,Current,0,BlueRiver Loan Co,2026-07-02,2026-06-21,partial,origination_core
+L00841,B00400,Auto,2019-07-04,2029-05-12,306018.37,275402.84,9.094,120,FL,Home Improvement,C,9,100-150k,Current,0,BlueRiver Loan Co,2026-07-07,2026-06-19,partial,origination_core
+L00842,B00184,Mortgage,2020-03-18,2022-03-08,150790.45,42273.71,6.922,24,MD,Working Capital,C,15,60-100k,Current,0,Cornerstone Servicing,2026-07-29,2026-07-26,partial,origination_core
+L00843,B00252,Auto,2019-02-07,2023-01-17,105626.57,72447.59,10.271,48,CO,Debt Consolidation,C,35,100-150k,Current,0,Acme Servicing,2026-06-25,2026-06-27,partial,origination_core
+L00844,B00240,Personal,2020-03-08,2023-02-21,97914.03,95695.08,13.853,36,IA,Home Improvement,C,32,60-100k,Current,0,DeltaPay,2026-07-16,2026-06-28,partial,origination_core
+L00845,B00303,Personal,2020-05-03,2023-04-18,130139.05,117463.86,10.590,36,OH,Working Capital,C,1,60-100k,Current,0,Cornerstone Servicing,2026-07-14,2026-07-10,complete,origination_core
+L00846,B00276,SMB,2022-10-20,2052-05-15,12754.65,6994.63,14.866,360,NY,Home Improvement,D,33,<30k,Current,0,BlueRiver Loan Co,2026-07-16,2026-07-18,partial,origination_core
+L00847,B00181,Auto,2021-08-12,2024-07-27,224950.89,64493.18,9.098,36,CT,Working Capital,B,25,100-150k,Current,0,DeltaPay,2026-06-27,2026-06-30,complete,origination_core
+L00848,B00171,SMB,2022-05-16,2024-05-05,494963.11,359501.78,12.865,24,NY,Debt Consolidation,A,10,>150k,Current,0,Cornerstone Servicing,2026-07-10,2026-07-18,complete,origination_core
+L00849,B00428,SMB,2019-08-03,2022-07-18,292487.48,126685.59,11.236,36,VA,Refinance,A,2,100-150k,Current,0,DeltaPay,2026-07-01,2026-06-18,partial,origination_core
+L00850,B00134,Student,2024-11-19,2026-11-09,151893.95,46084.64,5.184,24,CA,Refinance,D,34,>150k,Current,0,BlueRiver Loan Co,2026-07-23,2026-07-21,complete,origination_core
+L00851,B00382,Mortgage,2020-12-26,2030-11-04,263136.10,83108.89,17.377,120,NV,Working Capital,C,15,<30k,Current,0,BlueRiver Loan Co,2026-07-26,2026-06-04,partial,origination_core
+L00852,B00394,Auto,2022-12-28,2025-12-12,84602.37,59436.95,9.876,36,MN,Purchase,C,34,<30k,Current,0,BlueRiver Loan Co,2026-06-26,2026-07-18,partial,origination_core
+L00853,B00489,Student,2022-09-21,2032-07-30,9424.36,5976.78,17.148,120,MN,Purchase,A,21,>150k,Current,0,Cornerstone Servicing,2026-07-12,2026-07-07,partial,origination_core
+L00854,B00445,SMB,2018-06-03,2022-05-13,5928.53,1490.72,17.183,48,NV,Purchase,B,13,<30k,Current,0,BlueRiver Loan Co,2026-07-10,2026-06-03,complete,origination_core
+L00855,B00184,Auto,2019-02-08,2023-01-18,457032.43,129771.40,9.270,48,MA,Home Improvement,C,40,>150k,Current,0,BlueRiver Loan Co,2026-07-28,2026-07-05,complete,origination_core
+L00856,B00440,Student,2022-05-18,2026-04-27,262281.33,221929.59,8.750,48,AR,Home Improvement,A,28,30-60k,Current,0,DeltaPay,2026-07-06,2026-06-04,complete,origination_core
+L00857,B00163,Auto,2020-06-06,2024-05-16,21329.95,4970.77,13.798,48,WI,Refinance,B,30,100-150k,Current,0,Cornerstone Servicing,2026-07-24,2026-06-12,partial,origination_core
+L00858,B00283,Mortgage,2024-06-05,2026-05-26,56197.80,18881.80,10.854,24,IA,Debt Consolidation,A,4,60-100k,Current,0,Cornerstone Servicing,2026-06-26,2026-07-21,partial,origination_core
+L00859,B00367,SMB,2020-03-04,2049-09-28,224373.04,205143.74,14.551,360,NV,Purchase,D,28,30-60k,Current,0,Cornerstone Servicing,2026-07-15,2026-07-05,partial,origination_core
+L00860,B00133,Personal,2019-01-14,2033-10-27,146785.33,121207.80,3.702,180,AZ,Home Improvement,C,40,100-150k,Current,0,DeltaPay,2026-06-29,2026-06-18,complete,origination_core
+L00861,B00404,Mortgage,2024-02-15,2053-09-10,160974.58,146040.85,14.878,360,ME,Home Improvement,D,38,30-60k,Current,0,BlueRiver Loan Co,2026-07-20,2026-07-15,partial,origination_core
+L00862,B00295,Student,2023-11-25,2028-10-29,163474.54,34245.96,14.516,60,VT,Purchase,D,12,<30k,Current,0,BlueRiver Loan Co,2026-07-26,2026-07-17,complete,origination_core
+L00863,B00239,Personal,2018-09-03,2048-03-29,68306.15,44886.25,7.918,360,NY,Working Capital,C,39,<30k,Current,0,Acme Servicing,2026-07-04,2026-06-11,complete,origination_core
+L00864,B00036,Auto,2024-09-30,2039-07-14,495230.75,278365.00,13.347,180,MA,Debt Consolidation,A,10,100-150k,Current,0,Cornerstone Servicing,2026-07-25,2026-06-25,partial,origination_core
+L00865,B00261,Mortgage,2023-12-11,2038-09-23,432033.47,310567.69,10.179,180,OR,Purchase,A,3,>150k,Current,0,DeltaPay,2026-07-24,2026-06-25,complete,origination_core
+L00866,B00498,Student,2021-01-11,2024-12-21,110731.38,95916.25,14.035,48,MS,Refinance,D,10,60-100k,Current,0,Cornerstone Servicing,2026-07-12,2026-06-21,partial,origination_core
+L00867,B00227,Mortgage,2024-12-18,2034-10-27,354616.43,89660.32,17.893,120,UT,Refinance,C,1,30-60k,Current,0,BlueRiver Loan Co,2026-07-07,2026-06-28,partial,origination_core
+L00868,B00301,Mortgage,2018-09-28,2048-04-23,346692.82,332879.02,16.875,360,RI,Home Improvement,A,32,30-60k,Current,0,Acme Servicing,2026-07-24,2026-07-30,partial,origination_core
+L00869,B00497,Mortgage,2020-11-26,2023-11-11,421114.01,245870.39,12.919,36,AZ,Purchase,A,33,>150k,Current,0,Cornerstone Servicing,2026-06-29,2026-06-29,partial,origination_core
+L00870,B00095,SMB,2019-10-18,2024-09-21,155679.45,80063.25,15.750,60,WI,Purchase,A,13,>150k,Current,0,DeltaPay,2026-07-10,2026-07-05,complete,origination_core
+L00871,B00137,Student,2019-06-05,2023-05-15,437153.40,425436.51,3.687,48,AL,Refinance,B,9,30-60k,Current,0,BlueRiver Loan Co,2026-06-30,2026-06-21,complete,origination_core
+L00872,B00345,Student,2020-02-24,2023-02-08,170689.88,46991.08,12.771,36,MO,Working Capital,A,30,60-100k,Current,0,Cornerstone Servicing,2026-07-05,2026-07-13,complete,origination_core
+L00873,B00365,Student,2018-06-05,2028-04-13,323752.75,265210.98,16.006,120,IA,Home Improvement,B,5,60-100k,Current,0,Acme Servicing,2026-06-23,2026-07-18,complete,origination_core
+L00874,B00402,Personal,2022-01-26,2036-11-08,420306.32,353876.70,3.053,180,CA,Home Improvement,C,8,30-60k,Current,0,BlueRiver Loan Co,2026-07-04,2026-07-11,complete,origination_core
+L00875,B00340,Student,2025-05-16,2030-04-20,128849.08,119186.95,16.335,60,ID,Purchase,B,40,60-100k,Current,0,BlueRiver Loan Co,2026-07-09,2026-06-09,partial,origination_core
+L00876,B00024,SMB,2022-09-12,2032-07-21,223168.72,94988.11,11.364,120,VA,Refinance,A,36,<30k,Current,0,DeltaPay,2026-07-12,2026-07-13,complete,origination_core
+L00877,B00335,Auto,2024-09-19,2028-08-29,110317.40,105872.76,14.377,48,MI,Home Improvement,C,40,30-60k,Current,0,DeltaPay,2026-07-09,2026-06-04,complete,origination_core
+L00878,B00137,SMB,2023-07-01,2027-06-10,72005.39,18263.44,14.202,48,NM,Refinance,B,33,<30k,Current,0,BlueRiver Loan Co,2026-07-08,2026-07-20,complete,origination_core
+L00879,B00265,Mortgage,2019-12-23,2029-10-31,75222.68,18123.29,7.251,120,NM,Home Improvement,D,5,>150k,Current,0,BlueRiver Loan Co,2026-07-04,2026-06-30,complete,origination_core
+L00880,B00213,Student,2024-07-20,2027-07-05,300128.46,261234.87,4.971,36,MI,Working Capital,C,7,30-60k,Current,0,Acme Servicing,2026-07-16,2026-06-10,complete,origination_core
+L00881,B00281,Mortgage,2025-07-29,2030-07-03,21727.77,15358.58,7.011,60,WA,Working Capital,A,24,<30k,Current,0,BlueRiver Loan Co,2026-07-18,2026-06-06,partial,origination_core
+L00882,B00404,Student,2022-02-17,2027-01-22,15977.40,7935.70,10.722,60,CO,Purchase,A,9,60-100k,Current,0,Cornerstone Servicing,2026-07-21,2026-07-24,complete,origination_core
+L00883,B00234,Personal,2018-07-01,2023-06-05,422166.75,109220.37,11.045,60,KY,Working Capital,B,30,>150k,Current,0,DeltaPay,2026-07-16,2026-06-24,complete,origination_core
+L00884,B00039,Personal,2021-11-01,2026-10-06,5618.09,2904.18,11.987,60,UT,Debt Consolidation,B,2,30-60k,Current,0,BlueRiver Loan Co,2026-07-22,2026-06-28,partial,origination_core
+L00885,B00292,Mortgage,2018-05-18,2021-05-02,30695.18,16706.03,13.170,36,DC,Working Capital,D,5,100-150k,Current,0,Cornerstone Servicing,2026-07-22,2026-06-19,partial,origination_core
+L00886,B00105,Auto,2023-03-02,2052-09-25,457341.24,201357.82,4.419,360,AR,Debt Consolidation,D,33,<30k,Current,0,Cornerstone Servicing,2026-07-22,2026-07-30,complete,origination_core
+L00887,B00391,Mortgage,2023-10-09,2027-09-18,404682.16,243739.53,17.585,48,NV,Refinance,A,27,100-150k,Current,0,Cornerstone Servicing,2026-07-03,2026-06-07,partial,origination_core
+L00888,B00294,SMB,2022-09-07,2052-04-02,134333.63,95245.97,9.223,360,AK,Debt Consolidation,C,26,<30k,Current,0,Cornerstone Servicing,2026-07-17,2026-07-06,partial,origination_core
+L00889,B00275,SMB,2023-06-10,2053-01-03,28274.20,26075.99,4.950,360,AZ,Home Improvement,B,3,100-150k,Current,0,DeltaPay,2026-07-08,2026-06-13,partial,origination_core
+L00890,B00124,Personal,2020-10-22,2035-08-05,218369.98,157083.75,15.387,180,CT,Debt Consolidation,D,19,60-100k,Current,0,Cornerstone Servicing,2026-07-17,2026-07-04,partial,origination_core
+L00891,B00234,Student,2021-03-13,2050-10-07,72445.08,35218.85,6.592,360,UT,Working Capital,A,22,<30k,Current,0,Cornerstone Servicing,2026-07-23,2026-07-15,partial,origination_core
+L00892,B00350,Student,2024-10-11,2027-09-26,25432.02,15636.54,10.847,36,AZ,Home Improvement,A,35,<30k,Current,0,BlueRiver Loan Co,2026-07-22,2026-07-16,complete,origination_core
+L00893,B00443,SMB,2024-02-25,2027-02-09,21081.54,7905.28,10.776,36,FL,Debt Consolidation,B,32,>150k,Current,0,BlueRiver Loan Co,2026-07-07,2026-06-23,complete,origination_core
+L00894,B00089,Auto,2025-06-10,2055-01-04,93566.84,87151.54,9.891,360,OK,Debt Consolidation,B,34,>150k,Current,0,Cornerstone Servicing,2026-06-30,2026-07-09,complete,origination_core
+L00895,B00092,Auto,2024-03-26,2028-03-05,460058.51,129731.12,5.990,48,CO,Debt Consolidation,D,36,30-60k,Current,0,Cornerstone Servicing,2026-07-13,2026-07-13,complete,origination_core
+L00896,B00181,Student,2024-09-19,2034-07-29,246026.59,148791.59,17.983,120,KS,Refinance,D,28,60-100k,Current,0,Cornerstone Servicing,2026-07-20,2026-07-05,complete,origination_core
+L00897,B00074,Mortgage,2019-10-13,2034-07-26,414732.18,386876.34,17.895,180,NH,Working Capital,A,18,30-60k,Current,0,Acme Servicing,2026-07-06,2026-06-10,partial,origination_core
+L00898,B00409,SMB,2020-03-18,2030-01-25,331814.10,82668.95,4.323,120,MI,Working Capital,C,34,>150k,Current,0,DeltaPay,2026-06-24,2026-07-03,complete,origination_core
+L00899,B00118,SMB,2023-01-29,2037-11-11,439860.10,185402.76,8.956,180,VT,Debt Consolidation,D,23,60-100k,Current,0,DeltaPay,2026-07-17,2026-07-29,complete,origination_core
+L00900,B00167,Student,2020-07-26,2022-07-16,110192.66,59472.63,7.638,24,NY,Purchase,C,30,100-150k,Current,0,Cornerstone Servicing,2026-07-02,2026-06-25,complete,origination_core
+L00901,B00045,Mortgage,2020-08-20,2023-08-05,257305.96,149373.19,14.289,36,WA,Working Capital,A,17,100-150k,Current,0,Acme Servicing,2026-06-26,2026-07-21,complete,origination_core
+L00902,B00483,Auto,2023-05-26,2026-05-10,30102.47,16741.83,12.651,36,MA,Home Improvement,B,10,<30k,Current,0,DeltaPay,2026-07-08,2026-08-01,partial,origination_core
+L00903,B00095,Student,2019-07-20,2024-06-23,381521.12,253970.76,16.871,60,NC,Purchase,B,14,<30k,Current,0,BlueRiver Loan Co,2026-07-30,2026-06-09,complete,origination_core
+L00904,B00195,Mortgage,2021-06-25,2026-05-30,247260.61,125605.63,16.485,60,MN,Home Improvement,A,23,60-100k,Current,0,DeltaPay,2026-07-14,2026-06-22,complete,origination_core
+L00905,B00382,Auto,2025-01-18,2039-11-01,364619.86,122032.48,6.571,180,OK,Refinance,C,27,100-150k,Current,0,DeltaPay,2026-06-25,2026-06-25,complete,origination_core
+L00906,B00137,Student,2020-09-06,2022-08-27,422906.88,107396.65,4.879,24,WY,Refinance,B,20,60-100k,Current,0,DeltaPay,2026-07-02,2026-07-14,complete,origination_core
+L00907,B00382,Personal,2022-04-18,2032-02-25,310206.12,80965.19,5.585,120,AL,Debt Consolidation,C,31,<30k,Current,0,Cornerstone Servicing,2026-07-09,2026-07-10,complete,origination_core
+L00908,B00492,Mortgage,2021-12-26,2026-11-30,126357.84,111418.72,13.058,60,IN,Purchase,C,37,100-150k,Current,0,DeltaPay,2026-07-04,2026-06-05,partial,origination_core
+L00909,B00109,Auto,2021-09-29,2024-09-13,428424.41,346377.30,8.799,36,VT,Debt Consolidation,A,16,>150k,Current,0,DeltaPay,2026-07-28,2026-06-28,complete,origination_core
+L00910,B00445,Student,2018-07-06,2021-06-20,57462.98,16026.30,10.678,36,NJ,Home Improvement,D,13,>150k,Current,0,DeltaPay,2026-07-24,2026-06-15,partial,origination_core
+L00911,B00028,Mortgage,2020-01-10,2022-12-25,369604.95,344169.82,14.944,36,NM,Debt Consolidation,C,37,>150k,Current,0,Cornerstone Servicing,2026-07-31,2026-07-04,complete,origination_core
+L00912,B00024,Student,2025-06-04,2029-05-14,43579.68,18888.16,12.808,48,SD,Home Improvement,D,15,60-100k,Current,0,DeltaPay,2026-06-24,2026-06-29,partial,origination_core
+L00913,B00199,Personal,2020-02-03,2023-01-18,429342.50,264335.27,12.422,36,OK,Home Improvement,B,36,60-100k,Current,0,Cornerstone Servicing,2026-07-24,2026-07-20,complete,origination_core
+L00914,B00245,Student,2020-12-31,2023-12-16,391920.10,145562.43,10.845,36,SC,Purchase,D,9,<30k,Current,0,DeltaPay,2026-07-22,2026-07-26,partial,origination_core
+L00915,B00232,Mortgage,2025-02-15,2029-01-25,445945.33,334412.67,15.079,48,HI,Purchase,D,10,60-100k,Current,0,Acme Servicing,2026-06-24,2026-06-16,complete,origination_core
+L00916,B00248,Mortgage,2019-04-03,2048-10-27,226752.47,199994.67,6.779,360,CT,Home Improvement,C,36,30-60k,Current,0,BlueRiver Loan Co,2026-07-31,2026-06-09,complete,origination_core
+L00917,B00391,Student,2020-01-01,2034-10-14,109498.94,28085.85,12.574,180,IA,Home Improvement,A,8,30-60k,Current,0,Cornerstone Servicing,2026-06-28,2026-07-02,complete,origination_core
+L00918,B00302,Student,2020-01-27,2023-01-11,219328.94,191884.87,9.951,36,LA,Home Improvement,B,15,<30k,Current,0,BlueRiver Loan Co,2026-07-05,2026-07-29,partial,origination_core
+L00919,B00402,Student,2023-07-29,2038-05-11,106383.85,35008.00,14.647,180,NV,Working Capital,A,19,<30k,Current,0,DeltaPay,2026-07-25,2026-06-03,complete,origination_core
+L00920,B00191,Student,2021-03-30,2023-03-20,468252.53,310240.80,7.292,24,AZ,Home Improvement,B,12,60-100k,Current,0,BlueRiver Loan Co,2026-07-19,2026-07-15,complete,origination_core
+L00921,B00425,Mortgage,2022-10-03,2037-07-16,122629.84,105860.93,7.139,180,CT,Debt Consolidation,B,34,100-150k,Current,0,Cornerstone Servicing,2026-07-07,2026-07-06,partial,origination_core
+L00922,B00400,Student,2018-07-15,2033-04-27,275782.73,267660.56,12.192,180,ND,Refinance,D,38,60-100k,Current,0,DeltaPay,2026-07-26,2026-06-25,complete,origination_core
+L00923,B00248,SMB,2019-08-27,2023-08-06,385371.89,335649.79,14.829,48,AK,Working Capital,C,12,60-100k,Current,0,Acme Servicing,2026-07-12,2026-06-04,partial,origination_core
+L00924,B00414,SMB,2018-07-26,2023-06-30,383222.59,132836.02,17.974,60,UT,Refinance,C,38,30-60k,Current,0,BlueRiver Loan Co,2026-07-06,2026-07-29,complete,origination_core
+L00925,B00014,Personal,2018-06-18,2033-03-31,173548.41,73437.32,17.460,180,KY,Working Capital,B,20,>150k,Current,0,BlueRiver Loan Co,2026-07-08,2026-07-15,partial,origination_core
+L00926,B00330,Personal,2025-04-25,2040-02-06,350737.38,152826.45,4.183,180,DC,Home Improvement,B,27,<30k,Current,0,BlueRiver Loan Co,2026-06-24,2026-07-24,partial,origination_core
+L00927,B00472,Personal,2019-11-24,2029-10-02,430650.67,383991.79,8.667,120,OH,Debt Consolidation,D,28,<30k,Current,0,BlueRiver Loan Co,2026-07-14,2026-06-21,complete,origination_core
+L00928,B00436,SMB,2024-12-22,2039-10-05,186261.26,59565.61,7.839,180,WV,Home Improvement,C,19,100-150k,Current,0,Acme Servicing,2026-07-21,2026-06-08,partial,origination_core
+L00929,B00082,SMB,2025-01-26,2028-01-11,351282.48,154995.07,4.320,36,OR,Refinance,D,17,<30k,Current,0,Cornerstone Servicing,2026-07-12,2026-07-05,partial,origination_core
+L00930,B00287,Personal,2020-09-11,2030-07-21,237891.47,130370.95,15.408,120,KS,Refinance,D,32,<30k,Current,0,Acme Servicing,2026-07-28,2026-07-17,complete,origination_core
+L00931,B00240,Auto,2021-07-05,2024-06-19,124378.25,29307.90,6.510,36,IA,Debt Consolidation,B,14,<30k,Current,0,DeltaPay,2026-07-30,2026-07-12,partial,origination_core
+L00932,B00354,Student,2025-02-27,2054-09-23,46514.33,14986.02,13.724,360,IN,Refinance,A,18,<30k,Current,0,Acme Servicing,2026-07-05,2026-07-23,partial,origination_core
+L00933,B00161,SMB,2021-03-19,2026-02-21,296653.12,137339.05,5.076,60,NV,Working Capital,D,24,<30k,Current,0,BlueRiver Loan Co,2026-06-27,2026-06-18,complete,origination_core
+L00934,B00222,Student,2018-12-01,2020-11-20,228035.92,168218.45,4.104,24,AL,Purchase,A,32,<30k,Current,0,Cornerstone Servicing,2026-07-04,2026-07-15,partial,origination_core
+L00935,B00337,Student,2020-08-21,2025-07-26,498194.36,475110.55,9.824,60,NH,Purchase,C,3,60-100k,Current,0,Acme Servicing,2026-07-04,2026-07-12,partial,origination_core
+L00936,B00185,SMB,2025-06-02,2040-03-15,137983.17,93564.70,3.325,180,CA,Refinance,D,32,100-150k,Current,0,DeltaPay,2026-07-16,2026-06-15,complete,origination_core
+L00937,B00201,SMB,2018-07-29,2033-05-11,20966.93,5407.87,15.593,180,AZ,Debt Consolidation,A,3,<30k,Current,0,Acme Servicing,2026-06-23,2026-06-12,partial,origination_core
+L00938,B00203,Auto,2021-03-21,2031-01-28,105681.91,95201.65,13.619,120,KY,Debt Consolidation,A,26,>150k,Current,0,BlueRiver Loan Co,2026-06-23,2026-07-21,partial,origination_core
+L00939,B00100,SMB,2019-03-18,2048-10-11,385648.46,92495.08,6.659,360,HI,Working Capital,A,16,30-60k,Current,0,DeltaPay,2026-07-13,2026-06-12,complete,origination_core
+L00940,B00432,Mortgage,2021-05-10,2031-03-19,104698.25,23095.53,16.028,120,MN,Debt Consolidation,A,8,30-60k,Current,0,DeltaPay,2026-07-03,2026-07-24,complete,origination_core
+L00941,B00240,SMB,2020-06-24,2025-05-29,87432.35,25657.23,17.496,60,AL,Debt Consolidation,A,13,<30k,Current,0,DeltaPay,2026-07-03,2026-06-06,partial,origination_core
+L00942,B00269,SMB,2025-03-31,2054-10-25,303811.54,89864.65,8.239,360,MD,Working Capital,B,25,100-150k,Current,0,DeltaPay,2026-07-17,2026-06-14,partial,origination_core
+L00943,B00244,SMB,2019-10-27,2023-10-06,83001.29,19022.35,13.749,48,CA,Working Capital,D,37,60-100k,Current,0,Acme Servicing,2026-07-29,2026-06-18,partial,origination_core
+L00944,B00488,Student,2020-05-08,2022-04-28,85104.28,49930.86,10.344,24,IL,Refinance,A,26,60-100k,Current,0,BlueRiver Loan Co,2026-07-21,2026-07-25,complete,origination_core
+L00945,B00383,Auto,2021-03-10,2023-02-28,481885.33,254883.21,17.338,24,CA,Debt Consolidation,C,23,<30k,Current,0,DeltaPay,2026-07-31,2026-07-29,complete,origination_core
+L00946,B00166,SMB,2018-11-07,2023-10-12,475302.12,389548.11,14.391,60,CT,Home Improvement,B,28,30-60k,Current,0,BlueRiver Loan Co,2026-07-01,2026-06-19,partial,origination_core
+L00947,B00064,Mortgage,2020-01-01,2023-12-11,303013.25,254039.70,11.145,48,HI,Working Capital,B,18,100-150k,Current,0,Acme Servicing,2026-06-27,2026-06-29,partial,origination_core
+L00948,B00203,Auto,2025-05-31,2027-05-21,137341.30,53345.39,17.239,24,CO,Purchase,A,26,100-150k,Current,0,BlueRiver Loan Co,2026-06-27,2026-06-09,partial,origination_core
+L00949,B00110,Mortgage,2021-03-18,2026-02-20,263773.07,157994.67,3.080,60,IL,Refinance,B,18,<30k,Current,0,DeltaPay,2026-07-24,2026-07-24,partial,origination_core
+L00950,B00410,Student,2018-12-22,2033-10-04,155367.95,56118.39,5.317,180,MS,Home Improvement,A,39,<30k,Current,0,DeltaPay,2026-07-12,2026-07-17,partial,origination_core
+L00951,B00284,Student,2026-01-03,2030-12-08,203390.30,48127.62,12.090,60,MO,Purchase,A,22,100-150k,Current,0,BlueRiver Loan Co,2026-06-25,2026-06-02,partial,origination_core
+L00952,B00307,Mortgage,2024-02-22,2028-02-01,192536.97,181391.65,15.094,48,ID,Home Improvement,D,17,<30k,Current,0,DeltaPay,2026-07-25,2026-06-26,complete,origination_core
+L00953,B00337,SMB,2025-10-25,2055-05-21,103589.88,35584.78,8.045,360,WA,Purchase,C,19,>150k,Current,0,BlueRiver Loan Co,2026-07-19,2026-07-28,partial,origination_core
+L00954,B00278,Personal,2020-04-10,2025-03-15,489296.62,423145.87,14.937,60,PA,Home Improvement,C,18,<30k,Current,0,DeltaPay,2026-06-28,2026-06-23,complete,origination_core
+L00955,B00415,Mortgage,2019-01-28,2028-12-06,464689.94,314991.31,15.204,120,NY,Home Improvement,C,34,60-100k,Current,0,DeltaPay,2026-07-19,2026-07-16,partial,origination_core
+L00956,B00333,Student,2020-01-24,2034-11-06,352764.32,142781.50,5.318,180,IL,Debt Consolidation,A,34,60-100k,Current,0,DeltaPay,2026-06-28,2026-06-25,complete,origination_core
+L00957,B00043,Student,2018-11-13,2028-09-21,380471.61,129328.99,14.661,120,ND,Home Improvement,A,29,>150k,Current,0,BlueRiver Loan Co,2026-07-16,2026-06-10,complete,origination_core
+L00958,B00004,Personal,2025-07-21,2028-07-05,163903.05,118743.65,17.767,36,MD,Debt Consolidation,D,18,30-60k,Current,0,BlueRiver Loan Co,2026-07-27,2026-07-04,complete,origination_core
+L00959,B00011,Student,2025-03-27,2028-03-11,96618.78,68824.33,16.966,36,AR,Home Improvement,A,13,30-60k,Current,0,Cornerstone Servicing,2026-06-24,2026-07-27,partial,origination_core
+L00960,B00189,Auto,2020-12-17,2030-10-26,336329.99,323857.69,3.803,120,WV,Purchase,D,22,<30k,Current,0,BlueRiver Loan Co,2026-06-30,2026-06-30,partial,origination_core
+L00961,B00493,Auto,2024-12-16,2034-10-25,293967.50,62495.05,3.072,120,UT,Home Improvement,D,40,30-60k,Current,0,Cornerstone Servicing,2026-07-31,2026-06-03,complete,origination_core
+L00962,B00334,Student,2022-06-19,2027-05-24,160264.79,133474.10,9.963,60,VA,Refinance,A,18,30-60k,Current,0,Cornerstone Servicing,2026-07-08,2026-06-28,complete,origination_core
+L00963,B00093,SMB,2021-08-01,2025-07-11,164649.39,40797.98,5.232,48,TN,Home Improvement,C,14,>150k,Current,0,BlueRiver Loan Co,2026-07-19,2026-06-14,complete,origination_core
+L00964,B00193,Mortgage,2024-10-11,2039-07-25,399532.81,119307.92,16.069,180,SD,Home Improvement,D,39,<30k,Current,0,BlueRiver Loan Co,2026-06-24,2026-07-18,partial,origination_core
+L00965,B00112,Student,2023-10-06,2026-09-20,211168.13,91596.50,6.426,36,IA,Refinance,B,18,100-150k,Current,0,Cornerstone Servicing,2026-07-10,2026-06-09,partial,origination_core
+L00966,B00441,Personal,2024-08-05,2028-07-15,383734.27,162441.37,11.451,48,PA,Purchase,A,19,<30k,Current,0,BlueRiver Loan Co,2026-07-26,2026-06-10,complete,origination_core
+L00967,B00453,Student,2020-08-22,2024-08-01,85620.39,30937.75,3.527,48,CO,Home Improvement,C,1,60-100k,Current,0,Acme Servicing,2026-06-23,2026-06-18,partial,origination_core
+L00968,B00497,SMB,2020-02-06,2022-01-26,209069.07,188070.96,7.703,24,MT,Home Improvement,A,19,<30k,Current,0,Acme Servicing,2026-07-01,2026-06-21,complete,origination_core
+L00969,B00215,SMB,2023-09-18,2053-04-13,349382.58,184918.51,8.086,360,ND,Home Improvement,C,16,60-100k,Current,0,Cornerstone Servicing,2026-07-07,2026-07-28,partial,origination_core
+L00970,B00417,SMB,2024-03-28,2029-03-02,228310.08,216644.68,12.591,60,CT,Working Capital,D,24,100-150k,Current,0,BlueRiver Loan Co,2026-07-20,2026-07-09,complete,origination_core
+L00971,B00482,Mortgage,2021-03-07,2050-10-01,110012.56,102543.97,8.676,360,WV,Working Capital,C,38,30-60k,Current,0,BlueRiver Loan Co,2026-07-15,2026-07-23,complete,origination_core
+L00972,B00127,SMB,2018-10-14,2033-07-27,246509.20,131870.45,12.321,180,IA,Debt Consolidation,B,40,<30k,Current,0,Cornerstone Servicing,2026-07-22,2026-06-09,complete,origination_core
+L00973,B00494,Mortgage,2021-06-16,2025-05-26,159188.56,72667.70,16.231,48,MT,Home Improvement,D,21,60-100k,Current,0,Cornerstone Servicing,2026-07-21,2026-07-18,complete,origination_core
+L00974,B00206,Personal,2025-08-30,2030-08-04,224828.33,131952.68,17.067,60,DE,Home Improvement,B,21,<30k,Current,0,Acme Servicing,2026-07-10,2026-07-10,complete,origination_core
+L00975,B00140,Personal,2022-01-29,2036-11-11,91636.43,20733.17,10.019,180,PA,Working Capital,B,34,>150k,Current,0,Acme Servicing,2026-06-27,2026-07-18,complete,origination_core
+L00976,B00032,Personal,2022-05-06,2024-04-25,417712.95,134917.95,14.854,24,NM,Debt Consolidation,D,27,30-60k,Current,0,DeltaPay,2026-07-09,2026-07-24,complete,origination_core
+L00977,B00300,Auto,2020-10-28,2024-10-07,80254.81,35302.03,9.867,48,CA,Home Improvement,D,25,>150k,Current,0,DeltaPay,2026-07-22,2026-07-14,partial,origination_core
+L00978,B00117,Student,2020-01-20,2029-11-28,255229.41,208567.12,13.153,120,OH,Debt Consolidation,D,1,30-60k,Current,0,Cornerstone Servicing,2026-07-11,2026-06-11,complete,origination_core
+L00979,B00260,Personal,2021-01-13,2050-08-09,10015.22,7438.59,17.125,360,DC,Working Capital,C,3,100-150k,Current,0,BlueRiver Loan Co,2026-07-19,2026-07-21,complete,origination_core
+L00980,B00370,Personal,2024-10-21,2027-10-06,259735.12,53996.97,12.834,36,NE,Purchase,A,24,<30k,Current,0,Acme Servicing,2026-07-10,2026-07-12,complete,origination_core
+L00981,B00147,SMB,2023-11-20,2053-06-15,215896.03,189774.35,9.664,360,KY,Working Capital,D,6,<30k,Current,0,BlueRiver Loan Co,2026-07-20,2026-06-11,partial,origination_core
+L00982,B00237,SMB,2018-06-26,2021-06-10,20986.38,10088.93,15.918,36,OK,Debt Consolidation,D,20,>150k,Current,0,DeltaPay,2026-07-28,2026-07-19,complete,origination_core
+L00983,B00213,SMB,2019-07-05,2021-06-24,86083.97,54592.36,3.021,24,RI,Purchase,D,9,60-100k,Current,0,DeltaPay,2026-07-14,2026-06-27,complete,origination_core
+L00984,B00030,SMB,2025-03-12,2028-02-25,411163.70,280264.62,17.430,36,MO,Refinance,D,28,100-150k,Current,0,Acme Servicing,2026-06-26,2026-06-30,partial,origination_core
+L00985,B00497,Personal,2022-01-24,2026-12-29,276679.13,187854.01,5.488,60,NY,Home Improvement,D,6,60-100k,Current,0,Cornerstone Servicing,2026-07-20,2026-06-19,complete,origination_core
+L00986,B00164,Personal,2023-06-20,2028-05-24,320625.78,290350.00,7.058,60,SC,Refinance,D,37,<30k,Current,0,Acme Servicing,2026-07-04,2026-07-09,partial,origination_core
+L00987,B00495,Personal,2023-02-27,2033-01-05,352277.58,172521.07,6.058,120,RI,Working Capital,A,38,>150k,Current,0,DeltaPay,2026-06-24,2026-07-11,complete,origination_core
+L00988,B00401,Student,2020-08-01,2024-07-11,401390.06,140974.54,4.307,48,MD,Refinance,C,37,30-60k,Current,0,BlueRiver Loan Co,2026-06-23,2026-06-30,complete,origination_core
+L00989,B00398,Student,2022-04-29,2051-11-23,357915.27,236081.87,9.245,360,VT,Home Improvement,D,4,100-150k,Current,0,DeltaPay,2026-07-29,2026-07-16,complete,origination_core
+L00990,B00065,SMB,2022-06-02,2025-05-17,117754.21,45153.83,12.447,36,RI,Debt Consolidation,A,4,<30k,Current,0,Acme Servicing,2026-06-28,2026-07-08,partial,origination_core
+L00991,B00500,Student,2018-09-24,2023-08-29,468976.05,429318.43,3.639,60,NH,Home Improvement,D,36,<30k,Current,0,Cornerstone Servicing,2026-07-16,2026-06-18,partial,origination_core
+L00992,B00122,SMB,2020-08-28,2030-07-07,396801.63,223751.01,16.083,120,AR,Purchase,B,40,30-60k,Current,0,BlueRiver Loan Co,2026-07-08,2026-07-05,partial,origination_core
+L00993,B00480,Auto,2024-06-20,2029-05-25,168394.79,85021.34,7.158,60,SD,Working Capital,A,3,<30k,Current,0,BlueRiver Loan Co,2026-07-30,2026-06-05,complete,origination_core
+L00994,B00108,Mortgage,2023-10-25,2028-09-28,112782.94,93786.11,6.077,60,RI,Home Improvement,D,27,<30k,Current,0,DeltaPay,2026-06-29,2026-07-10,partial,origination_core
+L00995,B00292,Mortgage,2022-04-05,2037-01-16,66787.07,46675.06,6.323,180,IL,Home Improvement,B,11,30-60k,Current,0,DeltaPay,2026-06-24,2026-07-23,partial,origination_core
+L00996,B00026,Auto,2024-10-15,2039-07-29,231094.05,120403.34,6.955,180,LA,Purchase,A,2,60-100k,Current,0,DeltaPay,2026-07-03,2026-06-20,complete,origination_core
+L00997,B00087,Auto,2019-05-20,2029-03-28,498025.82,222275.04,7.374,120,KS,Purchase,D,12,30-60k,Current,0,BlueRiver Loan Co,2026-06-29,2026-06-24,partial,origination_core
+L00998,B00431,Mortgage,2024-01-04,2025-12-24,250055.87,80507.40,10.209,24,DE,Working Capital,D,24,100-150k,Current,0,Cornerstone Servicing,2026-07-13,2026-06-03,complete,origination_core
+L00999,B00425,Student,2023-02-17,2026-02-01,339282.59,97271.99,5.402,36,NJ,Refinance,A,4,>150k,Current,0,DeltaPay,2026-07-07,2026-06-30,partial,origination_core
+L01000,B00263,Mortgage,2025-03-16,2035-01-23,107690.68,52784.45,3.936,120,KS,Working Capital,C,8,100-150k,Current,0,DeltaPay,2026-07-20,2026-06-02,complete,origination_core

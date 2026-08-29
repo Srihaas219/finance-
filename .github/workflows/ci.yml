@@ -1,0 +1,46 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  backend:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: backend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Lint (ruff)
+        run: ruff check app tests alembic
+      - name: Migration check (clean DB)
+        env:
+          DATABASE_URL: sqlite:///./ci_migrate.db
+        run: alembic upgrade head
+      - name: Run tests (Mock AI forced)
+        env:
+          AI_PROVIDER: mock
+          DATABASE_URL: sqlite:///./ci.db
+          JWT_SECRET: ci-test-secret-key-minimum-32-bytes!!
+        run: python -m pytest
+
+  frontend:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: frontend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Install dependencies
+        run: npm install --no-audit --no-fund
+      - name: Typecheck + build
+        run: npm run build

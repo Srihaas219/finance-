@@ -1,0 +1,6 @@
+loan_id,borrower_id,loan_type,origination_date,maturity_date,original_principal,current_balance,interest_rate,term_months,borrower_state,loan_purpose,credit_grade,employment_length,income_band,payment_status,days_past_due,servicer_name,last_payment_date,last_updated_at,document_status,source_system
+L00061,B00064,SMB,2024-06-17,2028-05-27,-360529.28,79214.24,4.079,48,ID,Purchase,C,7,100-150k,Current,0,Cornerstone Servicing,2026-07-14,2026-06-29,partial,origination_core
+L00062,B00469,Mortgage,2019-08-25,2023-08-04,-150098.17,134450.42,4.769,48,MD,Debt Consolidation,B,14,30-60k,Current,0,DeltaPay,2026-06-23,2026-06-04,partial,origination_core
+L00063,B00129,SMB,2022-02-23,2051-09-19,-412446.27,398562.70,4.371,360,IL,Debt Consolidation,C,31,30-60k,Current,0,Cornerstone Servicing,2026-06-30,2026-07-27,complete,origination_core
+L00064,B00250,Auto,2022-09-22,2025-09-06,-154953.51,101376.30,10.715,36,MN,Purchase,A,36,30-60k,Current,0,BlueRiver Loan Co,2026-07-11,2026-07-01,complete,origination_core
+L00065,B00227,Personal,2025-11-26,2040-09-08,-184974.69,173959.75,4.542,180,VA,Debt Consolidation,D,26,<30k,Current,0,DeltaPay,2026-07-19,2026-07-08,complete,origination_core

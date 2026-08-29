@@ -1,0 +1,5 @@
+loan_id,borrower_id,loan_type,origination_date,maturity_date,original_principal,current_balance,interest_rate,term_months,borrower_state,loan_purpose,credit_grade,employment_length,income_band,payment_status,days_past_due,servicer_name,last_payment_date,last_updated_at,document_status,source_system
+L00031,B00303,Personal,2021-09-23,2037-05-10,468709.88,50993.25,13.276,180,SD,Refinance,C,40,60-100k,Current,0,Acme Servicing,2026-06-28,2026-06-13,partial,origination_core
+L00032,B00303,SMB,2021-09-23,2050-09-18,468709.88,232842.52,9.000,360,NM,Purchase,B,15,<30k,Current,0,BlueRiver Loan Co,2026-06-23,2026-08-01,complete,origination_core
+L00033,B00303,Mortgage,2021-09-23,2025-05-01,468709.88,396406.97,5.461,60,MA,Refinance,B,21,100-150k,Current,0,Cornerstone Servicing,2026-07-31,2026-07-29,partial,origination_core
+L00034,B00303,Personal,2021-09-23,2036-12-26,468709.88,61348.37,7.022,180,IN,Refinance,A,27,60-100k,Current,0,BlueRiver Loan Co,2026-07-13,2026-07-21,complete,origination_core

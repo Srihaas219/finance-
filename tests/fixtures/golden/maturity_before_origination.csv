@@ -1,0 +1,7 @@
+loan_id,borrower_id,loan_type,origination_date,maturity_date,original_principal,current_balance,interest_rate,term_months,borrower_state,loan_purpose,credit_grade,employment_length,income_band,payment_status,days_past_due,servicer_name,last_payment_date,last_updated_at,document_status,source_system
+L00051,B00024,Personal,2019-04-02,2018-02-26,323976.69,297019.24,13.369,60,IN,Purchase,B,1,60-100k,Current,0,BlueRiver Loan Co,2026-07-11,2026-06-04,partial,origination_core
+L00052,B00276,Mortgage,2021-09-13,2020-08-09,402896.82,309870.64,9.591,48,IN,Refinance,B,32,<30k,Current,0,DeltaPay,2026-07-21,2026-06-16,partial,origination_core
+L00053,B00301,Mortgage,2025-10-28,2024-09-23,214168.22,110216.02,15.650,36,AZ,Home Improvement,A,27,>150k,Current,0,Cornerstone Servicing,2026-07-08,2026-07-29,partial,origination_core
+L00054,B00471,Mortgage,2023-03-20,2022-02-13,214213.86,101003.62,3.628,60,CT,Purchase,D,27,30-60k,Current,0,DeltaPay,2026-06-22,2026-06-11,partial,origination_core
+L00055,B00442,Personal,2019-06-09,2018-05-05,236258.42,107952.92,7.626,360,NE,Purchase,A,29,100-150k,Current,0,BlueRiver Loan Co,2026-07-19,2026-06-22,complete,origination_core
+L00056,B00161,Personal,2024-09-13,2023-08-10,152515.92,115419.01,16.977,36,HI,Home Improvement,B,32,30-60k,Current,0,BlueRiver Loan Co,2026-07-03,2026-07-27,partial,origination_core

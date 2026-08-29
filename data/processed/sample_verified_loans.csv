@@ -1,0 +1,6 @@
+id,loan_pk,loan_id,version,record_hash,reviewer_id,ai_used,verified_at,original_principal,current_balance,interest_rate,payment_status,borrower_state,origination_date,maturity_date
+vl-0001,pk-L00001,L00001,1,a3f2c1d9e8b74056f1c2e3d4a5b6c7d8,u-reviewer,true,2026-08-28T10:12:34Z,250000.00,240000.00,5.25,Current,CA,2022-03-15,2052-03-15
+vl-0002,pk-L00002,L00002,1,b4e3d2c1f9a85167g2d3f4e5c6d7e8f9,u-reviewer,false,2026-08-28T10:15:21Z,180000.00,175000.00,4.875,Current,TX,2021-07-01,2051-07-01
+vl-0003,pk-L00003,L00003,2,c5f4e3d2g0b96278h3e4g5f6d7e8f9g0,u-reviewer,true,2026-08-28T10:18:45Z,320000.00,310000.00,6.125,Current,NY,2023-01-20,2053-01-20
+vl-0004,pk-L00004,L00004,1,d6g5f4e3h1c07389i4f5h6g7e8f9g0h1,u-reviewer,false,2026-08-28T10:22:09Z,95000.00,90000.00,7.50,Current,FL,2020-11-30,2050-11-30
+vl-0005,pk-L00005,L00005,1,e7h6g5f4i2d18490j5g6i7h8f9g0h1i2,u-reviewer,true,2026-08-28T10:25:33Z,410000.00,398000.00,5.875,Current,WA,2022-09-10,2052-09-10

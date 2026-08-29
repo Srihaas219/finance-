@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-27T21:21:00",
+  "raw_dir": "data/raw",
+  "files": [
+    {
+      "filename": "document_manifest.csv",
+      "sha256": "c17b6528781ce2538a1e98e5a312648b66390b1013b4b293f0547d2331cbb1bd",
+      "bytes": 19705,
+      "rows": 995
+    },
+    {
+      "filename": "expected_exception_sample.csv",
+      "sha256": "275b425fa54e5b291ecbf6288a9b2776898802951c7e358da99a96b172736207",
+      "bytes": 28990,
+      "rows": 252
+    },
+    {
+      "filename": "loan_tape.csv",
+      "sha256": "95b7a854d72cff973e9c35e654008a1319e178ebd486b43c9e31bd774644857f",
+      "bytes": 175943,
+      "rows": 1000
+    },
+    {
+      "filename": "servicer_update.csv",
+      "sha256": "e76e5936a00602ebd9ce7f94b67e4a469c7b521f0318a375d38a2082b10b566b",
+      "bytes": 23759,
+      "rows": 333
+    },
+    {
+      "filename": "validation_rules.json",
+      "sha256": "f4494b42f11c59b901dbd98cfa9c6230e448a767327d5619a00dd6cd6922c26d",
+      "bytes": 2544,
+      "rows": null
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+loan_id,borrower_id,loan_type,origination_date,maturity_date,original_principal,current_balance,interest_rate,term_months,borrower_state,loan_purpose,credit_grade,employment_length,income_band,payment_status,days_past_due,servicer_name,last_payment_date,last_updated_at,document_status,source_system
+L00161,B00007,Mortgage,2021-11-29,2025-11-08,201576.83,193867.45,8.065,48,WY,Purchase,A,33,<30k,Current,0,Acme Servicing,2026-07-18,2026-07-28,partial,origination_core
+L00162,B00007,Student,2019-07-07,2022-06-21,480011.98,402233.69,17.024,36,CA,Home Improvement,A,16,100-150k,Current,0,BlueRiver Loan Co,2026-07-02,2026-07-30,partial,origination_core
+L00163,B00007,Personal,2022-05-14,2026-04-23,158723.08,60859.45,8.409,48,SD,Home Improvement,C,29,30-60k,Current,0,BlueRiver Loan Co,2026-07-21,2026-06-21,complete,origination_core
+L00164,B00007,Auto,2022-03-13,2026-02-20,464732.45,417427.88,17.979,48,TN,Debt Consolidation,B,15,>150k,Current,0,BlueRiver Loan Co,2026-07-08,2026-07-25,partial,origination_core
+L00165,B00007,Personal,2024-10-24,2054-05-20,435054.22,265637.76,9.027,360,CO,Home Improvement,B,0,100-150k,Current,0,Acme Servicing,2026-07-17,2026-07-28,complete,origination_core

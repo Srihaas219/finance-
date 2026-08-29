@@ -1,0 +1,32 @@
+# Secrets
+.env
+.env.local
+*.local
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+*.db
+*.sqlite3
+
+# Node / frontend
+node_modules/
+dist/
+.vite/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Test artifacts
+test-results/
+backend/test-results/
+frontend/test-results/
+playwright-report/
+
+# Third-party skill installs (not part of this project)
+/skills/
+/.claude/

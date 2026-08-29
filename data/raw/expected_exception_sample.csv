@@ -1,0 +1,253 @@
+row_index,loan_id,issue_code,field,severity,note
+10,,missing_loan_id,loan_id,high,loan_id blank
+11,,missing_loan_id,loan_id,high,loan_id blank
+12,,missing_loan_id,loan_id,high,loan_id blank
+13,,missing_loan_id,loan_id,high,loan_id blank
+14,,missing_loan_id,loan_id,high,loan_id blank
+20,L00001,duplicate_loan_id,loan_id,high,loan_id duplicates L00001
+21,L00001,duplicate_loan_id,loan_id,high,loan_id duplicates L00001
+22,L00001,duplicate_loan_id,loan_id,high,loan_id duplicates L00001
+23,L00001,duplicate_loan_id,loan_id,high,loan_id duplicates L00001
+24,L00001,duplicate_loan_id,loan_id,high,loan_id duplicates L00001
+30,L00031,duplicate_combo,borrower_id+original_principal+origination_date,medium,matches anchor L00101 combo
+31,L00032,duplicate_combo,borrower_id+original_principal+origination_date,medium,matches anchor L00101 combo
+32,L00033,duplicate_combo,borrower_id+original_principal+origination_date,medium,matches anchor L00101 combo
+33,L00034,duplicate_combo,borrower_id+original_principal+origination_date,medium,matches anchor L00101 combo
+40,L00041,invalid_date_format,origination_date,high,unparseable date '13/45/2021'
+41,L00042,invalid_date_format,maturity_date,high,unparseable date 'not-a-date'
+42,L00043,invalid_date_format,origination_date,high,unparseable date '2021-13-01'
+43,L00044,invalid_date_format,maturity_date,high,unparseable date '31/02/2020'
+44,L00045,invalid_date_format,origination_date,high,unparseable date '2020/00/10'
+45,L00046,invalid_date_format,maturity_date,high,unparseable date 'Jan-2021'
+46,L00047,invalid_date_format,origination_date,high,unparseable date ''
+47,L00048,invalid_date_format,maturity_date,high,unparseable date '20211301'
+50,L00051,maturity_before_origination,maturity_date,high,maturity < origination
+51,L00052,maturity_before_origination,maturity_date,high,maturity < origination
+52,L00053,maturity_before_origination,maturity_date,high,maturity < origination
+53,L00054,maturity_before_origination,maturity_date,high,maturity < origination
+54,L00055,maturity_before_origination,maturity_date,high,maturity < origination
+55,L00056,maturity_before_origination,maturity_date,high,maturity < origination
+60,L00061,negative_principal,original_principal,high,negative principal
+61,L00062,negative_principal,original_principal,high,negative principal
+62,L00063,negative_principal,original_principal,high,negative principal
+63,L00064,negative_principal,original_principal,high,negative principal
+64,L00065,negative_principal,original_principal,high,negative principal
+70,L00071,balance_gt_principal,current_balance,high,current_balance > original_principal
+71,L00072,balance_gt_principal,current_balance,high,current_balance > original_principal
+72,L00073,balance_gt_principal,current_balance,high,current_balance > original_principal
+73,L00074,balance_gt_principal,current_balance,high,current_balance > original_principal
+74,L00075,balance_gt_principal,current_balance,high,current_balance > original_principal
+75,L00076,balance_gt_principal,current_balance,high,current_balance > original_principal
+80,L00081,rate_out_of_range,interest_rate,medium,"rate 45.000 outside [0.5,25]"
+81,L00082,rate_out_of_range,interest_rate,medium,"rate -2.000 outside [0.5,25]"
+82,L00083,rate_out_of_range,interest_rate,medium,"rate 0.000 outside [0.5,25]"
+83,L00084,rate_out_of_range,interest_rate,medium,"rate 99.900 outside [0.5,25]"
+84,L00085,rate_out_of_range,interest_rate,medium,"rate 38.000 outside [0.5,25]"
+85,L00086,rate_out_of_range,interest_rate,medium,"rate 0.100 outside [0.5,25]"
+90,L00091,status_dpd_mismatch,payment_status/days_past_due,medium,Current but dpd>0
+91,L00092,status_dpd_mismatch,payment_status/days_past_due,medium,90+ Days Late but dpd=0
+92,L00093,status_dpd_mismatch,payment_status/days_past_due,medium,Current but dpd>0
+93,L00094,status_dpd_mismatch,payment_status/days_past_due,medium,90+ Days Late but dpd=0
+94,L00095,status_dpd_mismatch,payment_status/days_past_due,medium,Current but dpd>0
+95,L00096,status_dpd_mismatch,payment_status/days_past_due,medium,90+ Days Late but dpd=0
+96,L00097,status_dpd_mismatch,payment_status/days_past_due,medium,Current but dpd>0
+110,L00111,missing_document_status,document_status,low,document_status blank
+111,L00112,missing_document_status,document_status,low,document_status blank
+112,L00113,missing_document_status,document_status,low,document_status blank
+113,L00114,missing_document_status,document_status,low,document_status blank
+114,L00115,missing_document_status,document_status,low,document_status blank
+115,L00116,missing_document_status,document_status,low,document_status blank
+116,L00117,missing_document_status,document_status,low,document_status blank
+117,L00118,missing_document_status,document_status,low,document_status blank
+130,L00131,stale_record,last_updated_at,low,not updated within staleness window
+131,L00132,stale_record,last_updated_at,low,not updated within staleness window
+132,L00133,stale_record,last_updated_at,low,not updated within staleness window
+133,L00134,stale_record,last_updated_at,low,not updated within staleness window
+134,L00135,stale_record,last_updated_at,low,not updated within staleness window
+135,L00136,stale_record,last_updated_at,low,not updated within staleness window
+136,L00137,stale_record,last_updated_at,low,not updated within staleness window
+137,L00138,stale_record,last_updated_at,low,not updated within staleness window
+138,L00139,stale_record,last_updated_at,low,not updated within staleness window
+139,L00140,stale_record,last_updated_at,low,not updated within staleness window
+150,L00151,invalid_state_code,borrower_state,medium,invalid state 'ZZ'
+151,L00152,invalid_state_code,borrower_state,medium,invalid state 'XX'
+152,L00153,invalid_state_code,borrower_state,medium,invalid state 'Cal'
+153,L00154,invalid_state_code,borrower_state,medium,invalid state 'N/A'
+154,L00155,invalid_state_code,borrower_state,medium,invalid state '99'
+155,L00156,invalid_state_code,borrower_state,medium,invalid state 'us'
+160,L00161,repeated_borrower,borrower_id,low,suspicious repeated borrower B00007
+161,L00162,repeated_borrower,borrower_id,low,suspicious repeated borrower B00007
+162,L00163,repeated_borrower,borrower_id,low,suspicious repeated borrower B00007
+163,L00164,repeated_borrower,borrower_id,low,suspicious repeated borrower B00007
+164,L00165,repeated_borrower,borrower_id,low,suspicious repeated borrower B00007
+170,L00171,closed_positive_balance,payment_status/current_balance,high,Closed but current_balance > 0
+171,L00172,closed_positive_balance,payment_status/current_balance,high,Closed but current_balance > 0
+172,L00173,closed_positive_balance,payment_status/current_balance,high,Closed but current_balance > 0
+173,L00174,closed_positive_balance,payment_status/current_balance,high,Closed but current_balance > 0
+174,L00175,closed_positive_balance,payment_status/current_balance,high,Closed but current_balance > 0
+0,L00001,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 161546.62 vs 96927.97)
+6,L00007,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 97448.02 vs 58468.81)
+18,L00019,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 127616.20 vs 76569.72)
+24,L00001,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 92797.52 vs 55678.51)
+30,L00031,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 50993.25 vs 30595.95)
+36,L00037,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 172919.23 vs 103751.54)
+42,L00043,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 246960.36 vs 148176.22)
+48,L00049,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 237241.75 vs 142345.05)
+54,L00055,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 107952.92 vs 64771.75)
+60,L00061,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 79214.24 vs 47528.54)
+66,L00067,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 106309.92 vs 63785.95)
+72,L00073,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 233129.41 vs 139877.65)
+78,L00079,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 89064.83 vs 53438.9)
+84,L00085,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 50840.99 vs 30504.59)
+90,L00091,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 187247.85 vs 112348.71)
+96,L00097,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 265457.72 vs 159274.63)
+102,L00103,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 169775.14 vs 101865.08)
+108,L00109,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 29126.18 vs 17475.71)
+114,L00115,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 283624.26 vs 170174.56)
+120,L00121,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 21726.27 vs 13035.76)
+126,L00127,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 96272.67 vs 57763.6)
+132,L00133,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 90765.52 vs 54459.31)
+138,L00139,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 222192.06 vs 133315.24)
+144,L00145,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 55926.23 vs 33555.74)
+150,L00151,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 157121.72 vs 94273.03)
+156,L00157,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 362164.11 vs 217298.47)
+162,L00163,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 60859.45 vs 36515.67)
+168,L00169,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 263959.04 vs 158375.42)
+174,L00175,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 18278.59 vs 10967.15)
+180,L00181,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 256520.62 vs 153912.37)
+186,L00187,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 385029.05 vs 231017.43)
+192,L00193,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 11642.45 vs 6985.47)
+198,L00199,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 84633.75 vs 50780.25)
+204,L00205,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 113855.70 vs 68313.42)
+210,L00211,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 44813.01 vs 26887.81)
+216,L00217,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 104942.63 vs 62965.58)
+222,L00223,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 220068.58 vs 132041.15)
+228,L00229,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 18024.36 vs 10814.62)
+234,L00235,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 78705.08 vs 47223.05)
+240,L00241,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 215838.82 vs 129503.29)
+246,L00247,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 255347.59 vs 153208.55)
+252,L00253,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 69423.76 vs 41654.26)
+258,L00259,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 50434.09 vs 30260.45)
+264,L00265,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 86969.09 vs 52181.45)
+270,L00271,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 216773.91 vs 130064.35)
+276,L00277,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 261840.44 vs 157104.26)
+282,L00283,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 105151.96 vs 63091.18)
+288,L00289,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 17394.90 vs 10436.94)
+294,L00295,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 293727.88 vs 176236.73)
+300,L00301,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 336384.87 vs 201830.92)
+306,L00307,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 277767.90 vs 166660.74)
+312,L00313,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 31529.86 vs 18917.92)
+318,L00319,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 63461.34 vs 38076.8)
+324,L00325,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 57253.49 vs 34352.09)
+330,L00331,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 293090.79 vs 175854.47)
+336,L00337,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 134229.15 vs 80537.49)
+342,L00343,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 9356.92 vs 5614.15)
+348,L00349,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 78829.64 vs 47297.78)
+354,L00355,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 131315.17 vs 78789.1)
+360,L00361,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 67491.63 vs 40494.98)
+366,L00367,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 28296.23 vs 16977.74)
+372,L00373,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 106699.17 vs 64019.5)
+378,L00379,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 17472.39 vs 10483.43)
+384,L00385,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 174662.84 vs 104797.7)
+390,L00391,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 105038.62 vs 63023.17)
+396,L00397,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 64841.04 vs 38904.62)
+402,L00403,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 31924.85 vs 19154.91)
+408,L00409,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 147368.90 vs 88421.34)
+414,L00415,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 114289.43 vs 68573.66)
+420,L00421,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 142507.93 vs 85504.76)
+426,L00427,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 110604.22 vs 66362.53)
+432,L00433,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 153443.35 vs 92066.01)
+438,L00439,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 94827.46 vs 56896.48)
+444,L00445,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 23119.17 vs 13871.5)
+450,L00451,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 93524.45 vs 56114.67)
+456,L00457,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 10397.70 vs 6238.62)
+462,L00463,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 286140.60 vs 171684.36)
+468,L00469,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 84174.77 vs 50504.86)
+474,L00475,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 335781.96 vs 201469.18)
+480,L00481,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 118049.54 vs 70829.72)
+486,L00487,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 248798.98 vs 149279.39)
+492,L00493,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 37466.07 vs 22479.64)
+498,L00499,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 121940.45 vs 73164.27)
+504,L00505,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 12727.93 vs 7636.76)
+510,L00511,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 146350.65 vs 87810.39)
+516,L00517,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 331183.38 vs 198710.03)
+522,L00523,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 61196.46 vs 36717.88)
+528,L00529,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 154892.90 vs 92935.74)
+534,L00535,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 132486.65 vs 79491.99)
+540,L00541,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 162127.03 vs 97276.22)
+546,L00547,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 20379.94 vs 12227.96)
+552,L00553,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 123949.21 vs 74369.53)
+558,L00559,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 123578.86 vs 74147.32)
+564,L00565,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 22570.18 vs 13542.11)
+570,L00571,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 164061.46 vs 98436.88)
+576,L00577,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 248030.61 vs 148818.37)
+582,L00583,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 11661.67 vs 6997.0)
+588,L00589,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 35121.47 vs 21072.88)
+594,L00595,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 70787.07 vs 42472.24)
+600,L00601,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 64738.02 vs 38842.81)
+606,L00607,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 191339.01 vs 114803.41)
+612,L00613,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 37549.44 vs 22529.66)
+618,L00619,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 212778.11 vs 127666.87)
+624,L00625,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 57507.20 vs 34504.32)
+630,L00631,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 268264.56 vs 160958.74)
+636,L00637,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 211947.02 vs 127168.21)
+642,L00643,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 27682.31 vs 16609.39)
+648,L00649,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 46659.00 vs 27995.4)
+654,L00655,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 282887.37 vs 169732.42)
+660,L00661,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 96570.77 vs 57942.46)
+666,L00667,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 233719.79 vs 140231.87)
+672,L00673,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 89196.90 vs 53518.14)
+678,L00679,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 130489.91 vs 78293.95)
+684,L00685,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 106211.19 vs 63726.71)
+690,L00691,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 138215.27 vs 82929.16)
+696,L00697,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 83787.78 vs 50272.67)
+702,L00703,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 4711.89 vs 2827.13)
+708,L00709,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 125844.78 vs 75506.87)
+714,L00715,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 27099.81 vs 16259.89)
+720,L00721,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 81778.77 vs 49067.26)
+726,L00727,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 24814.94 vs 14888.96)
+732,L00733,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 113199.25 vs 67919.55)
+738,L00739,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 64816.95 vs 38890.17)
+744,L00745,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 45426.00 vs 27255.6)
+750,L00751,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 202440.33 vs 121464.2)
+756,L00757,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 37449.45 vs 22469.67)
+762,L00763,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 52677.54 vs 31606.52)
+768,L00769,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 18602.74 vs 11161.64)
+774,L00775,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 112641.26 vs 67584.76)
+780,L00781,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 19471.26 vs 11682.76)
+786,L00787,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 226123.68 vs 135674.21)
+792,L00793,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 316304.12 vs 189782.47)
+798,L00799,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 117391.05 vs 70434.63)
+804,L00805,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 312848.53 vs 187709.12)
+810,L00811,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 158147.12 vs 94888.27)
+816,L00817,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 107356.70 vs 64414.02)
+822,L00823,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 21650.58 vs 12990.35)
+828,L00829,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 122739.68 vs 73643.81)
+834,L00835,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 56187.11 vs 33712.27)
+840,L00841,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 275402.84 vs 165241.7)
+846,L00847,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 64493.18 vs 38695.91)
+852,L00853,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 5976.78 vs 3586.07)
+858,L00859,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 205143.74 vs 123086.24)
+864,L00865,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 310567.69 vs 186340.61)
+870,L00871,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 425436.51 vs 255261.91)
+876,L00877,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 105872.76 vs 63523.66)
+882,L00883,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 109220.37 vs 65532.22)
+888,L00889,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 26075.99 vs 15645.59)
+894,L00895,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 129731.12 vs 77838.67)
+900,L00901,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 149373.19 vs 89623.91)
+906,L00907,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 80965.19 vs 48579.11)
+912,L00913,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 264335.27 vs 158601.16)
+918,L00919,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 35008.00 vs 21004.8)
+924,L00925,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 73437.32 vs 44062.39)
+930,L00931,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 29307.90 vs 17584.74)
+936,L00937,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 5407.87 vs 3244.72)
+942,L00943,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 19022.35 vs 11413.41)
+948,L00949,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 157994.67 vs 94796.8)
+954,L00955,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 314991.31 vs 188994.79)
+960,L00961,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 62495.05 vs 37497.03)
+966,L00967,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 30937.75 vs 18562.65)
+972,L00973,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 72667.70 vs 43600.62)
+978,L00979,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 7438.59 vs 4463.15)
+984,L00985,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 187854.01 vs 112712.41)
+990,L00991,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 429318.43 vs 257591.06)
+996,L00997,source_conflict,current_balance/payment_status,medium,servicer_feed disagrees with loan_tape (bal 222275.04 vs 133365.02)

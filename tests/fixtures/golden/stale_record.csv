@@ -1,0 +1,11 @@
+loan_id,borrower_id,loan_type,origination_date,maturity_date,original_principal,current_balance,interest_rate,term_months,borrower_state,loan_purpose,credit_grade,employment_length,income_band,payment_status,days_past_due,servicer_name,last_payment_date,last_updated_at,document_status,source_system
+L00131,B00348,Auto,2020-08-08,2035-05-22,21621.10,20201.59,4.581,180,WY,Debt Consolidation,D,26,<30k,Current,0,BlueRiver Loan Co,2026-07-04,2025-06-20,partial,origination_core
+L00132,B00362,Mortgage,2020-02-13,2034-11-26,162106.59,124157.31,13.100,180,MO,Home Improvement,D,0,60-100k,Current,0,Acme Servicing,2026-07-12,2024-01-09,complete,origination_core
+L00133,B00143,Mortgage,2018-11-06,2028-09-14,150107.89,90765.52,8.832,120,VT,Working Capital,D,27,<30k,Current,0,DeltaPay,2026-07-16,2023-11-23,complete,origination_core
+L00134,B00203,Personal,2019-01-07,2021-12-22,212756.41,187044.32,5.746,36,DC,Refinance,D,15,30-60k,Current,0,Cornerstone Servicing,2026-07-14,2024-12-16,partial,origination_core
+L00135,B00454,Personal,2024-07-11,2028-06-20,474325.80,160792.06,17.905,48,MS,Purchase,B,33,<30k,Current,0,DeltaPay,2026-07-27,2025-02-07,partial,origination_core
+L00136,B00262,SMB,2018-06-29,2033-04-11,134823.50,84304.45,8.167,180,TX,Purchase,D,21,60-100k,Current,0,DeltaPay,2026-07-18,2023-11-05,complete,origination_core
+L00137,B00486,Student,2020-06-17,2023-06-02,230017.52,86679.78,6.620,36,MA,Working Capital,C,1,>150k,Current,0,BlueRiver Loan Co,2026-07-23,2025-03-24,complete,origination_core
+L00138,B00082,Personal,2022-12-22,2025-12-06,157680.68,124765.90,3.696,36,TX,Home Improvement,C,29,>150k,Current,0,Acme Servicing,2026-07-04,2023-07-19,partial,origination_core
+L00139,B00458,Student,2024-02-24,2038-12-07,444233.78,222192.06,6.081,180,WI,Purchase,B,2,100-150k,Current,0,DeltaPay,2026-07-30,2024-10-02,partial,origination_core
+L00140,B00180,Auto,2022-12-31,2027-12-05,161601.90,155557.14,16.140,60,SC,Working Capital,A,31,60-100k,Current,0,BlueRiver Loan Co,2026-07-20,2024-04-15,complete,origination_core

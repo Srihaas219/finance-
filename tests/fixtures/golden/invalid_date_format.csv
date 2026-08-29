@@ -1,0 +1,9 @@
+loan_id,borrower_id,loan_type,origination_date,maturity_date,original_principal,current_balance,interest_rate,term_months,borrower_state,loan_purpose,credit_grade,employment_length,income_band,payment_status,days_past_due,servicer_name,last_payment_date,last_updated_at,document_status,source_system
+L00041,B00153,SMB,13/45/2021,2028-11-16,152806.47,71659.40,3.371,120,NJ,Debt Consolidation,A,30,60-100k,Current,0,Acme Servicing,2026-06-24,2026-06-06,complete,origination_core
+L00042,B00252,SMB,2019-02-07,not-a-date,88212.45,29380.17,7.396,360,RI,Purchase,A,19,60-100k,Current,0,DeltaPay,2026-06-24,2026-07-17,complete,origination_core
+L00043,B00138,Auto,2021-13-01,2024-03-04,496608.01,246960.36,3.948,48,UT,Refinance,A,2,<30k,Current,0,DeltaPay,2026-07-25,2026-06-23,complete,origination_core
+L00044,B00279,SMB,2024-01-29,31/02/2020,136141.06,123948.53,10.569,180,AL,Working Capital,C,6,60-100k,Current,0,Acme Servicing,2026-06-22,2026-06-26,complete,origination_core
+L00045,B00300,SMB,2020/00/10,2027-09-25,481814.69,205754.08,12.653,60,FL,Home Improvement,C,24,30-60k,Current,0,BlueRiver Loan Co,2026-07-08,2026-06-29,partial,origination_core
+L00046,B00100,Mortgage,2021-02-23,Jan-2021,342973.74,128476.44,17.698,120,NV,Refinance,B,33,<30k,Current,0,Acme Servicing,2026-07-23,2026-06-03,partial,origination_core
+L00047,B00169,SMB,,2054-10-25,390736.70,373007.11,15.311,360,MS,Purchase,B,12,100-150k,Current,0,Acme Servicing,2026-06-29,2026-07-06,partial,origination_core
+L00048,B00408,Student,2024-05-16,20211301,296693.99,90611.72,3.156,60,NM,Purchase,C,12,30-60k,Current,0,Cornerstone Servicing,2026-07-17,2026-06-18,complete,origination_core

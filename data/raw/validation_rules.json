@@ -1,0 +1,160 @@
+{
+  "ruleset_version": "1.0.0",
+  "as_of_date": "2026-08-01",
+  "staleness_days": 365,
+  "interest_rate_range": {
+    "min": 0.5,
+    "max": 25.0
+  },
+  "repeated_borrower_threshold": 5,
+  "allowed_payment_status": [
+    "Current",
+    "30 Days Late",
+    "60 Days Late",
+    "90+ Days Late",
+    "Closed"
+  ],
+  "allowed_states": [
+    "AL",
+    "AK",
+    "AZ",
+    "AR",
+    "CA",
+    "CO",
+    "CT",
+    "DE",
+    "FL",
+    "GA",
+    "HI",
+    "ID",
+    "IL",
+    "IN",
+    "IA",
+    "KS",
+    "KY",
+    "LA",
+    "ME",
+    "MD",
+    "MA",
+    "MI",
+    "MN",
+    "MS",
+    "MO",
+    "MT",
+    "NE",
+    "NV",
+    "NH",
+    "NJ",
+    "NM",
+    "NY",
+    "NC",
+    "ND",
+    "OH",
+    "OK",
+    "OR",
+    "PA",
+    "RI",
+    "SC",
+    "SD",
+    "TN",
+    "TX",
+    "UT",
+    "VT",
+    "VA",
+    "WA",
+    "WV",
+    "WI",
+    "WY",
+    "DC"
+  ],
+  "required_fields": [
+    "loan_id",
+    "borrower_id",
+    "original_principal",
+    "origination_date",
+    "maturity_date",
+    "payment_status"
+  ],
+  "allowed_edit_fields": [
+    "borrower_state",
+    "payment_status",
+    "days_past_due",
+    "document_status",
+    "interest_rate",
+    "maturity_date",
+    "last_payment_date",
+    "current_balance"
+  ],
+  "forbidden_edit_fields": [
+    "loan_id",
+    "borrower_id",
+    "original_principal",
+    "origination_date"
+  ],
+  "rules": [
+    {
+      "code": "missing_loan_id",
+      "severity": "high"
+    },
+    {
+      "code": "missing_required_field",
+      "severity": "high"
+    },
+    {
+      "code": "duplicate_loan_id",
+      "severity": "high"
+    },
+    {
+      "code": "duplicate_combo",
+      "severity": "medium"
+    },
+    {
+      "code": "invalid_date_format",
+      "severity": "high"
+    },
+    {
+      "code": "maturity_before_origination",
+      "severity": "high"
+    },
+    {
+      "code": "negative_principal",
+      "severity": "high"
+    },
+    {
+      "code": "balance_gt_principal",
+      "severity": "high"
+    },
+    {
+      "code": "rate_out_of_range",
+      "severity": "medium"
+    },
+    {
+      "code": "status_dpd_mismatch",
+      "severity": "medium"
+    },
+    {
+      "code": "missing_document_status",
+      "severity": "low"
+    },
+    {
+      "code": "source_conflict",
+      "severity": "medium"
+    },
+    {
+      "code": "stale_record",
+      "severity": "low"
+    },
+    {
+      "code": "invalid_state_code",
+      "severity": "medium"
+    },
+    {
+      "code": "repeated_borrower",
+      "severity": "low"
+    },
+    {
+      "code": "closed_positive_balance",
+      "severity": "high"
+    }
+  ]
+}

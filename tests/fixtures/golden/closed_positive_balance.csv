@@ -1,0 +1,6 @@
+loan_id,borrower_id,loan_type,origination_date,maturity_date,original_principal,current_balance,interest_rate,term_months,borrower_state,loan_purpose,credit_grade,employment_length,income_band,payment_status,days_past_due,servicer_name,last_payment_date,last_updated_at,document_status,source_system
+L00171,B00491,Student,2022-12-26,2026-12-05,136862.73,12346.02,4.457,48,SD,Purchase,A,38,30-60k,Closed,0,Acme Servicing,2026-07-24,2026-06-22,complete,origination_core
+L00172,B00500,Personal,2024-07-19,2027-07-04,480652.25,7230.01,16.752,36,TX,Refinance,B,3,60-100k,Closed,0,Cornerstone Servicing,2026-07-07,2026-07-11,complete,origination_core
+L00173,B00070,Personal,2020-06-29,2023-06-14,159442.66,19931.93,8.335,36,NJ,Home Improvement,A,25,60-100k,Closed,0,DeltaPay,2026-06-25,2026-06-09,partial,origination_core
+L00174,B00457,SMB,2022-02-13,2027-01-18,86578.37,1587.33,9.715,60,NM,Refinance,D,13,>150k,Closed,0,Acme Servicing,2026-07-04,2026-06-08,complete,origination_core
+L00175,B00343,Personal,2020-07-26,2022-07-16,465509.36,18278.59,12.843,24,MS,Refinance,C,31,>150k,Closed,0,Cornerstone Servicing,2026-07-12,2026-06-21,complete,origination_core

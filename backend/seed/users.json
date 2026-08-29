@@ -1,0 +1,26 @@
+{
+  "_note": "Placeholder demo users until the organizer users.json is provided. Passwords are demo-only.",
+  "users": [
+    {
+      "id": "u-operator",
+      "email": "operator@loantrust.demo",
+      "name": "Olivia Operator",
+      "role": "data_operator",
+      "password": "operator123"
+    },
+    {
+      "id": "u-reviewer",
+      "email": "reviewer@loantrust.demo",
+      "name": "Rey Reviewer",
+      "role": "reviewer",
+      "password": "reviewer123"
+    },
+    {
+      "id": "u-consumer",
+      "email": "consumer@loantrust.demo",
+      "name": "Casey Consumer",
+      "role": "data_consumer",
+      "password": "consumer123"
+    }
+  ]
+}

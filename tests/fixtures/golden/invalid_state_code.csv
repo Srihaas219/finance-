@@ -1,0 +1,7 @@
+loan_id,borrower_id,loan_type,origination_date,maturity_date,original_principal,current_balance,interest_rate,term_months,borrower_state,loan_purpose,credit_grade,employment_length,income_band,payment_status,days_past_due,servicer_name,last_payment_date,last_updated_at,document_status,source_system
+L00151,B00184,Mortgage,2023-04-23,2038-02-03,273307.49,157121.72,12.078,180,ZZ,Debt Consolidation,A,18,100-150k,Current,0,Cornerstone Servicing,2026-07-16,2026-07-08,complete,origination_core
+L00152,B00443,SMB,2022-09-02,2024-08-22,204949.33,91830.75,8.264,24,XX,Refinance,A,19,30-60k,Current,0,Acme Servicing,2026-07-08,2026-07-20,complete,origination_core
+L00153,B00115,Mortgage,2020-06-26,2023-06-11,309064.86,146594.96,7.644,36,Cal,Debt Consolidation,C,31,30-60k,Current,0,Acme Servicing,2026-06-29,2026-07-01,complete,origination_core
+L00154,B00294,Student,2019-09-03,2029-07-12,152134.48,121714.31,10.526,120,N/A,Home Improvement,D,31,60-100k,Current,0,Acme Servicing,2026-07-25,2026-06-15,complete,origination_core
+L00155,B00163,Personal,2024-02-15,2029-01-19,36411.57,7901.00,6.743,60,99,Home Improvement,A,19,100-150k,Current,0,Acme Servicing,2026-07-21,2026-07-30,partial,origination_core
+L00156,B00275,Personal,2019-11-17,2029-09-25,65371.81,35058.95,8.885,120,us,Purchase,C,17,100-150k,Current,0,DeltaPay,2026-06-30,2026-06-22,partial,origination_core

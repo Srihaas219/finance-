@@ -1,0 +1,7 @@
+loan_id,borrower_id,loan_type,origination_date,maturity_date,original_principal,current_balance,interest_rate,term_months,borrower_state,loan_purpose,credit_grade,employment_length,income_band,payment_status,days_past_due,servicer_name,last_payment_date,last_updated_at,document_status,source_system
+L00081,B00263,Student,2018-08-26,2028-07-04,307836.07,110738.82,45.000,120,AL,Refinance,D,20,<30k,Current,0,Cornerstone Servicing,2026-06-23,2026-07-02,partial,origination_core
+L00082,B00053,Mortgage,2020-08-17,2030-06-26,61570.36,44775.01,-2.000,120,CT,Purchase,C,28,100-150k,Current,0,BlueRiver Loan Co,2026-07-08,2026-06-02,complete,origination_core
+L00083,B00245,Auto,2024-07-30,2039-05-13,414307.23,108307.46,0.000,180,RI,Refinance,A,35,<30k,Current,0,BlueRiver Loan Co,2026-06-30,2026-06-18,complete,origination_core
+L00084,B00242,Student,2025-09-25,2040-07-08,488267.75,437718.52,99.900,180,SC,Purchase,C,19,30-60k,Current,0,BlueRiver Loan Co,2026-07-29,2026-06-10,complete,origination_core
+L00085,B00267,Student,2021-05-27,2026-05-01,114064.04,50840.99,38.000,60,DC,Refinance,A,12,60-100k,Current,0,BlueRiver Loan Co,2026-07-16,2026-06-11,complete,origination_core
+L00086,B00441,Mortgage,2021-09-10,2026-08-15,459063.91,308462.44,0.100,60,OR,Purchase,B,37,30-60k,Current,0,DeltaPay,2026-07-19,2026-06-15,partial,origination_core

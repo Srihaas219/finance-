@@ -1,0 +1,126 @@
+{
+  "export_metadata": {
+    "generated_at": "2026-08-28T10:30:00Z",
+    "loan_id": "L00003",
+    "loan_pk": "pk-L00003",
+    "export_format": "audit_trail_v1"
+  },
+  "audit_events": [
+    {
+      "id": "evt-0001",
+      "event_type": "ingestion.file.uploaded",
+      "entity_type": "source_file",
+      "entity_id": "sf-0001",
+      "actor_id": "u-operator",
+      "actor_role": "data_operator",
+      "loan_id": null,
+      "payload": { "kind": "loan_tape", "file_hash": "95b7a854...", "row_count": 1000, "imported_count": 1000 },
+      "occurred_at": "2026-08-28T08:00:00Z"
+    },
+    {
+      "id": "evt-0002",
+      "event_type": "ingestion.loan.imported",
+      "entity_type": "loan",
+      "entity_id": "pk-L00003",
+      "actor_id": "u-operator",
+      "actor_role": "data_operator",
+      "loan_id": "L00003",
+      "payload": { "normalization_status": "clean", "field_count": 21 },
+      "occurred_at": "2026-08-28T08:00:01Z"
+    },
+    {
+      "id": "evt-0003",
+      "event_type": "validation.exception.opened",
+      "entity_type": "loan_exception",
+      "entity_id": "ex-0003",
+      "actor_id": "u-operator",
+      "actor_role": "data_operator",
+      "loan_id": "L00003",
+      "payload": { "rule_id": "source_conflict", "field": "current_balance", "severity": "high" },
+      "occurred_at": "2026-08-28T08:01:15Z"
+    },
+    {
+      "id": "evt-0004",
+      "event_type": "review.exception.status_changed",
+      "entity_type": "loan_exception",
+      "entity_id": "ex-0003",
+      "actor_id": "u-reviewer",
+      "actor_role": "reviewer",
+      "loan_id": "L00003",
+      "payload": { "from_status": "open", "to_status": "in_review", "version": 1 },
+      "occurred_at": "2026-08-28T09:05:00Z"
+    },
+    {
+      "id": "evt-0005",
+      "event_type": "ai.recommendation.generated",
+      "entity_type": "ai_recommendation",
+      "entity_id": "rec-0001",
+      "actor_id": "u-reviewer",
+      "actor_role": "reviewer",
+      "loan_id": "L00003",
+      "payload": { "kind": "resolve_conflict", "degraded": false, "rule_id": "source_conflict" },
+      "occurred_at": "2026-08-28T09:05:30Z"
+    },
+    {
+      "id": "evt-0006",
+      "event_type": "ai.recommendation.applied",
+      "entity_type": "ai_recommendation",
+      "entity_id": "rec-0001",
+      "actor_id": "u-reviewer",
+      "actor_role": "reviewer",
+      "loan_id": "L00003",
+      "payload": { "disposition": "accepted", "field": "current_balance", "value": "310000.00" },
+      "occurred_at": "2026-08-28T09:06:00Z"
+    },
+    {
+      "id": "evt-0007",
+      "event_type": "review.field.edited",
+      "entity_type": "loan",
+      "entity_id": "pk-L00003",
+      "actor_id": "u-reviewer",
+      "actor_role": "reviewer",
+      "loan_id": "L00003",
+      "payload": { "field": "current_balance", "old_value": "330000.00", "new_value": "310000.00" },
+      "occurred_at": "2026-08-28T09:06:01Z"
+    },
+    {
+      "id": "evt-0008",
+      "event_type": "validation.exception.resolved",
+      "entity_type": "loan_exception",
+      "entity_id": "ex-0003",
+      "actor_id": "u-reviewer",
+      "actor_role": "reviewer",
+      "loan_id": "L00003",
+      "payload": { "rule_id": "source_conflict", "final_status": "resolved" },
+      "occurred_at": "2026-08-28T09:06:02Z"
+    },
+    {
+      "id": "evt-0009",
+      "event_type": "verification.loan.verified",
+      "entity_type": "verified_loan",
+      "entity_id": "vl-0003",
+      "actor_id": "u-reviewer",
+      "actor_role": "reviewer",
+      "loan_id": "L00003",
+      "payload": {
+        "version": 2,
+        "record_hash": "c5f4e3d2g0b96278h3e4g5f6d7e8f9g0",
+        "supersedes_version": 1,
+        "ai_used": true
+      },
+      "occurred_at": "2026-08-28T09:07:00Z"
+    }
+  ],
+  "traceability_summary": {
+    "source_file": { "filename": "loan_tape.csv", "file_hash": "95b7a854..." },
+    "raw_record_preserved": true,
+    "normalization_fields": 21,
+    "exceptions_raised": 1,
+    "exceptions_resolved": 1,
+    "ai_recommendations_made": 1,
+    "ai_recommendations_applied": 1,
+    "human_edits": 1,
+    "verified_versions": 2,
+    "final_record_hash": "c5f4e3d2g0b96278h3e4g5f6d7e8f9g0"
+  }
+}

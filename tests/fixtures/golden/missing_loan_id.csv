@@ -1,0 +1,6 @@
+loan_id,borrower_id,loan_type,origination_date,maturity_date,original_principal,current_balance,interest_rate,term_months,borrower_state,loan_purpose,credit_grade,employment_length,income_band,payment_status,days_past_due,servicer_name,last_payment_date,last_updated_at,document_status,source_system
+,B00393,Auto,2025-03-12,2054-10-06,383755.40,232536.47,15.082,360,MN,Refinance,A,2,>150k,Current,0,Cornerstone Servicing,2026-07-19,2026-06-17,complete,origination_core
+,B00260,Mortgage,2020-11-26,2035-09-09,492077.52,208611.38,5.458,180,ID,Refinance,D,15,60-100k,Current,0,BlueRiver Loan Co,2026-06-26,2026-07-14,complete,origination_core
+,B00353,Student,2020-01-11,2024-12-15,280175.50,76191.48,12.059,60,NH,Purchase,A,39,100-150k,Current,0,Acme Servicing,2026-06-22,2026-06-08,partial,origination_core
+,B00421,SMB,2025-09-19,2040-07-02,101630.83,73542.46,3.311,180,WY,Refinance,B,6,30-60k,Current,0,Cornerstone Servicing,2026-07-14,2026-06-07,partial,origination_core
+,B00244,Student,2024-04-06,2034-02-13,342766.85,151554.70,4.440,120,MN,Purchase,B,14,>150k,Current,0,BlueRiver Loan Co,2026-07-06,2026-07-31,complete,origination_core
