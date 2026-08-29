@@ -19,10 +19,19 @@ class Settings(BaseSettings):
     jwt_expire_minutes: int = 480
 
     # AI provider is Mock by default so the app never depends on an external service.
-    ai_provider: str = "mock"  # mock | anthropic
+    ai_provider: str = "mock"  # mock | groq | anthropic
     anthropic_api_key: str = ""
     anthropic_model: str = "claude-opus-4-8"
     ai_timeout_seconds: int = 20
+
+    # Groq real-AI provider (optional; requires AI_PROVIDER=groq)
+    # Two keys enable credential failover (NOT rate-limit bypass; org limits still apply).
+    groq_api_key_1: str = ""
+    groq_api_key_2: str = ""
+    groq_model: str = "llama-3.3-70b-versatile"
+    groq_timeout_seconds: int = 20
+    groq_max_retries: int = 2
+    groq_backoff_base_seconds: float = 1.0
 
     cors_origins: str = "http://localhost:5173"
     log_level: str = "info"

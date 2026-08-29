@@ -147,4 +147,19 @@ Six AI kinds, all served by the deterministic `MockAIProvider` (zero credentials
 | `classify_severity` | Cross-check deterministic severity | Yes (engine is authoritative) |
 | `nl_rule_generation` | Generate rule skeleton from natural language | Yes (manual import required) |
 
-Every AI call is logged in `ai_audit_logs` with provider, model, prompt hash, latency, and degraded flag. A real provider (e.g., Anthropic Claude) can be plugged in via `AI_PROVIDER=anthropic` env var without touching business logic.
+Every AI call is logged in `ai_audit_logs` with provider, model, prompt hash, latency, and degraded flag. A real provider can be plugged in via `AI_PROVIDER` env var without touching business logic.
+
+### Groq provider (optional)
+
+`AI_PROVIDER=groq` activates `GroqProvider`, which calls the Groq OpenAI-compatible API (`llama-3.3-70b-versatile` by default). Key design points:
+
+- **Dual-key credential failover** — `GROQ_API_KEY_1` (required) and `GROQ_API_KEY_2` (optional). `GroqKeyManager` tracks per-key health state with a `threading.Lock` and deterministic failover rules:
+  - Auth failure (401/403) → mark key unhealthy, switch to other key.
+  - Transient 5xx / timeout → bounded exponential retry on same key; mark unhealthy and fall back after `max_retries`.
+  - 429 with `Retry-After` → raise immediately without key rotation (rate limits are org-level).
+  - 429 without `Retry-After` → may try other key once; still raises `GroqRateLimitError`.
+  - Malformed model output → `GroqMalformedError`; no key switch (model problem, not credential problem).
+  - Unhealthy keys self-recover after a configurable cooldown window.
+- **Security** — API keys are never logged, never stored in the database, never sent to the frontend, and TLS verification is always enabled (`httpx verify=True`).
+- **Graceful degradation** — `GroqProvider.generate()` always returns an `AIResult`; on unrecoverable failure it returns `degraded=True` with a human-readable message. The UI handles this path identically to the Mock.
+- **AI invariants unchanged** — Groq output is advisory only; it cannot write canonical loan data, approve loans, or bypass reviewer RBAC.

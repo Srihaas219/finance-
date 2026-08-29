@@ -25,6 +25,9 @@ services:
       JWT_SECRET: ${JWT_SECRET:-dev-secret-loantrust-demo-2026!!}
       AI_PROVIDER: ${AI_PROVIDER:-mock}
       ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}
+      GROQ_API_KEY_1: ${GROQ_API_KEY_1:-}
+      GROQ_API_KEY_2: ${GROQ_API_KEY_2:-}
+      GROQ_MODEL: ${GROQ_MODEL:-llama-3.3-70b-versatile}
       CORS_ORIGINS: http://localhost:5173,http://localhost:8080
       LOG_LEVEL: info
     healthcheck:

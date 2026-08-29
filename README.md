@@ -2,7 +2,7 @@
 
 AI-assisted loan data verification console — turns messy loan tapes into validated, traceable, human-reviewed, verified records. Built for the Intain Campus FinTech Challenge 2026 (Full Stack Track).
 
-> **Status:** Complete and demo-ready. Full pipeline operational: messy CSV → raw preservation → normalization + provenance → deterministic validation (15 rule classes) → exception queue → AI-assisted review (**6 AI kinds**) → human decision → immutable verified records → consumer traceability + export. **132 backend tests** · 1 browser E2E · ruff clean · Docker/Postgres verified.
+> **Status:** Complete and demo-ready. Full pipeline operational: messy CSV → raw preservation → normalization + provenance → deterministic validation (15 rule classes) → exception queue → AI-assisted review (**6 AI kinds**, optional Groq real-AI) → human decision → immutable verified records → consumer traceability + export. **153 backend tests** · 1 browser E2E · ruff clean · pip-audit 0 CVEs · npm audit 0 CVEs · Docker/Postgres verified.
 
 ## Architecture
 Modular monolith: React/Vite/TS SPA → FastAPI → PostgreSQL. Deterministic validation is the source of truth; AI is advisory only and never mutates canonical data. Full design in [`docs/`](docs/README.md).
@@ -70,13 +70,16 @@ python scripts/data_quality_report.py       # machine-derived stats -> docs/data
 
 ## Tests
 ```bash
-make backend-test     # pytest (132 tests: health, auth, RBAC, hashing, ingestion, validation, review, AI, verification, audit, E2E journey)
+make backend-test     # pytest (153 tests: health, auth, RBAC, hashing, ingestion, validation, review, AI, Groq failover, verification, audit, E2E journey)
 make frontend-build   # typecheck + production build
 cd frontend && npx playwright test e2e/   # browser E2E (requires Docker running on :8000 and :8080)
 ```
 
 ## Environment variables
-See [`.env.example`](.env.example). Key ones: `DATABASE_URL`, `JWT_SECRET`, `AI_PROVIDER` (`mock`|`anthropic`), `ANTHROPIC_API_KEY`, `CORS_ORIGINS`, `VITE_API_URL`. The app is fully usable with `AI_PROVIDER=mock` and no external keys.
+See [`.env.example`](.env.example). Key ones: `DATABASE_URL`, `JWT_SECRET`, `AI_PROVIDER` (`mock`|`groq`|`anthropic`), `ANTHROPIC_API_KEY`, `CORS_ORIGINS`, `VITE_API_URL`. The app is fully usable with `AI_PROVIDER=mock` and no external keys.
+
+### Optional: Groq real-AI provider
+Set `AI_PROVIDER=groq` and at least `GROQ_API_KEY_1` to enable the Groq provider (`llama-3.3-70b-versatile` by default). A second key (`GROQ_API_KEY_2`) enables credential failover if the first key becomes unavailable. **Groq rate limits are applied at the organisation level — rotating keys does not double your quota.** The system respects `Retry-After` headers and will not cycle keys to evade rate limits. If no key is provided, the system falls back to Mock AI automatically.
 
 ## Documentation
 [`docs/`](docs/README.md) — architecture, data lifecycle, state machine, ADRs, requirements traceability, risk register, test strategy, DevOps plan, roadmap, AI development log, demo script.

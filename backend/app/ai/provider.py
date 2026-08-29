@@ -274,5 +274,17 @@ def get_ai_provider(settings) -> AIProvider:
     provider = (getattr(settings, "ai_provider", "mock") or "mock").lower()
     if provider == "failing":
         return FailingProvider()
+    if provider == "groq":
+        from .groq_provider import build_groq_provider
+        try:
+            return build_groq_provider(settings)
+        except ValueError:
+            # Misconfigured (missing keys) → fall through to Mock so the app doesn't crash.
+            import logging
+            logging.getLogger(__name__).error(
+                "AI_PROVIDER=groq but GROQ_API_KEY_1 is missing; falling back to Mock. "
+                "Set GROQ_API_KEY_1 in .env to enable the Groq provider."
+            )
+            return MockAIProvider()
     # 'anthropic' would be added here; default and fallback is the deterministic Mock.
     return MockAIProvider()
